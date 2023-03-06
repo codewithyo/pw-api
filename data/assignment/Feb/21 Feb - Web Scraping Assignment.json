@@ -1,0 +1,19 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63f4d71fff4766bf11dcf870",
+      "courseId": "63a2eb428899436daf7eb489",
+      "data": {
+        "maxPoints": 100,
+        "url": "https://drive.google.com/file/d/1P5qVB2NHJkaCa5z0pbuHgGajqTamM5g0/view?usp=sharing"
+      },
+      "title": "Web Scraping Assignment",
+      "type": "assignment",
+      "resources": [],
+      "quizQuestions": [],
+      "createdAt": "2023-02-21T14:37:19.407Z",
+      "updatedAt": "2023-02-21T14:37:19.407Z",
+      "__v": 0
+    }
+  }
+}

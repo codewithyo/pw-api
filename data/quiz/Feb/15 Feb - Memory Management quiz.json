@@ -1,0 +1,124 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63ece79b194b228862e60dc6",
+      "title": "Memory Management quiz",
+      "courseId": "63a2eb428899436daf7eb489",
+      "quizQuestions": [
+        {
+          "_id": "63ece79b194b22ce3be60dc7",
+          "title": "<p>What is multiprocessing in Python?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;A process of running multiple threads simultaneously within a single process.</p>"
+            },
+            {
+              "name": "<p>A process of running multiple processes simultaneously within a single thread.</p>"
+            },
+            {
+              "name": "<p>&nbsp;A process of running multiple processes simultaneously within multiple threads.</p>"
+            },
+            {
+              "name": "<p>A process of running a single process within multiple threads.</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ece79b194b229d34e60dc8",
+          "title": "<p>What is the purpose of multiprocessing in Python?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;To improve the performance of a program by using multiple CPUs or CPU cores.</p>"
+            },
+            {
+              "name": "<p>&nbsp;To improve the memory utilization of a program by using multiple CPUs or CPU cores.</p>"
+            },
+            {
+              "name": "<p>To improve the overall efficiency of a program by using multiple CPUs or CPU cores.</p>"
+            },
+            {
+              "name": "<p>&nbsp;To improve the input/output operations of a program by using multiple CPUs or CPU cores.</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ece79b194b22865be60dc9",
+          "title": "<p>&nbsp;Which module is used to create and manage processes in Python?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;multiprocessing</p>"
+            },
+            {
+              "name": "<p>&nbsp;threading</p>"
+            },
+            {
+              "name": "<p>concurrent.futures</p>"
+            },
+            {
+              "name": "<p>queue</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ece79b194b225d1de60dca",
+          "title": "<p>What is a process pool in multiprocessing?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;A group of threads that share the same set of variables.</p>"
+            },
+            {
+              "name": "<p>A group of processes that share the same set of variables.</p>"
+            },
+            {
+              "name": "<p>&nbsp;A set of processes that can be executed concurrently to perform a specific task.</p>"
+            },
+            {
+              "name": "<p>&nbsp;A set of threads that can be executed concurrently to perform a specific task.</p><p>&nbsp;</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ece79b194b220b15e60dcb",
+          "title": "<p>&nbsp;Which method is used to start a new process in Python?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;start()</p>"
+            },
+            {
+              "name": "<p>&nbsp;run()</p>"
+            },
+            {
+              "name": "<p>&nbsp;create()</p>"
+            },
+            {
+              "name": "<p>&nbsp;begin()</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ece79b194b226808e60dcc",
+          "title": "<p>What is the difference between multiprocessing and multithreading in Python?</p>",
+          "options": [
+            {
+              "name": "<p>Multithreading runs multiple threads simultaneously within a single process, while<strong>&nbsp;</strong>multiprocessing runs multiple processes simultaneously within a single thread.</p>"
+            },
+            {
+              "name": "<p>Multithreading runs multiple processes simultaneously within a single thread, while multiprocessing runs multiple threads simultaneously within a single process.</p>"
+            },
+            {
+              "name": "<p>Multithreading and multiprocessing are the same thing.</p>"
+            },
+            {
+              "name": "<p>Multiprocessing is used for CPU-bound tasks, while multithreading is used for I/O-bound tasks.</p>"
+            }
+          ]
+        }
+      ],
+      "type": "quiz",
+      "resources": [],
+      "createdAt": "2023-02-15T14:09:31.201Z",
+      "updatedAt": "2023-02-15T14:09:31.201Z",
+      "__v": 0
+    }
+  }
+}

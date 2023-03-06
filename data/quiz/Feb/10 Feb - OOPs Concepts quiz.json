@@ -1,0 +1,106 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63e65a82194b227911e57d0c",
+      "title": " OOPs Concepts quiz",
+      "courseId": "63a2eb428899436daf7eb489",
+      "quizQuestions": [
+        {
+          "_id": "63e65a82194b22cf4ae57d0d",
+          "title": "<p>The __ symbol along with the name of the decorator function can be placed above the definition of the function to be decorated works as an alternate way for decorating a function.</p>",
+          "options": [
+            {
+              "name": "<p>#</p>"
+            },
+            {
+              "name": "<p>&nbsp;$</p>"
+            },
+            {
+              "name": "<p>&nbsp;@</p>"
+            },
+            {
+              "name": "<p>&amp;</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63e65a82194b2205d5e57d0e",
+          "title": "<p>In the following Python code, which function is the decorator?</p><p>&nbsp;</p><p>&nbsp;</p><p>def mk(x):</p><p>&nbsp;&nbsp;&nbsp;&nbsp;def mk1():</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(\"Decorated\")</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x()</p><p>&nbsp;&nbsp;&nbsp;&nbsp;return mk1</p><p>def mk2():</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(\"Ordinary\")</p><p>p = mk(mk2)</p><p>p()</p><p>&nbsp;</p>",
+          "options": [
+            {
+              "name": "<p>p()</p>"
+            },
+            {
+              "name": "<p>mk()</p>"
+            },
+            {
+              "name": "<p>mk1()</p>"
+            },
+            {
+              "name": "<p>mk()</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63e65a82194b227762e57d0f",
+          "title": "<p>Which of the following statements is true?</p>",
+          "options": [
+            {
+              "name": "<p>class is a blueprint for the object.</p>"
+            },
+            {
+              "name": "<p><strong>&nbsp;</strong>You can only make a single object from the given class.</p>"
+            },
+            {
+              "name": "<p>&nbsp;Both statements are true.</p>"
+            },
+            {
+              "name": "<p>Neither statement is true.</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63e65a82194b220698e57d10",
+          "title": "<p>What are the dunder (magic) methods in Python?</p><p>&nbsp;</p>",
+          "options": [
+            {
+              "name": "<p>Methods that start with a double underscore.</p>"
+            },
+            {
+              "name": "<p>Methods that start and end with a double underscore</p><p>&nbsp;</p>"
+            },
+            {
+              "name": "<p>Methods that start with a single underscore</p><p>&nbsp;</p>"
+            },
+            {
+              "name": "<p>Methods that start and end with a single underscore</p><p>&nbsp;</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63e65a82194b22762ee57d11",
+          "title": "<p>Methods of a class that provide access to private members of the class are called as</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;getters/setters</p>"
+            },
+            {
+              "name": "<p>repr/str_</p>"
+            },
+            {
+              "name": "<p>user-defined functions/in-built functions</p>"
+            },
+            {
+              "name": "<p>init/del</p>"
+            }
+          ]
+        }
+      ],
+      "type": "quiz",
+      "resources": [],
+      "createdAt": "2023-02-10T14:53:54.125Z",
+      "updatedAt": "2023-02-10T14:53:54.125Z",
+      "__v": 0
+    }
+  }
+}

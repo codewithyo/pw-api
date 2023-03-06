@@ -1,0 +1,19 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63e4fc1f194b22a14fe4d5b9",
+      "title": "OOPS TASK",
+      "courseId": "63a2eb428899436daf7eb489",
+      "data": {
+        "maxPoints": 100,
+        "url": "https://drive.google.com/file/d/182RGfZjlU8-m2jMFwAyx8oCWGFekwlMv/view?usp=sharing"
+      },
+      "type": "assignment",
+      "resources": [],
+      "quizQuestions": [],
+      "createdAt": "2023-02-09T13:58:55.022Z",
+      "updatedAt": "2023-02-09T13:58:55.022Z",
+      "__v": 0
+    }
+  }
+}

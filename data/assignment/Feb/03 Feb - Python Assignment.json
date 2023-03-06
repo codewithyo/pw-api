@@ -1,0 +1,19 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63dd09d0194b229bc8e3b477",
+      "title": "Python Assignment",
+      "courseId": "63a2eb428899436daf7eb489",
+      "data": {
+        "maxPoints": 100,
+        "url": "https://drive.google.com/file/d/1GxtFEboJli4pafub3q08xOWetckeRA_L/view?usp=sharing"
+      },
+      "type": "assignment",
+      "resources": [],
+      "quizQuestions": [],
+      "createdAt": "2023-02-03T13:19:12.655Z",
+      "updatedAt": "2023-02-03T13:19:12.655Z",
+      "__v": 0
+    }
+  }
+}

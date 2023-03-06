@@ -1,0 +1,304 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63fce096182c6709784bbb21",
+      "title": "Numpy quiz",
+      "courseId": "63a2eb428899436daf7eb489",
+      "quizQuestions": [
+        {
+          "_id": "63fce096182c671d224bbb22",
+          "title": "<p>What is the purpose of indexing and slicing in Numpy?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;To change elements in a Numpy array</p>"
+            },
+            {
+              "name": "<p>To extract specific elements or sub-arrays from a Numpy array</p>"
+            },
+            {
+              "name": "<p>To add elements to a Numpy array</p>"
+            },
+            {
+              "name": "<p>To recreate the array</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63fce096182c67dfcd4bbb23",
+          "title": "<p>How can you access elements in a 2D Numpy array using indexing and slicing?</p>",
+          "options": [
+            {
+              "name": "<p>By using one set of square brackets</p>"
+            },
+            {
+              "name": "<p>By using two sets of square brackets</p>"
+            },
+            {
+              "name": "<p>By using parentheses</p>"
+            },
+            {
+              "name": "<p>By using two sets of parentheses</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63fce096182c6712634bbb24",
+          "title": "<p>How to perform element-wise multiplication of two arrays of different shapes using broadcasting?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;np.multiply(array1, array2)</p>"
+            },
+            {
+              "name": "<p>np.dot(array1, array2)</p>"
+            },
+            {
+              "name": "<p>array1 * array2</p>"
+            },
+            {
+              "name": "<p>&nbsp;All of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63fce096182c67dccd4bbb25",
+          "title": "<p>How to iterate over a Numpy array and modify elements based on a condition?</p>",
+          "options": [
+            {
+              "name": "<p>for i in np.nditer(array):</p><p>if i &lt; threshold:</p><p>i = 0</p>"
+            },
+            {
+              "name": "<p>&nbsp;for i in range(np.shape(array)[0]):</p><p>for j in range(np.shape(array)[1]):</p><p>if array[i][j] &lt; threshold:</p><p>array[i][j] = 0</p>"
+            },
+            {
+              "name": "<p>array[array &lt; threshold] = 0</p>"
+            },
+            {
+              "name": "<p>None</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63fce096182c6771fe4bbb26",
+          "title": "<p>How to extract all unique elements from a Numpy array?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;np.unique(array)</p>"
+            },
+            {
+              "name": "<p>&nbsp;np.distinct(array)</p>"
+            },
+            {
+              "name": "<p>np.uniqelements(array)</p>"
+            },
+            {
+              "name": "<p>&nbsp;&nbsp;All of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63fce096182c6798ab4bbb27",
+          "title": "<p>What does the 'np.concatenate()' function do in NumPy?</p>",
+          "options": [
+            {
+              "name": "<p>It adds two arrays element-wise</p>"
+            },
+            {
+              "name": "<p>It merges two or more arrays into a single array</p>"
+            },
+            {
+              "name": "<p>&nbsp;It performs a dot product between two arrays</p>"
+            },
+            {
+              "name": "<p>&nbsp;It subtracts two arrays element-wise<br>&nbsp;</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63fce096182c676dd04bbb28",
+          "title": "<p>&nbsp;Which of the following operators is used to perform element-wise multiplication of two arrays in NumPy?</p>",
+          "options": [
+            {
+              "name": "<p>+</p>"
+            },
+            {
+              "name": "<p><strong>*</strong></p>"
+            },
+            {
+              "name": "<p>&nbsp;/</p>"
+            },
+            {
+              "name": "<p>-</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63fce096182c673a7d4bbb29",
+          "title": "<p>&nbsp;What does the np.char.upper() function do in NumPy?</p>",
+          "options": [
+            {
+              "name": "<p>It returns the length of each string in an array</p>"
+            },
+            {
+              "name": "<p>It sorts an array of strings in alphabetical order</p>"
+            },
+            {
+              "name": "<p>It converts each string in an array to uppercase</p>"
+            },
+            {
+              "name": "<p>It returns the index of the first occurrence of a substring in a string array</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63fce096182c6753cf4bbb2a",
+          "title": "<p>Which of the following functions can be used to calculate the standard deviation of an array in NumPy?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;np.mean()</p>"
+            },
+            {
+              "name": "<p>&nbsp;np.median()</p>"
+            },
+            {
+              "name": "<p>np.var()</p>"
+            },
+            {
+              "name": "<p>&nbsp;np.std()</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63fce096182c67788e4bbb2b",
+          "title": "<p>&nbsp;What does the np.power() function do in NumPy?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;It performs element-wise addition of two arrays</p>"
+            },
+            {
+              "name": "<p>&nbsp;It calculates the square root of each element in an array</p>"
+            },
+            {
+              "name": "<p>It raises each element in an array to a specified power</p>"
+            },
+            {
+              "name": "<p>&nbsp;It performs matrix multiplication of two arrays</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63fce096182c6744e64bbb2c",
+          "title": "<p>&nbsp;Which of the following operators is used to perform element-wise division of two arrays in NumPy?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;+</p>"
+            },
+            {
+              "name": "<p>&nbsp;*</p>"
+            },
+            {
+              "name": "<p>&nbsp;/</p>"
+            },
+            {
+              "name": "<p>&nbsp;-</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63fce096182c6785664bbb2d",
+          "title": "<p>&nbsp;What does the \u2018np.flip()\u2019 function do in NumPy?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;It reverses the order of elements in an array</p>"
+            },
+            {
+              "name": "<p>It reshapes an array into a specified shape</p>"
+            },
+            {
+              "name": "<p>&nbsp;It sorts an array in ascending order</p>"
+            },
+            {
+              "name": "<p>It returns the cumulative sum of elements in an array</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63fce096182c6723c14bbb2e",
+          "title": "<p>&nbsp;What does the 'np.argsort()' function do in NumPy?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;It returns the indices that would sort an array</p>"
+            },
+            {
+              "name": "<p>&nbsp;It searches for the maximum value in an array</p>"
+            },
+            {
+              "name": "<p>&nbsp;It returns the number of occurrences of a specified element in an array</p>"
+            },
+            {
+              "name": "<p>&nbsp;It counts the number of elements in an array that satisfy a specified condition</p><p>&nbsp;</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63fce096182c67c8c34bbb2f",
+          "title": "<p>Which of the following functions can be used to count the number of occurrences of a specified element in an array in NumPy?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;np.argmax()</p>"
+            },
+            {
+              "name": "<p>np.argsort()</p>"
+            },
+            {
+              "name": "<p>np.count_nonzero()</p>"
+            },
+            {
+              "name": "<p>&nbsp;np.flip()</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63fce096182c6725394bbb30",
+          "title": "<p>What does the np.transpose() function do in NumPy?</p>",
+          "options": [
+            {
+              "name": "<p>It returns the dot product of two arrays</p>"
+            },
+            {
+              "name": "<p>&nbsp;It returns the inverse of a matrix</p>"
+            },
+            {
+              "name": "<p>&nbsp;It returns a view of the array with axes transposed</p>"
+            },
+            {
+              "name": "<p>It returns the eigenvalues of a matrix</p><p>&nbsp;</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63fce096182c673fce4bbb31",
+          "title": "<p>Which of the following functions can be used to swap the byte order of an array in NumPy?</p>",
+          "options": [
+            {
+              "name": "<p>np.ndarray.copy()</p>"
+            },
+            {
+              "name": "<p>np.dot()</p>"
+            },
+            {
+              "name": "<p>np.byteswap()</p>"
+            },
+            {
+              "name": "<p>np.diag()</p>"
+            }
+          ]
+        }
+      ],
+      "type": "quiz",
+      "resources": [],
+      "createdAt": "2023-02-27T16:55:50.413Z",
+      "updatedAt": "2023-02-27T16:55:50.413Z",
+      "__v": 0
+    }
+  }
+}

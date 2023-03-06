@@ -1,0 +1,124 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63ea5376194b2263f7e5d39d",
+      "title": " Exception Handling quiz",
+      "courseId": "63a2eb428899436daf7eb489",
+      "quizQuestions": [
+        {
+          "_id": "63ea5376194b2238b4e5d39e",
+          "title": "<p><strong>&nbsp;</strong>_____ is a type of errors produce in python programs.</p>",
+          "options": [
+            {
+              "name": "<p>compile time error</p>"
+            },
+            {
+              "name": "<p>run time error</p>"
+            },
+            {
+              "name": "<p>both (a) and (b)</p>"
+            },
+            {
+              "name": "<p><strong>&nbsp;</strong>none of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ea5376194b2247cce5d39f",
+          "title": "<p>What exception is raised when a name is not found in the local or global namespace?</p>",
+          "options": [
+            {
+              "name": "<p>TypeError</p>"
+            },
+            {
+              "name": "<p>&nbsp;NameError</p>"
+            },
+            {
+              "name": "<p>&nbsp;ValueError</p>"
+            },
+            {
+              "name": "<p>&nbsp;ImportError</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ea5376194b225f01e5d3a0",
+          "title": "<p>What exception is raised when an attempt is made to divide a number by zero?</p>",
+          "options": [
+            {
+              "name": "<p><strong>&nbsp;</strong>ZeroDivisionError</p>"
+            },
+            {
+              "name": "<p>KeyError</p>"
+            },
+            {
+              "name": "<p>&nbsp;IndexError</p>"
+            },
+            {
+              "name": "<p>&nbsp;TypeError</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ea5376194b22b778e5d3a1",
+          "title": "<p>What exception is raised when a file or directory is requested but does not exist?</p>",
+          "options": [
+            {
+              "name": "<p>SyntaxError</p>"
+            },
+            {
+              "name": "<p>FileNotFoundError</p>"
+            },
+            {
+              "name": "<p>&nbsp;AttributeError</p>"
+            },
+            {
+              "name": "<p>&nbsp;ImportError</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ea5376194b223580e5d3a2",
+          "title": "<p>What exception is raised when an attribute reference or assignment fails?</p>",
+          "options": [
+            {
+              "name": "<p>ZeroDivisionError</p>"
+            },
+            {
+              "name": "<p>&nbsp;KeyError</p>"
+            },
+            {
+              "name": "<p>AttributeError</p>"
+            },
+            {
+              "name": "<p>TypeError</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ea5376194b222fbee5d3a3",
+          "title": "<p>Look at the following code and select the correct description of error shown while executing it:</p><p>&nbsp;</p><p>X = int(input(\"Enter a Number\"))&nbsp;</p><p>R = X*X print \"Square=\",R</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;can only concatenate str (not</p><p>&nbsp;</p><p>\"int\") to str</p>"
+            },
+            {
+              "name": "<p>missing parenthesis in call to 'print'</p>"
+            },
+            {
+              "name": "<p>name 'Print' is not defined</p>"
+            },
+            {
+              "name": "<p>none of the above</p>"
+            }
+          ]
+        }
+      ],
+      "type": "quiz",
+      "resources": [],
+      "createdAt": "2023-02-13T15:12:54.393Z",
+      "updatedAt": "2023-02-13T15:12:54.393Z",
+      "__v": 0
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63f771b6a9d3a2026eb45887",
+      "title": "Pandas Basic quiz",
+      "courseId": "63a2eb428899436daf7eb489",
+      "quizQuestions": [
+        {
+          "_id": "63f771b6a9d3a25526b45888",
+          "title": "<p>How do you handle missing values in a Pandas Series in Python?</p>",
+          "options": [
+            {
+              "name": "<p>By using arithmetic operators or functions.</p>"
+            },
+            {
+              "name": "<p>By using functions like fillna(), dropna(), etc.</p>"
+            },
+            {
+              "name": "<p>by using modules&nbsp;</p>"
+            },
+            {
+              "name": "<p>none of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63f771b6a9d3a20d64b45889",
+          "title": "<p>What is a Pandas Series in Python?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;A one-dimensional labeled array capable of holding any data type.</p>"
+            },
+            {
+              "name": "<p>By passing a list, dictionary, or scalar value to the Series() method of the Pandas library.</p>"
+            },
+            {
+              "name": "<p>By using arithmetic operators or functions.</p>"
+            },
+            {
+              "name": "<p>none of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63f771b6a9d3a2ca20b4588a",
+          "title": "<p>What is the result of the following code?</p><p>&nbsp;</p><p>import pandas as pd</p><p>data = {'Name': ['John', 'Jane', 'Jim', 'Joan'],</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Age': [25, 30, 35, 40],</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Occupation': ['Engineer', 'Doctor', 'Teacher', 'Lawyer']}</p><p>df = pd.DataFrame(data)</p><p>print(df.loc[0])</p>",
+          "options": [
+            {
+              "name": "<p>Name: John, Age: 25, Occupation: Engineer</p>"
+            },
+            {
+              "name": "<p>&nbsp;Name: John, Age: 25</p>"
+            },
+            {
+              "name": "<p>&nbsp;John 25 Engineer</p>"
+            },
+            {
+              "name": "<p>none of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63f771b6a9d3a2004cb4588b",
+          "title": "<p>What is the Pandas Panel in Python?</p>",
+          "options": [
+            {
+              "name": "<p><strong>&nbsp;</strong>It is a multi-dimensional array data structure used to store and manipulate data in a way that is easy and efficient.</p>"
+            },
+            {
+              "name": "<p>it is a one dimensional array data structure</p>"
+            },
+            {
+              "name": "<p>Fasten the Strips with Screw Anchors</p>"
+            },
+            {
+              "name": "<p><strong>&nbsp;</strong>none of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63f771b6a9d3a2c7beb4588c",
+          "title": "<p>&nbsp;How do you create a Pandas Panel in Python?</p>",
+          "options": [
+            {
+              "name": "<p>best operator device type.</p>"
+            },
+            {
+              "name": "<p>by using the pandas</p>"
+            },
+            {
+              "name": "<p>By using the pandas.Panel constructor</p>"
+            },
+            {
+              "name": "<p>all of the above</p>"
+            }
+          ]
+        }
+      ],
+      "type": "quiz",
+      "resources": [],
+      "createdAt": "2023-02-23T14:01:26.798Z",
+      "updatedAt": "2023-02-23T14:01:26.798Z",
+      "__v": 0
+    }
+  }
+}

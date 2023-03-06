@@ -1,0 +1,19 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63f0e2b1ff4766e7fedc6579",
+      "courseId": "63a2eb428899436daf7eb489",
+      "data": {
+        "maxPoints": 50,
+        "url": "https://drive.google.com/file/d/19cg70Z1GhKikK-dVNR3EI6pmiHL8jp6U/view?usp=sharing"
+      },
+      "title": "API Assignment",
+      "type": "assignment",
+      "resources": [],
+      "quizQuestions": [],
+      "createdAt": "2023-02-18T14:37:37.534Z",
+      "updatedAt": "2023-02-18T14:37:37.534Z",
+      "__v": 0
+    }
+  }
+}

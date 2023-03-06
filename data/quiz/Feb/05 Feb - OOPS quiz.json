@@ -1,0 +1,106 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63dfd5b9194b220affe3f319",
+      "title": " OOPS quiz",
+      "courseId": "63a2eb428899436daf7eb489",
+      "quizQuestions": [
+        {
+          "_id": "63dfd5b9194b2285a1e3f31a",
+          "title": "<p>&nbsp;oop\u2019s is stand for&nbsp;</p>",
+          "options": [
+            {
+              "name": "<p>object oriented programming.</p>"
+            },
+            {
+              "name": "<p>object oriented programming pillar</p>"
+            },
+            {
+              "name": "<p>object oriented programming system</p>"
+            },
+            {
+              "name": "<p>object oriented programming principles</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63dfd5b9194b225574e3f31b",
+          "title": "<p>How many basic pillar in oops</p>",
+          "options": [
+            {
+              "name": "<p>3</p>"
+            },
+            {
+              "name": "<p>4</p>"
+            },
+            {
+              "name": "<p>2</p>"
+            },
+            {
+              "name": "<p>5</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63dfd5b9194b22641be3f31c",
+          "title": "<p>&nbsp;Class is a \u2026\u2026\u2026\u2026. Which defines some properties and behaviours.</p>",
+          "options": [
+            {
+              "name": "<p>instance</p>"
+            },
+            {
+              "name": "<p>member</p>"
+            },
+            {
+              "name": "<p>function</p>"
+            },
+            {
+              "name": "<p>blueprint</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63dfd5b9194b22c2c4e3f31d",
+          "title": "<p>How many types of inheritance in python</p>",
+          "options": [
+            {
+              "name": "<p>5</p>"
+            },
+            {
+              "name": "<p>3</p>"
+            },
+            {
+              "name": "<p>7</p>"
+            },
+            {
+              "name": "<p>4</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63dfd5b9194b2200a7e3f31e",
+          "title": "<p>what is the advantage of inheritance</p>",
+          "options": [
+            {
+              "name": "<p>Multiple form</p>"
+            },
+            {
+              "name": "<p>inherit property</p>"
+            },
+            {
+              "name": "<p>code reusability.</p>"
+            },
+            {
+              "name": "<p>function reusability</p>"
+            }
+          ]
+        }
+      ],
+      "type": "quiz",
+      "resources": [],
+      "createdAt": "2023-02-05T16:13:45.849Z",
+      "updatedAt": "2023-02-05T16:13:45.849Z",
+      "__v": 0
+    }
+  }
+}

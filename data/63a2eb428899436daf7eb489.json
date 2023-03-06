@@ -1,0 +1,1431 @@
+{
+  "pageProps": {
+    "paramLength": 2,
+    "courseName": "Data-Science-masters",
+    "sections": {
+      "_id": "63a2eb42889943e5417eb7a1",
+      "sections": [
+        {
+          "lessons": [
+            "63d41cbf0e5fcb4eda852ad7"
+          ],
+          "title": "Feedback Form"
+        },
+        {
+          "lessons": [
+            "63d18b200e5fcb8d9484ecd9"
+          ],
+          "title": "Ask your Doubt Form"
+        },
+        {
+          "lessons": [
+            "63d76e9f0e5fcb52fa85914b"
+          ],
+          "title": "Live Doubt Clearing Session Monday & Saturday 3PM - 6PM IST "
+        },
+        {
+          "lessons": [
+            "63d8b0e30e5fcbf81a85bb12",
+            "63ded727194b22529ee3e690",
+            "63e1fdfc194b22787ce45670",
+            "63e7b56c194b220957e5abfd",
+            "63ea7d54194b220226e5d3e7",
+            "63f1258fff47669d44dc6737",
+            "63f3b54aff47660bd8dcd24f",
+            "63fa4298182c6700fd4b9233",
+            "63fcfaae182c67de4f4bbb55"
+          ],
+          "title": "Doubt Clearing Recording"
+        },
+        {
+          "lessons": [
+            "63a83107816f9c3772c01074",
+            "63b6b091334640cb47715bf1",
+            "63b6b0a93346406567715bf9",
+            "63b6b0bd3346407016715c01",
+            "63b6b0d833464091f0715c09"
+          ],
+          "title": "Course Introduction"
+        },
+        {
+          "lessons": [
+            "63d77a060e5fcb143e8596af"
+          ],
+          "title": "28th Jan'23  Orientation"
+        },
+        {
+          "lessons": [
+            "63d708d60e5fcb2c7c8588da"
+          ],
+          "title": "29th Jan'23 overview"
+        },
+        {
+          "lessons": [
+            "63d839120e5fcb7dd885b9ac"
+          ],
+          "title": "30th Jan'23 python basics"
+        },
+        {
+          "lessons": [
+            "63d9891c0e5fcb279985dc39"
+          ],
+          "title": "31st Jan'23 list , tuple and set"
+        },
+        {
+          "lessons": [
+            "63dad1b00e5fcb151a8617e9"
+          ],
+          "title": "1st Feb'23 dict , conditional ,loop"
+        },
+        {
+          "lessons": [
+            "63dbc617194b2255c8e37fe5",
+            "63db945e194b22806fe3730f",
+            "63dbc650194b227b78e37fee"
+          ],
+          "title": "2nd Feb'23 For Loop Practice"
+        },
+        {
+          "lessons": [
+            "63dcf2f6194b225db9e3acd7",
+            "63dcf396194b220122e3acfc",
+            "63dcf969194b2247b4e3aeca",
+            "63dd09d0194b229bc8e3b477",
+            "63de53bc194b22913ae3e146"
+          ],
+          "title": "3rd Feb'23 While loop, Comprehension & Function"
+        },
+        {
+          "lessons": [
+            "63de1dc5194b22b10ee3d64a",
+            "63de1db1194b22a35ee3d639",
+            "63de1d96194b22e4d8e3d62a",
+            "63de3fb4194b22de3ee3ddaa",
+            "63de5610194b223dc7e3e1c4"
+          ],
+          "title": "4th Feb'23 Functions"
+        },
+        {
+          "lessons": [
+            "63dfb272194b224713e3ef22",
+            "63dfb507194b221062e3ef2e",
+            "63dfd5b9194b220affe3f319"
+          ],
+          "title": "5th Feb'23 OOPS"
+        },
+        {
+          "lessons": [
+            "63da85f10e5fcb19a18611fc",
+            "63da89410e5fcb869a8612b3",
+            "63db9131194b226e24e3717b",
+            "63dad6730e5fcb5bc886185b",
+            "63dbe45a194b221d50e382b0"
+          ],
+          "title": "Data Science master quiz"
+        },
+        {
+          "lessons": [
+            "63da8b4b0e5fcbad3e86133f",
+            "63da8b6e0e5fcb739586134a"
+          ],
+          "title": "Assignments"
+        },
+        {
+          "lessons": [
+            "63e10614194b22c8bee42e03",
+            "63e11713194b2283f1e42f23"
+          ],
+          "title": "6th Feb'23 Python Task"
+        },
+        {
+          "lessons": [
+            "63e25b14194b22be3de4723b",
+            "63e25e45194b22f870e472ba"
+          ],
+          "title": "7th Feb'23 Python Task 2"
+        },
+        {
+          "lessons": [
+            "63e3a2a8194b2209e3e49810",
+            "63e3a2cf194b229370e4981b",
+            "63e3a2ff194b223935e49826",
+            "63e3a31b194b22e3bfe4982f",
+            "63f61acca9d3a21386b435f8",
+            "63e3a5e4194b229df6e498d6"
+          ],
+          "title": "8th Feb'23 OOPs"
+        },
+        {
+          "lessons": [
+            "63e4fc1f194b22a14fe4d5b9",
+            "63e506e0194b22666ee4d62e"
+          ],
+          "title": "9th Feb'23 OOPS TASK"
+        },
+        {
+          "lessons": [
+            "63e5adcc194b22b922e4d8e8",
+            "63e5adfa194b2211eae4d8f0",
+            "63e5ae1f194b22ee43e4d8f8",
+            "63e5ae59194b22b2f4e4d902",
+            "63e5ae87194b2244ffe4d90a",
+            "63e64d79194b22108ce571df",
+            "63e65a82194b227911e57d0c"
+          ],
+          "title": "10th Feb'23 OOPs Concepts"
+        },
+        {
+          "lessons": [
+            "63e7309e194b2247b1e58f1f",
+            "63e730c6194b22e344e58f2d",
+            "63e73118194b2215bee58f41",
+            "63e731e0194b22b728e595ff",
+            "63e73219194b224e94e5962a",
+            "63e7b4f1194b220eaee5abe5"
+          ],
+          "title": "11 Feb'23 Files"
+        },
+        {
+          "lessons": [
+            "63e8ee44194b22d5d9e5b43a",
+            "63e8ee88194b22cbf8e5b443",
+            "63e8efb9194b222028e5b470",
+            "63e90f67194b220e8fe5b53a"
+          ],
+          "title": "12 Feb'23 Exception Handling"
+        },
+        {
+          "lessons": [
+            "63ea36cd194b223f0ae5d246",
+            "63ea36e3194b223664e5d24f",
+            "63ea4db2194b22e782e5d2e5",
+            "63ea5376194b2263f7e5d39d"
+          ],
+          "title": "13 Feb'23 Exception Handling"
+        },
+        {
+          "lessons": [
+            "63eb8cbf194b2213a3e5f4ee",
+            "63eb8c81194b2202b3e5f4e6",
+            "63eb9a79194b225c77e5f536"
+          ],
+          "title": "14th Feb'23 Multithreading"
+        },
+        {
+          "lessons": [
+            "63ecdda6194b227e2ae60d36",
+            "63ece79b194b228862e60dc6"
+          ],
+          "title": "15 Feb'23 Memory Management"
+        },
+        {
+          "lessons": [
+            "63ee34feff4766383bdc22c8",
+            "63ee35fcff476649d2dc22e4",
+            "63ee3b09ff47662563dc23ad"
+          ],
+          "title": "16 Feb'23 Database"
+        },
+        {
+          "lessons": [
+            "63ef8452ff4766650ddc4e5d",
+            "63ef8480ff47661d95dc4e6d",
+            "63ef87bfff47667bf6dc4ed8"
+          ],
+          "title": "17 Feb'23 Database"
+        },
+        {
+          "lessons": [
+            "63f0e20fff476684e6dc655b",
+            "63f0e236ff4766b3addc6563",
+            "63f0e260ff476611c3dc656b",
+            "63f0e279ff476623a3dc6573",
+            "63f0e2b1ff4766e7fedc6579",
+            "63f0e698ff4766b511dc661b"
+          ],
+          "title": "18 Feb'23 Web API"
+        },
+        {
+          "lessons": [
+            "63f22ad2ff47661c1cdc9c8d",
+            "63f22aedff47663c05dc9c93",
+            "63f23a1bff47667f71dc9d57"
+          ],
+          "title": "19th Feb'23 Flask"
+        },
+        {
+          "lessons": [
+            "63f38293ff4766150edccffb",
+            "63f382b6ff47663ddedcd013",
+            "63f382caff4766027cdcd023",
+            "63f38dccff4766bde1dcd111"
+          ],
+          "title": "20th Feb'23 Flask"
+        },
+        {
+          "lessons": [
+            "63f4d4fbff4766b565dcf845",
+            "63f4d588ff47665499dcf852",
+            "63f4d5d2ff47667a08dcf85e",
+            "63f4d71fff4766bf11dcf870"
+          ],
+          "title": "21 Feb'23 Python Project :- Web Scrapping"
+        },
+        {
+          "lessons": [
+            "63f61cd6a9d3a251fdb4376e",
+            "63f61d1da9d3a218b9b43776",
+            "63f61f42a9d3a2d0a6b43795"
+          ],
+          "title": "22 Feb'23 Python Project : - Image Scrapper"
+        },
+        {
+          "lessons": [
+            "63f7658fa9d3a2059eb45787",
+            "63f765f6a9d3a216e1b457a2",
+            "63f771b6a9d3a2026eb45887"
+          ],
+          "title": "23 Feb'23 Pandas Basic"
+        },
+        {
+          "lessons": [
+            "63f8c73f182c6778174b7bb5",
+            "63f8c786182c675a6c4b7bbb",
+            "63f8d170182c6729f54b7c80"
+          ],
+          "title": "24 Feb'23 Pandas Advance"
+        },
+        {
+          "lessons": [
+            "63fa15c9182c6757d14b90d5",
+            "63fa15eb182c67f36e4b90dd",
+            "63fa160f182c675d934b90e9",
+            "63fa1682182c67aa884b90ef",
+            "63fa2330182c6727c14b9189"
+          ],
+          "title": "25 Feb'23 Pandas Advance"
+        },
+        {
+          "lessons": [
+            "63fb5dfb182c67ca984b9a99",
+            "63fb5e0f182c67c5f84b9a9f",
+            "63fb5e2d182c674c454b9aa8",
+            "63fb7e48182c67a2a64b9b0a",
+            "63fce096182c6709784bbb21"
+          ],
+          "title": "26th Feb'23 Numpy"
+        }
+      ],
+      "lessonDetails": [
+        {
+          "_id": "63a83107816f9c3772c01074",
+          "data": {
+            "thumbnail": "https://i.ytimg.com/vi/aMsADXahsu8/maxresdefault.jpg",
+            "duration": 1005
+          },
+          "title": "Course Induction",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63b6b091334640cb47715bf1",
+          "data": {
+            "thumbnail": "https://i.ytimg.com/vi/jIzBX3eitJg/maxresdefault.jpg",
+            "duration": 1012
+          },
+          "title": "Course Overview And Dashboard Description",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63b6b0a93346406567715bf9",
+          "data": {
+            "thumbnail": "https://i.ytimg.com/vi/JUm-e2RphcY/maxresdefault.jpg",
+            "duration": 607
+          },
+          "title": "Lab Introduction",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63b6b0bd3346407016715c01",
+          "data": {
+            "thumbnail": "https://i.ytimg.com/vi/lMjJkKTrIgs/maxresdefault.jpg",
+            "duration": 755
+          },
+          "title": "Experience Portal Introduction",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63b6b0d833464091f0715c09",
+          "data": {
+            "thumbnail": "https://i.ytimg.com/vi/9jg375lKJIo/maxresdefault.jpg",
+            "duration": 276
+          },
+          "title": "Let's Get Started",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63d18b200e5fcb8d9484ecd9",
+          "data": {
+            "resourceURL": "https://forms.gle/1kj81RHPS4ErGjGV9"
+          },
+          "title": "Ask your doubt",
+          "type": "sectionResource",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63d41cbf0e5fcb4eda852ad7",
+          "data": {
+            "resourceURL": "https://forms.gle/ffQcthJddQGBjofD8"
+          },
+          "title": "Feedback Form",
+          "type": "sectionResource",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63d708d60e5fcb2c7c8588da",
+          "data": {
+            "duration": 14794,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/dBs9PKs4PevBx.240.jpeg"
+          },
+          "title": "29th Jan Live Class overview",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63d76e9f0e5fcb52fa85914b",
+          "data": {
+            "resourceURL": "https://us06web.zoom.us/j/86960400780"
+          },
+          "title": "Live Doubt Clearing Session Monday & Saturday 3PM - 6PM IST ",
+          "type": "sectionResource",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63d77a060e5fcb143e8596af",
+          "data": {
+            "thumbnail": "https://i.ytimg.com/vi/DPNDmplpTHg/maxresdefault.jpg",
+            "duration": 4268
+          },
+          "title": "28th Jan Live Class Orientation",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63d839120e5fcb7dd885b9ac",
+          "data": {
+            "duration": 13835,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/pxRf8K4xW6jRS.240.jpeg"
+          },
+          "title": "30th Jan Live Class python basics",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63d8b0e30e5fcbf81a85bb12",
+          "data": {
+            "duration": 11107,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/8Mo1YcsVKdTgt.720.jpeg"
+          },
+          "title": "30th Jan Doubt Clearing Session",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63d9891c0e5fcb279985dc39",
+          "data": {
+            "duration": 13620,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/sTaFn34g4eHuQ.720.jpeg"
+          },
+          "title": "31st Jan Live Class list , tuple and set",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63da85f10e5fcb19a18611fc",
+          "title": "29 th Jan Quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 10
+        },
+        {
+          "_id": "63da89410e5fcb869a8612b3",
+          "title": "30th Jan quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 10
+        },
+        {
+          "_id": "63da8b4b0e5fcbad3e86133f",
+          "data": {
+            "maxPoints": 50
+          },
+          "title": "29th Jan Python Assignment",
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63da8b6e0e5fcb739586134a",
+          "data": {
+            "maxPoints": 50
+          },
+          "title": "30th Jan Python Assignment",
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63dad1b00e5fcb151a8617e9",
+          "data": {
+            "duration": 13169,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/6LuVI9UaJhDtc.720.jpeg"
+          },
+          "title": "1st Feb Live Class dict , conditional ,loop",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63dad6730e5fcb5bc886185b",
+          "title": "31st Jan quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 10
+        },
+        {
+          "_id": "63db9131194b226e24e3717b",
+          "title": "30th Jan Quiz-2",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 10
+        },
+        {
+          "_id": "63db945e194b22806fe3730f",
+          "title": "31st Jan Quiz-2",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 10
+        },
+        {
+          "_id": "63dbc617194b2255c8e37fe5",
+          "title": "For Loop Practice",
+          "data": {
+            "duration": 2925,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/s8T0I83wr7Smr.720.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63dbc650194b227b78e37fee",
+          "title": "Python Assignment",
+          "data": {
+            "maxPoints": 50
+          },
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63dbe45a194b221d50e382b0",
+          "title": " Feb 2 Python_Quiz_",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 5
+        },
+        {
+          "_id": "63dcf2f6194b225db9e3acd7",
+          "title": "While Loop",
+          "data": {
+            "duration": 2627,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/GoGALx9DlOZJi.480.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63dcf396194b220122e3acfc",
+          "title": "Comprehension",
+          "data": {
+            "duration": 740,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/lxAz1ABxTmT9S.480.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63dcf969194b2247b4e3aeca",
+          "title": "Functions Part 1",
+          "data": {
+            "duration": 2163,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/17OujBMwqkctA.720.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63dd09d0194b229bc8e3b477",
+          "title": "Python Assignment",
+          "data": {
+            "maxPoints": 100
+          },
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63de1d96194b22e4d8e3d62a",
+          "title": "Map, Reduce & Filter Functions",
+          "data": {
+            "duration": 1714,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/fAIbWK4VcGvMj.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63de1db1194b22a35ee3d639",
+          "title": "Lambda Functions",
+          "data": {
+            "duration": 592,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/BtB9l3ivHx9vn.480.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63de1dc5194b22b10ee3d64a",
+          "title": "Generator Functions",
+          "data": {
+            "duration": 1362,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/Z6NbdPVM2OpPr.720.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63de3fb4194b22de3ee3ddaa",
+          "title": "Python Assignment",
+          "data": {
+            "maxPoints": 60
+          },
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63de53bc194b22913ae3e146",
+          "title": "Feb 3 ,Python quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 6
+        },
+        {
+          "_id": "63de5610194b223dc7e3e1c4",
+          "title": "Feb 4 python Quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 7
+        },
+        {
+          "_id": "63ded727194b22529ee3e690",
+          "title": "4th Feb Doubt Session",
+          "data": {},
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63dfb272194b224713e3ef22",
+          "title": "OOPS PART 1",
+          "data": {
+            "duration": 2493,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/csG0csg4Wh3cU.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63dfb507194b221062e3ef2e",
+          "title": "OOPS Assignment",
+          "data": {
+            "maxPoints": 50
+          },
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63dfd5b9194b220affe3f319",
+          "title": " OOPS quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 5
+        },
+        {
+          "_id": "63e10614194b22c8bee42e03",
+          "title": "Python Task 1",
+          "data": {
+            "maxPoints": 50
+          },
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e11713194b2283f1e42f23",
+          "title": " Python Task quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 8
+        },
+        {
+          "_id": "63e1fdfc194b22787ce45670",
+          "title": "6th Feb Doubt Session",
+          "data": {
+            "duration": 11775,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/J0JRJZA9bXSyZ.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e25b14194b22be3de4723b",
+          "title": "Python Task 2",
+          "data": {
+            "maxPoints": 200
+          },
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e25e45194b22f870e472ba",
+          "title": "Python Task 2 quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 7
+        },
+        {
+          "_id": "63e3a2a8194b2209e3e49810",
+          "title": "Polymorphism",
+          "data": {
+            "duration": 701,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/L5Zva3FLoeq6x.480.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e3a2cf194b229370e4981b",
+          "title": "Encapsulation",
+          "data": {
+            "duration": 1325,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/naUv3HR7RyoXW.480.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e3a2ff194b223935e49826",
+          "title": "Inheritance",
+          "data": {
+            "duration": 1062,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/pQQPfzS5gIiXl.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e3a31b194b22e3bfe4982f",
+          "title": "OOPS Assignment",
+          "data": {
+            "maxPoints": 50
+          },
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e3a5e4194b229df6e498d6",
+          "title": " OOPs quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 6
+        },
+        {
+          "_id": "63e4fc1f194b22a14fe4d5b9",
+          "title": "OOPS TASK",
+          "data": {
+            "maxPoints": 100
+          },
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e506e0194b22666ee4d62e",
+          "title": " OOPS TASK quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 4
+        },
+        {
+          "_id": "63e5adcc194b22b922e4d8e8",
+          "title": "Decorators",
+          "data": {
+            "duration": 786,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/DQgJotpNU3Kij.480.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e5adfa194b2211eae4d8f0",
+          "title": "Class Methods",
+          "data": {
+            "duration": 1663,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/KKiX88SKd58Oc.720.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e5ae1f194b22ee43e4d8f8",
+          "title": "Static Method",
+          "data": {
+            "duration": 1108,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/QvYwppn5WOCyi.720.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e5ae59194b22b2f4e4d902",
+          "title": "Special (Magic/Dunder) Methods",
+          "data": {
+            "duration": 659,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/8Wpw4oSzIkyzR.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e5ae87194b2244ffe4d90a",
+          "title": "Property Decorators - Getters, Setters, And Deletes",
+          "data": {
+            "duration": 668,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/ph6p0ohQ1J25Q.720.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e64d79194b22108ce571df",
+          "title": "OOPs Assignment",
+          "data": {
+            "maxPoints": 60
+          },
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e65a82194b227911e57d0c",
+          "title": " OOPs Concepts quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 5
+        },
+        {
+          "_id": "63e7309e194b2247b1e58f1f",
+          "title": "Working With Files",
+          "data": {
+            "duration": 1202,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/7MND5VW3Ihd0Y.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e730c6194b22e344e58f2d",
+          "title": "Reading And Writing Files",
+          "data": {
+            "duration": 1054,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/5HW9oI5D3kO8E.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e73118194b2215bee58f41",
+          "title": "Buffered Read And Write & Other File Methods",
+          "data": {
+            "duration": 424,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/4so4ddLkJDeLR.720.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e731e0194b22b728e595ff",
+          "title": "Logging & Debugger",
+          "data": {
+            "duration": 2352,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/1EArE5iC6Oaeg.480.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e73219194b224e94e5962a",
+          "title": "Modules And Import Statements",
+          "data": {
+            "duration": 904,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/A1t40jq2MUqTh.720.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e7b4f1194b220eaee5abe5",
+          "title": " Files quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 11
+        },
+        {
+          "_id": "63e7b56c194b220957e5abfd",
+          "title": "11th Feb Doubt Session",
+          "data": {
+            "duration": 12680,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/tN0P80jYv24E3.480.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e8ee44194b22d5d9e5b43a",
+          "title": "Exceptions Handling With Try-Except",
+          "data": {
+            "duration": 992,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/V78i5Ou6dFAND.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e8ee88194b22cbf8e5b443",
+          "title": "Custom Exception Handling",
+          "data": {
+            "duration": 658,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/FJEfAlxb0d2h6.720.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e8efb9194b222028e5b470",
+          "title": "Exception Handling Assignment",
+          "data": {
+            "maxPoints": 60
+          },
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63e90f67194b220e8fe5b53a",
+          "title": " Exception Handling quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 6
+        },
+        {
+          "_id": "63ea36cd194b223f0ae5d246",
+          "title": "List Of General Use Exceptions",
+          "data": {
+            "duration": 985,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/JJnsfQyBvsSjz.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63ea36e3194b223664e5d24f",
+          "title": "Best Practice Exception Handling",
+          "data": {
+            "duration": 715,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/Xo6t7YaXZ1vKI.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63ea4db2194b22e782e5d2e5",
+          "title": "Exception Handling Assignment",
+          "data": {
+            "maxPoints": 60
+          },
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63ea5376194b2263f7e5d39d",
+          "title": " Exception Handling quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 6
+        },
+        {
+          "_id": "63ea7d54194b220226e5d3e7",
+          "title": "13th Feb Doubt Session",
+          "data": {
+            "duration": 11127,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/eO208wqwl2rgj.480.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63eb8c81194b2202b3e5f4e6",
+          "title": "Multithreading Assignment",
+          "data": {
+            "maxPoints": 50
+          },
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63eb8cbf194b2213a3e5f4ee",
+          "title": "Multithreading",
+          "data": {
+            "duration": 2431,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/3qMKNBsMSuouL.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63eb9a79194b225c77e5f536",
+          "title": " Multithreading quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 6
+        },
+        {
+          "_id": "63ecdda6194b227e2ae60d36",
+          "title": "Multiprocessing",
+          "data": {
+            "duration": 2280,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/hu9ZRHG36TzLr.480.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63ece79b194b228862e60dc6",
+          "title": "Memory Management quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 6
+        },
+        {
+          "_id": "63ee34feff4766383bdc22c8",
+          "data": {
+            "duration": 3016,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/SN5DRNv7WH7QP.480.jpeg"
+          },
+          "title": "Working with SQL",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63ee35fcff476649d2dc22e4",
+          "data": {
+            "maxPoints": 50
+          },
+          "title": "Mysql Assignment",
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63ee3b09ff47662563dc23ad",
+          "title": "Database quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 10
+        },
+        {
+          "_id": "63ef8452ff4766650ddc4e5d",
+          "data": {
+            "duration": 2759,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/jyLiugwkaWZd7.240.jpeg"
+          },
+          "title": "Working with MongoDB",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63ef8480ff47661d95dc4e6d",
+          "data": {
+            "maxPoints": 50
+          },
+          "title": "MondoDB Assignment",
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63ef87bfff47667bf6dc4ed8",
+          "title": " Database quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 10
+        },
+        {
+          "_id": "63f0e20fff476684e6dc655b",
+          "data": {
+            "duration": 757,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/d54I58I6umKQ7.480.jpeg"
+          },
+          "title": "What Is Web Api?",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f0e236ff4766b3addc6563",
+          "data": {
+            "duration": 369,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/zXhKOn5rvFI3Y.720.jpeg"
+          },
+          "title": "Difference B/W Api And Web Api",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f0e260ff476611c3dc656b",
+          "data": {
+            "duration": 446,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/raB2MNBnDyMIC.240.jpeg"
+          },
+          "title": "Rest And Soap Architecture",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f0e279ff476623a3dc6573",
+          "data": {
+            "duration": 654,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/uOI02coGz8QV1.240.jpeg"
+          },
+          "title": "Restful Services",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f0e2b1ff4766e7fedc6579",
+          "data": {
+            "maxPoints": 50
+          },
+          "title": "API Assignment",
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f0e698ff4766b511dc661b",
+          "title": "Web API quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 10
+        },
+        {
+          "_id": "63f1258fff47669d44dc6737",
+          "data": {
+            "duration": 10588,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/ZAlPGubvM9AIC.240.jpeg"
+          },
+          "title": "18th Feb Doubt Session",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f22ad2ff47661c1cdc9c8d",
+          "data": {
+            "duration": 2386,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/mOwqfqQmth4vU.480.jpeg"
+          },
+          "title": "Flask Introduction, Application, Open Link Flask, App Routing Flask & Url Building Flask",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f22aedff47663c05dc9c93",
+          "data": {
+            "maxPoints": 50
+          },
+          "title": "Flask Assignment-1",
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f23a1bff47667f71dc9d57",
+          "title": " Flask quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 7
+        },
+        {
+          "_id": "63f38293ff4766150edccffb",
+          "data": {
+            "duration": 722,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/xKalEONb3f9t2.240.jpeg"
+          },
+          "title": "Git",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f382b6ff47663ddedcd013",
+          "data": {
+            "duration": 2856,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/qoODIkomOfuzd.480.jpeg"
+          },
+          "title": "Flask Http Methods, Templates, Project & Postman",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f382caff4766027cdcd023",
+          "data": {
+            "maxPoints": 50
+          },
+          "title": "Flask Assignment-2",
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f38dccff4766bde1dcd111",
+          "title": "Flask quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 5
+        },
+        {
+          "_id": "63f3b54aff47660bd8dcd24f",
+          "data": {
+            "duration": 10908,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/EjguGEYdam2E9.240.jpeg"
+          },
+          "title": "20th Feb Doubt Session",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f4d4fbff4766b565dcf845",
+          "data": {
+            "duration": 3166,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/K1ndcEhwc0yIx.480.jpeg"
+          },
+          "title": "Web Scrapping Introduction",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f4d588ff47665499dcf852",
+          "data": {
+            "duration": 2078,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/Mq9CnJ99DIHdP.720.jpeg"
+          },
+          "title": "Integration With Rest API, Web Portal And MongoDB",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f4d5d2ff47667a08dcf85e",
+          "data": {
+            "duration": 1428,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/zCyd1hiEmPDDw.480.jpeg"
+          },
+          "title": "Deployment On Web Portal On AWS Cloud",
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f4d71fff4766bf11dcf870",
+          "data": {
+            "maxPoints": 100
+          },
+          "title": "Web Scraping Assignment",
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f61acca9d3a21386b435f8",
+          "title": "Abstraction",
+          "data": {
+            "duration": 504,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/h7J6X6I6QyTVS.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f61cd6a9d3a251fdb4376e",
+          "title": "Image Scrapper",
+          "data": {
+            "duration": 1729,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/dDhXukMClTSks.720.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f61d1da9d3a218b9b43776",
+          "title": "Deployment in Azure",
+          "data": {
+            "duration": 567,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/wV1ws08twqhJU.720.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f61f42a9d3a2d0a6b43795",
+          "title": "Image Scrapper Assignment",
+          "data": {
+            "maxPoints": 1000
+          },
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f7658fa9d3a2059eb45787",
+          "title": "Pandas Basic",
+          "data": {
+            "duration": 2118,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/h0oQovRcWvPcL.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f765f6a9d3a216e1b457a2",
+          "title": "Pandas Basic Assignment",
+          "data": {
+            "maxPoints": 70
+          },
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f771b6a9d3a2026eb45887",
+          "title": "Pandas Basic quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 5
+        },
+        {
+          "_id": "63f8c73f182c6778174b7bb5",
+          "title": "Pandas Advance",
+          "data": {
+            "duration": 3236,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/VwgpoKDJqdb76.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f8c786182c675a6c4b7bbb",
+          "title": "Pandas Assignment",
+          "data": {
+            "maxPoints": 100
+          },
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63f8d170182c6729f54b7c80",
+          "title": "Pandas Advance quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 11
+        },
+        {
+          "_id": "63fa15c9182c6757d14b90d5",
+          "title": "Pandas Part 3",
+          "data": {
+            "duration": 948,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/LTsIZgF4svZBt.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63fa15eb182c67f36e4b90dd",
+          "title": "Pandas Part 4",
+          "data": {
+            "duration": 3504,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/f2g9zgzBPCkMT.720.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63fa160f182c675d934b90e9",
+          "title": "Pandas Part 5",
+          "data": {
+            "duration": 4072,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/Z7Nd1abUuiOLR.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63fa1682182c67aa884b90ef",
+          "title": "Pandas Assignment",
+          "data": {
+            "maxPoints": 100
+          },
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63fa2330182c6727c14b9189",
+          "title": "Pandas Advance quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 8
+        },
+        {
+          "_id": "63fa4298182c6700fd4b9233",
+          "title": "25th Feb Doubt Session",
+          "data": {
+            "duration": 11590,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/d6VHZwK1O1ZlN.480.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63fb5dfb182c67ca984b9a99",
+          "title": "Numpy Part-1",
+          "data": {
+            "duration": 4308,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/JpWgF7ScfAVna.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63fb5e0f182c67c5f84b9a9f",
+          "title": "Numpy part-2",
+          "data": {
+            "duration": 1220,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/u8akUyGrvGTgt.720.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63fb5e2d182c674c454b9aa8",
+          "title": "Numpy part-3",
+          "data": {
+            "duration": 692,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/hL3WRmLvG5DG9.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63fb7e48182c67a2a64b9b0a",
+          "title": "Numpy Assignment",
+          "data": {
+            "maxPoints": 100
+          },
+          "type": "assignment",
+          "quizQuestions": []
+        },
+        {
+          "_id": "63fce096182c6709784bbb21",
+          "title": "Numpy quiz",
+          "type": "quiz",
+          "totalQuestionsInQuiz": 16
+        },
+        {
+          "_id": "63fcfaae182c67de4f4bbb55",
+          "title": "27th Feb Doubt Session",
+          "data": {
+            "duration": 11130,
+            "thumbnail": "https://d1z78r8i505acl.cloudfront.net/poster/yHIJQARHYEXoJ.240.jpeg"
+          },
+          "type": "video",
+          "quizQuestions": []
+        }
+      ]
+    }
+  },
+  "__N_SSG": true
+}

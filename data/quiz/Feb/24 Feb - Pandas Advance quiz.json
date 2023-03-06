@@ -1,0 +1,214 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63f8d170182c6729f54b7c80",
+      "title": "Pandas Advance quiz",
+      "courseId": "63a2eb428899436daf7eb489",
+      "quizQuestions": [
+        {
+          "_id": "63f8d170182c6773564b7c81",
+          "title": "<p>How can you re-index a pandas DataFrame in python?</p>",
+          "options": [
+            {
+              "name": "<p>by using index</p>"
+            },
+            {
+              "name": "<p>by using re-index<strong>&nbsp;</strong></p>"
+            },
+            {
+              "name": "<p>by using pandas<strong>&nbsp;</strong></p>"
+            },
+            {
+              "name": "<p>none of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63f8d170182c674ebe4b7c82",
+          "title": "<p>&nbsp;What is the output of the following code?<br><br>&nbsp;</p><p>import pandas as pd</p><p>&nbsp;</p><p>data = {'name': ['John', 'Jane', 'Bob'], 'age': [25, 30, 35]}</p><p>df = pd.DataFrame(data)</p><p>&nbsp;</p><p>df_reindexed = df.reindex([2, 1, 0])</p><p>&nbsp;</p><p>print(df_reindexed)</p>",
+          "options": [
+            {
+              "name": "<p>A DataFrame with rows in the original order</p>"
+            },
+            {
+              "name": "<p>&nbsp;A DataFrame with rows in reverse order</p>"
+            },
+            {
+              "name": "<p>&nbsp;A DataFrame with rows sorted by age</p>"
+            },
+            {
+              "name": "<p>A DataFrame with columns in reverse order</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63f8d170182c674c5f4b7c83",
+          "title": "<p><strong>&nbsp;</strong>What is the output of the following code?</p><p>&nbsp;</p><p>import pandas as pd</p><p>&nbsp;</p><p>data = {'name': ['John', 'Jane', 'Bob'], 'age': [25, 30, 35]}</p><p>df = pd.DataFrame(data)</p><p>&nbsp;</p><p>for index, row in df.iterrows():</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(row['name'], row['age'])</p><p>&nbsp;</p>",
+          "options": [
+            {
+              "name": "<p>John 25, Jane 30, Bob 35</p>"
+            },
+            {
+              "name": "<p>name John, age 25, name Jane, age 30, name Bob, age 35</p>"
+            },
+            {
+              "name": "<p>['John', 25], ['Jane', 30], ['Bob', 35]</p>"
+            },
+            {
+              "name": "<p>None of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63f8d170182c6732ac4b7c84",
+          "title": "<p>What is the best way to iterate over the rows of a Pandas DataFrame?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;Using a for loop to iterate through the rows by index</p>"
+            },
+            {
+              "name": "<p>&nbsp;Using the apply() method to apply a function to each row</p>"
+            },
+            {
+              "name": "<p>Using the iterrows() method</p>"
+            },
+            {
+              "name": "<p>Using the itertuples() method</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63f8d170182c67e0ae4b7c85",
+          "title": "<p>What is the difference between the iterrows() method and the itertuples() method for iterating over a Pandas DataFrame?</p><p>&nbsp;</p>",
+          "options": [
+            {
+              "name": "<p>The iterrows() method is faster but yields a Series, while the itertuples() method is slower but yields a named tuple.</p>"
+            },
+            {
+              "name": "<p>The iterrows() method yields a Series, while the itertuples() method yields a DataFrame<strong>.</strong></p>"
+            },
+            {
+              "name": "<p>The iterrows() method yields a Series, while the itertuples() method yields a named tuple.</p>"
+            },
+            {
+              "name": "<p>The iterrows() method yields a DataFrame, while the itertuples() method yields a Series.</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63f8d170182c6712c74b7c86",
+          "title": "<p>What is the output of the following code?</p><p>&nbsp;</p><p>import pandas as pd</p><p>&nbsp;</p><p>data = {'name': ['John', 'Jane', 'Bob'], 'age': [25, 30, 35]}</p><p>df = pd.DataFrame(data)</p><p>&nbsp;</p><p>df['name_upper'] = df['name'].str.upper()</p><p>&nbsp;</p><p>print(df)</p><p>&nbsp;</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;A DataFrame with an extra column containing uppercase names</p>"
+            },
+            {
+              "name": "<p>A DataFrame with the 'name' column modified to contain uppercase names</p>"
+            },
+            {
+              "name": "<p>&nbsp;A DataFrame with an error</p>"
+            },
+            {
+              "name": "<p>&nbsp;None of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63f8d170182c6765ca4b7c87",
+          "title": "<p>How can you sort a pandas DataFrame by a specific column in ascending order?</p>",
+          "options": [
+            {
+              "name": "<p>df.sort(column_name)</p>"
+            },
+            {
+              "name": "<p>df.sort_values(column_name)</p>"
+            },
+            {
+              "name": "<p>df.sort_ascending(column_name)</p>"
+            },
+            {
+              "name": "<p>df.sort_up(column_name)</p><p>&nbsp;</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63f8d170182c6767e64b7c88",
+          "title": "<p>Which of the following can be used to clean text data?</p>",
+          "options": [
+            {
+              "name": "<p>Removing special characters</p>"
+            },
+            {
+              "name": "<p>&nbsp;Converting all text to lowercase</p>"
+            },
+            {
+              "name": "<p>&nbsp;Removing stop words</p>"
+            },
+            {
+              "name": "<p><strong>&nbsp;</strong>All of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63f8d170182c670ea64b7c89",
+          "title": "<p>&nbsp;What is the output of the following code?</p><p>&nbsp;</p><p>import pandas as pd</p><p>&nbsp;</p><p>data = {'name': ['Alice', 'Bob', 'Charlie'], 'age': [30, 25, 40]}</p><p>df = pd.DataFrame(data)</p><p>&nbsp;</p><p>df_subset = df.loc[1:2, 'name']</p><p>&nbsp;</p><p>print(df_subset)</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;A DataFrame with rows 1 and 2 and the 'name' column</p>"
+            },
+            {
+              "name": "<p>A DataFrame with the 'name' column for rows 1 and 2</p>"
+            },
+            {
+              "name": "<p><strong>&nbsp;</strong>A Series with the 'name' values for rows 1 and 2</p>"
+            },
+            {
+              "name": "<p>&nbsp;An error</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63f8d170182c67e43f4b7c8a",
+          "title": "<p><strong>&nbsp;</strong>What is the output of the following code?<br><br>import pandas as pd</p><p>&nbsp;</p><p>data = {'name': ['Alice', 'Bob', 'Charlie'], 'age': [30, 25, 40]}</p><p>df = pd.DataFrame(data)</p><p>&nbsp;</p><p>max_age = df['age'].max()</p><p>&nbsp;</p><p>print(max_age)</p>",
+          "options": [
+            {
+              "name": "<p>The maximum age</p>"
+            },
+            {
+              "name": "<p>The median age</p>"
+            },
+            {
+              "name": "<p>The mean age</p>"
+            },
+            {
+              "name": "<p>The mode age</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63f8d170182c6784984b7c8b",
+          "title": "<p>What is the output of the following code?<br><br>import pandas as pd</p><p>&nbsp;</p><p>data = {'date': ['2022-01-01', '2022-02-01', '2022-03-01'], 'sales': [100, 200, 300]}</p><p>df = pd.DataFrame(data)</p><p>&nbsp;</p><p>df['date'] = pd.to_datetime(df['date'])</p><p>df['month'] = df['date'].dt.month</p><p>&nbsp;</p><p>print(df)</p>",
+          "options": [
+            {
+              "name": "<p>A DataFrame with an extra column containing the month</p>"
+            },
+            {
+              "name": "<p>A DataFrame with the 'date' column modified to contain the month</p>"
+            },
+            {
+              "name": "<p>A DataFrame with an error</p>"
+            },
+            {
+              "name": "<p>&nbsp;None of the above</p>"
+            }
+          ]
+        }
+      ],
+      "type": "quiz",
+      "resources": [],
+      "createdAt": "2023-02-24T15:02:08.985Z",
+      "updatedAt": "2023-02-24T15:02:08.985Z",
+      "__v": 0
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63ee3b09ff47662563dc23ad",
+      "courseId": "63a2eb428899436daf7eb489",
+      "title": "Database quiz",
+      "quizQuestions": [
+        {
+          "_id": "63ee3b09ff476647eedc23ae",
+          "title": "<p>What does SQL stand for?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;Structured Query Language</p>"
+            },
+            {
+              "name": "<p>&nbsp;Simple Query Language</p>"
+            },
+            {
+              "name": "<p>&nbsp;Structured Questioning Logic</p>"
+            },
+            {
+              "name": "<p>None of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ee3b09ff4766bee2dc23af",
+          "title": "<p>What is the purpose of SQL?</p>",
+          "options": [
+            {
+              "name": "<p>To communicate with and manipulate databases</p>"
+            },
+            {
+              "name": "<p>To write computer programs</p>"
+            },
+            {
+              "name": "<p>&nbsp;To create websites</p>"
+            },
+            {
+              "name": "<p>&nbsp;None of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ee3b09ff47668262dc23b0",
+          "title": "<p>What is a database management system (DBMS)?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;Software that interacts with the end user, applications, and the database itself to capture and analyse the data</p>"
+            },
+            {
+              "name": "<p>&nbsp;A system for organising and storing data in a database</p>"
+            },
+            {
+              "name": "<p>A program for creating websites</p>"
+            },
+            {
+              "name": "<p>&nbsp;None of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ee3b09ff47662f81dc23b1",
+          "title": "<p>What is the most common type of DBMS?</p>",
+          "options": [
+            {
+              "name": "<p>The object-oriented database management system (OODBMS)</p>"
+            },
+            {
+              "name": "<p>&nbsp;The relational database management system (RDBMS)</p>"
+            },
+            {
+              "name": "<p>&nbsp;The hierarchical database management system (HDBMS)</p>"
+            },
+            {
+              "name": "<p>&nbsp;None of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ee3b09ff4766e958dc23b2",
+          "title": "<p>What is a relational database?</p>",
+          "options": [
+            {
+              "name": "<p>A database management system based on the object-oriented model</p>"
+            },
+            {
+              "name": "<p>&nbsp;A database management system based on the relational model</p>"
+            },
+            {
+              "name": "<p>&nbsp;A database management system based on the hierarchical model</p>"
+            },
+            {
+              "name": "<p>&nbsp;None of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ee3b09ff47663e7edc23b3",
+          "title": "<p>What is a table in a relational database?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;A system for storing data in a database</p>"
+            },
+            {
+              "name": "<p>&nbsp;A program for organizing data in a database</p>"
+            },
+            {
+              "name": "<p>A collection of data organized into rows and columns</p>"
+            },
+            {
+              "name": "<p>&nbsp;None of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ee3b09ff47661986dc23b4",
+          "title": "<p>What is a primary key in a relational database table?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;A column in a relational database table</p>"
+            },
+            {
+              "name": "<p>&nbsp;A unique identifier for each row in a relational database table</p>"
+            },
+            {
+              "name": "<p>&nbsp;A system for storing data in a database</p>"
+            },
+            {
+              "name": "<p>&nbsp;None of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ee3b09ff4766d730dc23b5",
+          "title": "<p>What is the syntax to select all columns from a table named \"customers\"?</p>",
+          "options": [
+            {
+              "name": "<p>SELECT * FROM customers;</p>"
+            },
+            {
+              "name": "<p>SELECT ALL FROM customers;</p>"
+            },
+            {
+              "name": "<p>SELECT customers;</p>"
+            },
+            {
+              "name": "<p>&nbsp;None of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ee3b09ff47665d7cdc23b6",
+          "title": "<p>How do you execute an SQL query in Python using mysql-connector library?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;cursor.query(\"SELECT * FROM customers\")</p>"
+            },
+            {
+              "name": "<p>&nbsp;cursor.execute(\"SELECT * FROM customers\")</p>"
+            },
+            {
+              "name": "<p>&nbsp;cursor.run(\"SELECT * FROM customers\")</p>"
+            },
+            {
+              "name": "<p>None of the above</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63ee3b09ff4766fb5adc23b7",
+          "title": "<p>How do you retrieve the result of an SQL query in Python using the mysql-connector library?</p>",
+          "options": [
+            {
+              "name": "<p>&nbsp;result = cursor.retrieve()</p>"
+            },
+            {
+              "name": "<p>&nbsp;result = cursor.fetchone()</p>"
+            },
+            {
+              "name": "<p>&nbsp;result = cursor.fetchall()</p>"
+            },
+            {
+              "name": "<p>&nbsp;None of the above</p>"
+            }
+          ]
+        }
+      ],
+      "type": "quiz",
+      "resources": [],
+      "createdAt": "2023-02-16T14:17:45.235Z",
+      "updatedAt": "2023-02-16T14:17:45.235Z",
+      "__v": 0
+    }
+  }
+}

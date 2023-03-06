@@ -1,0 +1,19 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63da8b4b0e5fcbad3e86133f",
+      "courseId": "63a2eb428899436daf7eb489",
+      "data": {
+        "maxPoints": 50,
+        "url": "https://drive.google.com/file/d/1aMfiMF9iqbXT5XLuLHS-qMq_tC_PkDEs/view?usp=share_link"
+      },
+      "title": "29th Jan Python Assignment",
+      "type": "assignment",
+      "resources": [],
+      "quizQuestions": [],
+      "createdAt": "2023-02-01T15:54:51.362Z",
+      "updatedAt": "2023-02-01T15:54:51.362Z",
+      "__v": 0
+    }
+  }
+}

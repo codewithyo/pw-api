@@ -1,0 +1,19 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63ee35fcff476649d2dc22e4",
+      "courseId": "63a2eb428899436daf7eb489",
+      "data": {
+        "maxPoints": 50,
+        "url": "https://drive.google.com/file/d/1UJGVQatMymsTAvLfwuILDnc_f7GhDrxT/view?usp=sharing"
+      },
+      "title": "Mysql Assignment",
+      "type": "assignment",
+      "resources": [],
+      "quizQuestions": [],
+      "createdAt": "2023-02-16T13:56:12.859Z",
+      "updatedAt": "2023-02-16T13:56:12.859Z",
+      "__v": 0
+    }
+  }
+}

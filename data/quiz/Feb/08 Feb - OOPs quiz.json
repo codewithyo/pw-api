@@ -1,0 +1,124 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63e3a5e4194b229df6e498d6",
+      "title": " OOPs quiz",
+      "courseId": "63a2eb428899436daf7eb489",
+      "quizQuestions": [
+        {
+          "_id": "63e3a5e4194b2255f2e498d7",
+          "title": "<p>&nbsp;Which among the following best defines abstraction?</p>",
+          "options": [
+            {
+              "name": "<p>Hiding the implementation</p>"
+            },
+            {
+              "name": "<p>Showing the important data</p>"
+            },
+            {
+              "name": "<p>Hiding the important data</p>"
+            },
+            {
+              "name": "<p>Hiding the implementation and showing only the features</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63e3a5e4194b220c3be498d8",
+          "title": "<p>class is ___ abstraction.</p>",
+          "options": [
+            {
+              "name": "<p>Object</p>"
+            },
+            {
+              "name": "<p>Logical</p>"
+            },
+            {
+              "name": "<p>Real</p>"
+            },
+            {
+              "name": "<p>Hypothetical</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63e3a5e4194b224f63e498d9",
+          "title": "<p>Which among the following can be viewed as combination of abstraction of data and code.</p>",
+          "options": [
+            {
+              "name": "<p>class</p>"
+            },
+            {
+              "name": "<p>object</p>"
+            },
+            {
+              "name": "<p>inheritance</p>"
+            },
+            {
+              "name": "<p>interfaces</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63e3a5e4194b223b60e498da",
+          "title": "<p>Encapsulation and abstraction differ as</p>",
+          "options": [
+            {
+              "name": "<p>Can be used any way</p>"
+            },
+            {
+              "name": "<p>Hiding and Binding respectively</p>"
+            },
+            {
+              "name": "<p>Binding and Hiding respectively</p>"
+            },
+            {
+              "name": "<p>Hiding and hiding respectively</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63e3a5e4194b22e8fee498db",
+          "title": "<p>Hiding the implementation complexity can</p>",
+          "options": [
+            {
+              "name": "<p>Provide better features</p>"
+            },
+            {
+              "name": "<p>Make the programming complex</p>"
+            },
+            {
+              "name": "<p>Provide more number of features</p>"
+            },
+            {
+              "name": "<p>Make the programming easy</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63e3a5e4194b223273e498dc",
+          "title": "<p>Data abstraction is nothing but the combination of \u2026\u2026\u2026..</p><p>&nbsp;</p>",
+          "options": [
+            {
+              "name": "<p>hiding and showing</p>"
+            },
+            {
+              "name": "<p>abstract class and interface</p>"
+            },
+            {
+              "name": "<p>unnecessary information</p>"
+            },
+            {
+              "name": "<p>none of the above</p>"
+            }
+          ]
+        }
+      ],
+      "type": "quiz",
+      "resources": [],
+      "createdAt": "2023-02-08T13:38:44.018Z",
+      "updatedAt": "2023-02-08T14:26:56.167Z",
+      "__v": 0
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63db9131194b226e24e3717b",
+      "title": "30th Jan Quiz-2",
+      "courseId": "63a2eb428899436daf7eb489",
+      "quizQuestions": [
+        {
+          "_id": "63db9131194b22f43de3717c",
+          "title": "<ol><li>Which of the following are used for the loop Control in Python Programming Language?</li></ol><p>1. for</p><p>2. break</p><p>3. continue</p><p>4. pass</p>",
+          "options": [
+            {
+              "name": "<p>1 and 2</p>"
+            },
+            {
+              "name": "<p>&nbsp;1, 3 and 4</p>"
+            },
+            {
+              "name": "<p>&nbsp;1, 2, and 3</p>"
+            },
+            {
+              "name": "<p>&nbsp;2,3 and 4&nbsp;</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63db9131194b226e7be3717d",
+          "title": "<p>Which of the following can be iterated using a for loop or a while loop?</p><p>&nbsp;</p><ol><li>String</li><li>List</li><li>Tuple</li><li>Integer</li></ol>",
+          "options": [
+            {
+              "name": "<p>1 and 2</p>"
+            },
+            {
+              "name": "<p>&nbsp;1, 3 and 4</p>"
+            },
+            {
+              "name": "<p>1, 2, and 3</p>"
+            },
+            {
+              "name": "<p>&nbsp;2,3 and 4&nbsp;</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63db9131194b225a5be3717e",
+          "title": "<p>&nbsp;What will be the output of the following code:</p><p>&nbsp;</p><p>for course in ['Data Science Masters', 'ML', 'data science masters', 'DL']:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;if len(course)!= 2:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('PwSkills' , end=' ')</p>",
+          "options": [
+            {
+              "name": "<p>Pwskills Pwskills&nbsp;&nbsp;</p>"
+            },
+            {
+              "name": "<p>Pwskills&nbsp;&nbsp;</p>"
+            },
+            {
+              "name": "<p>Pwskills Pwskills Pwskills&nbsp;&nbsp;</p>"
+            },
+            {
+              "name": "<p>None</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63db9131194b22f8f7e3717f",
+          "title": "<p>What will be the output of the following code:</p><p>&nbsp;</p><p>sum = 0</p><p>for i in range(1,100):</p><p>&nbsp;&nbsp;&nbsp;&nbsp;sum += i</p><p>&nbsp;&nbsp;&nbsp;&nbsp;if sum &gt; 100:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</p><p>print(sum)</p>",
+          "options": [
+            {
+              "name": "<p>A number equal to 100&nbsp;&nbsp;</p>"
+            },
+            {
+              "name": "<p>A number less than 100&nbsp;&nbsp;</p>"
+            },
+            {
+              "name": "<p>A number greater than 100&nbsp;</p>"
+            },
+            {
+              "name": "<p>None</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63db9131194b228cfbe37180",
+          "title": "<p>&nbsp;What will be the output of the following code:</p><p>&nbsp;</p><p>i=0</p><p>while i&lt; 1:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print('pwskills')</p>",
+          "options": [
+            {
+              "name": "<p>Infinite loop &nbsp;</p>"
+            },
+            {
+              "name": "<p>100 times pwskills&nbsp;</p>"
+            },
+            {
+              "name": "<p>200 times pwskills&nbsp;</p>"
+            },
+            {
+              "name": "<p>None</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63db9131194b221089e37181",
+          "title": "<p>Choose the correct one for the given below statements.</p><p>&nbsp;</p><ol><li>for loop cannot be used with range().</li><li>for loop can be used with an if else statement.</li><li>for loop can be used with the break, continue and pass keywords.</li></ol>",
+          "options": [
+            {
+              "name": "<p>True, False, False</p>"
+            },
+            {
+              "name": "<p>True, True, True</p>"
+            },
+            {
+              "name": "<p>False, True, True</p>"
+            },
+            {
+              "name": "<p>False, False, False</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63db9131194b2210dbe37182",
+          "title": "<p>What is the purpose of the following code?</p><p>&nbsp;</p><p>num = 2</p><p>sum = 0</p><p>while num &lt;=20:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;sum += num</p><p>&nbsp;&nbsp;&nbsp;&nbsp;num += 2</p><p>&nbsp;&nbsp;&nbsp;&nbsp;count+=1</p><p>print(sum)</p><p>&nbsp;</p>",
+          "options": [
+            {
+              "name": "<p>Sum of first 10 Even numbers</p>"
+            },
+            {
+              "name": "<p>Sum of first 10 Natural numbers</p>"
+            },
+            {
+              "name": "<p>Sum of first 10 Odd Numbers</p>"
+            },
+            {
+              "name": "<p>None</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63db9131194b2270e0e37183",
+          "title": "<p>Which of the following can be used with if-else statements to check conditions?</p><p>&nbsp;</p><ol><li>== and !=</li><li>&gt;= and &lt;=</li><li>&gt; and &lt;</li></ol>",
+          "options": [
+            {
+              "name": "<p>1,2, and 3&nbsp;</p>"
+            },
+            {
+              "name": "<p>1 and 3</p>"
+            },
+            {
+              "name": "<p>2 and 3&nbsp;</p>"
+            },
+            {
+              "name": "<p>None</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63db9131194b227e47e37184",
+          "title": "<p>How many times the below program will return True?</p><p>&nbsp;</p><p>for i in 'Pwskills':</p><p>&nbsp;&nbsp;&nbsp;&nbsp;if i.lower() in ['a', 'e', 'i', 'o', 'u']:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(True)</p>",
+          "options": [
+            {
+              "name": "<p>8</p>"
+            },
+            {
+              "name": "<p>1</p>"
+            },
+            {
+              "name": "<p>3</p>"
+            },
+            {
+              "name": "<p>7</p>"
+            }
+          ]
+        },
+        {
+          "_id": "63db9131194b22af5ee37185",
+          "title": "<p>Which of the following statements is correct?</p><p>&nbsp;</p><ol><li>for loop is typically used when we know how many times the loop is required to run.</li><li>while loop repeats as long as its given condition is True.</li><li>break keyword is used to terminate a for and while loop.</li><li>pass keyword is used to skip the current iteration.</li></ol>",
+          "options": [
+            {
+              "name": "<p>1 and 2 are correct</p>"
+            },
+            {
+              "name": "<p>1, 3, and 4 are correct</p>"
+            },
+            {
+              "name": "<p>1, 2, 3, and 4 are correct</p>"
+            },
+            {
+              "name": "<p>None&nbsp;</p>"
+            }
+          ]
+        }
+      ],
+      "type": "quiz",
+      "resources": [],
+      "createdAt": "2023-02-02T10:32:17.288Z",
+      "updatedAt": "2023-02-21T13:06:44.688Z",
+      "__v": 0
+    }
+  }
+}

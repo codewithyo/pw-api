@@ -1,0 +1,19 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63fa1682182c67aa884b90ef",
+      "title": "Pandas Assignment",
+      "courseId": "63a2eb428899436daf7eb489",
+      "data": {
+        "maxPoints": 100,
+        "url": "https://drive.google.com/file/d/1KaQZJWR4k13AkolUIgCgazSGiYM96i_l/view?usp=sharing"
+      },
+      "type": "assignment",
+      "resources": [],
+      "quizQuestions": [],
+      "createdAt": "2023-02-25T14:09:06.138Z",
+      "updatedAt": "2023-02-25T14:09:06.138Z",
+      "__v": 0
+    }
+  }
+}

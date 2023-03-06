@@ -1,0 +1,19 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63eb8c81194b2202b3e5f4e6",
+      "title": "Multithreading Assignment",
+      "courseId": "63a2eb428899436daf7eb489",
+      "data": {
+        "maxPoints": 50,
+        "url": "https://drive.google.com/file/d/1nc20Se0FaWuA1UVrVtXmH-yRUqRD_X5D/view?usp=sharing"
+      },
+      "type": "assignment",
+      "resources": [],
+      "quizQuestions": [],
+      "createdAt": "2023-02-14T13:28:33.519Z",
+      "updatedAt": "2023-02-14T13:28:33.519Z",
+      "__v": 0
+    }
+  }
+}

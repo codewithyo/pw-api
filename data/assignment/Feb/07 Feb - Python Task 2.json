@@ -1,0 +1,19 @@
+{
+  "data": {
+    "lesson": {
+      "_id": "63e25b14194b22be3de4723b",
+      "title": "Python Task 2",
+      "courseId": "63a2eb428899436daf7eb489",
+      "data": {
+        "maxPoints": 200,
+        "url": "https://drive.google.com/file/d/1dJiiIdeT3mk6REVQgTZRj_bWuJ7NwEOL/view?usp=sharing"
+      },
+      "type": "assignment",
+      "resources": [],
+      "quizQuestions": [],
+      "createdAt": "2023-02-07T14:07:16.770Z",
+      "updatedAt": "2023-02-07T14:07:16.770Z",
+      "__v": 0
+    }
+  }
+}

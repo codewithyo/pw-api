@@ -1,0 +1,31 @@
+{
+  "why": "This file contanis the descriptions about some special URL and API from https://pwskills.com which is used for analysis.",
+  "url": [
+    {
+      "url": "https://pwskills.com/_next/data/O1iCSQk2KtlGL1QbCa5JP/courses.json",
+      "description": "This url gives about 10 data of pwskills like course, course category, instructor details and many more.",
+      "filename": "data/courses/all_course_data.json",
+      "problem": "The 'ID' of the URL maybe changes but this url is available at https://www.pwskills.com/",
+      "summary": "Returns all courses and instructors data."
+    },
+    {
+      "url": "https://learn.pwskills.com/_next/data/vy3oIZoqr3YCpkH5886xy/course/Full-Stack-web-development/63a2ecf58899439c8d7ebdc6.json",
+      "description": "This gives all data of Full Stack Web Dev course. This URL is same as the Data Science masters URL used in analysis notebook.",
+      "filename": "data/courses/live_course_FSWD.json",
+      "problem": "The ID of the changes but you can provide the ID of data science URL as well.",
+      "summary": "Returns the data of Full Stack Web Dev course."
+    }
+  ],
+  "curl": [
+    {
+      "bearer": "Bearer <<TOKEN>>",
+      "url": "https://api.pwskills.com/v1/learn/submission/63a2eb428899436daf7eb489",
+      "description": "Bearer Token changes after 24 hours.",
+      "filename": "submission.json",
+      "problem": "You have not the new bearer key if the old one changes because it get expires after 24 hours of generation.",
+      "summary": "You have to get the bearer key by opening the website in web browser on PC and then you can perform the requests."
+    }
+  ],
+  "usedAsMarkdown": true,
+  "readme": true
+}
