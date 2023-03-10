@@ -8,7 +8,17 @@
 1. I want to get all the resources like _quizzes, assignment_ at one place for everyone.
 2. Due to this project my concepts get broader and deeper in the domain of `API`, `GET` and `POST` method in `HTTP` (Web-Dev Domain), `request` module in Python, etc.
 
+## Analysis in Jupyter Notebook
+
+1. [Any Course Analysis Notebook](./analysis/_course_analysis.ipynb)
+2. [Any Live Course Analysis Notebook](./analysis/live_course_analysis.ipynb)
+3. [Analysis README.md](./analysis)
+4. [Analysis README.json](./analysis/README.json)
+5. [HAR Analysis](./analysis/website_har_analysis/)
+
 # Requirements
+
+> **Note:** This requirements features are in **beta**. But you can try and [raise issues][issue-url] if occurred.
 
 You need to have the `Authorization Key` in order to see **your** analytics.
 
@@ -25,9 +35,9 @@ You need to have the `Authorization Key` in order to see **your** analytics.
 5. In the request details, scroll down to the **"Headers"** section and look for the **"Authorization"** header.
 6. The value of the Authorization header should start with the word **"Bearer"** followed by a space and then the token itself. Copy the entire header value, including the word **"Bearer"** and the token.
 
-> `Note:` If you are not enrolled in any course you did not get any **Authorization Key**. So you have to pass `'N/A'` as argument in `--auth-key` parameter. [How to pass](#how-to-use)
+> If you are not enrolled in any course you did not get any **Authorization Key**. So you have to pass `'N/A'` as argument in `--auth-key` parameter. [How to pass](#how-to-use)
 
-# How to get Course Id
+## How to get Course Id
 
 You can get the **Course Id** from the course url by following the steps:
 
@@ -36,7 +46,7 @@ You can get the **Course Id** from the course url by following the steps:
 2. In this URL, the course id is followed by the course name.  
    Course Id = `63a2eb428899436daf7eb489`
 
-> `Note:` If you are not enrolled in any course you did not get any **Course Id**. So you have to pass pass the following ID to work on respective courses. [How to pass](#how-to-use)
+> If you are not enrolled in any course you did not get any **Course Id**. So you have to pass pass the following ID to work on respective courses. [How to pass](#how-to-use)
 
 ```json
 {
@@ -106,4 +116,10 @@ https://api.pwskills.com/v1/learn/analytics/progress/course/63a2eb428899436daf7e
 
 # Release Note
 
-- [ ] **11 March, 2023**. Completed UI development.
+- [x] **11 March, 2023**: Completed UI development.
+
+## Created by [arv-anshul](https://github.com/arv-anshul)
+
+Raise issues [here][issue-url].
+
+[issue-url]: https://github.com/arv-anshul/working-with-pw-api/issues
