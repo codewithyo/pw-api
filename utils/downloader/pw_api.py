@@ -4,6 +4,7 @@ Also store the files in respective paths in JSON format.
 """
 
 import json
+import logging
 import os
 from datetime import datetime
 from pathlib import Path
@@ -12,6 +13,8 @@ from typing import Literal
 
 from pandas import read_csv
 from requests import get
+
+from utils.logger import LoggingMessage
 
 
 class StatusCodeError(Exception):
@@ -39,7 +42,9 @@ def data_from_api(url: str, auth_key: str) -> dict:
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
     }
 
+    logging.info(LoggingMessage.get_request_log.format(url))
     r = get(url, headers=headers, timeout=3)
+    logging.info(LoggingMessage.status_code_log.format(r.status_code))
 
     if r.status_code == 200:
         return r.json()
@@ -83,6 +88,7 @@ def export_data(url: str,
 
     # Dump data in JSON format
     json.dump(data, open(FILENAME, 'w'), indent=2)
+    logging.info(LoggingMessage.file_downloaded_log.format(FILENAME))
 
 
 def get_downloaded_id() -> list[str]:
@@ -117,9 +123,6 @@ def download_all(csv_fp: str,
         type (Literal['quiz', 'assignment', 'all'], optional): Type of the response data. Defaults to 'all'.
             If `'all'` both Quiz and Assignment get downloaded.
     """
-    """ Note: 
-        1. [x] Exclude the files which are already downloaded in the folder.
-        2. [ ] Use logging method also. """
     df = read_csv(csv_fp)
 
     # If type == 'all'
@@ -149,4 +152,8 @@ def download(url: str, auth_key: str, type: str) -> None:
 
     data = data_from_api(url, auth_key)
 
-    json.dump(data, open('data/others/' + f'{type}.json'), indent=2)
+    filename = 'downloads/others/' + f'{type}.json'
+    os.makedirs('downloads/others/', exist_ok=True)
+
+    json.dump(data, open(filename), indent=2)
+    logging.info(LoggingMessage.file_downloaded_log.format(filename))

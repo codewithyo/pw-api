@@ -1,4 +1,9 @@
+import logging
+
 from requests import get
+
+import utils.logger
+from utils.logger import LoggingMessage
 
 
 def get_response(url: str) -> bytes:
@@ -11,6 +16,9 @@ def get_response(url: str) -> bytes:
 
     # Get the url response
     r = get(prefix + _id)
+    logging.info(LoggingMessage.get_request_log.format(prefix + _id))
+    logging.info(LoggingMessage.status_code_log.format(r.status_code))
+
     r.raise_for_status()
 
     return r.content
@@ -25,6 +33,7 @@ def download(url: str, filename: str, file_ext: bool = False) -> None:
     Args:
         url (str): Google drive files url.
         filename (str): Provide the filename of the file to be saved.
+        file_ext (bool): File extension provided in **filename**. Default to False.
     """
     data = get_response(url)
 
@@ -36,7 +45,9 @@ def download(url: str, filename: str, file_ext: bool = False) -> None:
         ext = ''
 
     try:
-        with open(f'downloads/{filename + ext}', 'wb') as f:
+        file_path = f'downloads/{filename + ext}'
+        with open(file_path, 'wb') as f:
+            logging.info(LoggingMessage.file_downloaded_log.format(file_path))
             f.write(data)
     except FileNotFoundError:
         raise FileNotFoundError('To download please create a directory as `downloads` or \

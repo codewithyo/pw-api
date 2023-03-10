@@ -3,9 +3,11 @@
 Used to remove the `userSubmission` key from JSON file. To avoid vulnerability.
 """
 
+import logging
 from json import dump, load
 from pathlib import Path
 
+import logger
 from user import User
 
 
@@ -21,10 +23,11 @@ def clean_quiz_assignment_data():
             del d['data']['userSubmission']
         except KeyError:
             continue
-
-        # Save the modified data
-        with open(i, 'w') as f:
-            dump(d, f, indent=2)
+        else:
+            # Save the modified data
+            with open(i, 'w') as f:
+                logging.info(f'Cleaned `{i}` for repo data.')
+                dump(d, f, indent=2)
 
     print('clean_quiz_assignment_data >> Done!')
 
