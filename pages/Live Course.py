@@ -1,5 +1,4 @@
 import logging
-import webbrowser
 from json import load, loads
 
 import streamlit as st
@@ -60,9 +59,9 @@ def display_curr_details(title: str):
             # Get date
             date = new_df['date'].mean()
 
-            if date:
+            try:
                 exp = st.expander(f'🗂️ {i} - **{date:%d %B, %Y}**', True)
-            else:
+            except ValueError:
                 exp = st.expander(f'🗂️ {i}', True)
 
             for j in new_df.query('type=="video"')['lessonsTitle'].values:
@@ -78,8 +77,8 @@ def display_curr_details(title: str):
             if len(q_url) > 0:
                 exp.write('---')
                 exp.write(f'##### Quiz Url:')
-                exp.write('Quiz url does not work. You have go to [Quiz Page.](\
-                    http://localhost:8501/Quiz)')
+                exp.write(
+                    'Quiz url does not work. You have go to [Quiz Page.](/Quiz)')
                 for q_title, url in q_url:
                     exp.write(f'- [{q_title}]({url})')
 
@@ -99,9 +98,14 @@ match radio:
 
         # Quiz and Assignment details
         col1, col2, col3, col4 = st.columns(4)
-        total_quiz_ques = df['totalQuestionsInQuiz'].sum()
-        total_asg_points = df['totalPointsInAssignment'].sum()
-        total_video_duration = round(df['duration'].sum() / 3600, 2)
+        try:
+            total_quiz_ques = df['totalQuestionsInQuiz'].sum()
+            total_asg_points = df['totalPointsInAssignment'].sum()
+            total_video_duration = round(df['duration'].sum() / 3600, 2)
+        except KeyError:
+            total_quiz_ques = 0
+            total_asg_points = 0
+            total_video_duration = 'N/A'
 
         col1.metric('No. of questions in Quiz', int(total_quiz_ques))
         col2.metric('Total Assignments points', int(total_asg_points))
@@ -113,8 +117,12 @@ match radio:
 
         col4.metric('The course has runs for',
                     f'{(max_date-min_date).days} days')
-        col1.metric('First update in course', f'{min_date:%d %h, %y}')
-        col2.metric('Last update in course', f'{max_date:%d %h, %y}')
+        try:
+            col1.metric('First update in course', f'{min_date:%d %h, %y}')
+            col2.metric('Last update in course', f'{max_date:%d %h, %y}')
+        except ValueError:
+            col1.metric('First update in course', 'N/A')
+            col2.metric('Last update in course', 'N/A')
 
         st.write('---')
         # Plot course resource count plot
