@@ -76,7 +76,10 @@ flowchart
    - Require proper Sign In from browser.
    - https://learn.pwskills.com/lesson/Working-with-MongoDB/63ef8452ff4766650ddc4e5d/course/Data-Science-masters/63a2eb428899436daf7eb489
    - https://learn.pwskills.com/course/Data-Science-masters/63a2eb428899436daf7eb489
-2. Videos - Skip
+2. Videos
+   1. In order to get the video resources.
+      - https://api.pwskills.com/v1/learn/lesson/course/63a2eb428899436daf7eb489/6404dd8f182c676b084c3bad
+   2. Make URL for all the videos and get the video resources and provide them in Web-App.
 3. Analytics
    1. Using `requests` module you can get **all** analytics.
       - https://learn.pwskills.com/course-analytics/Data-Science-masters/63a2eb428899436daf7eb489
@@ -88,5 +91,5 @@ flowchart
    1. Get a particular Quiz data. If quiz is submitted, marks details includes in the response data.
       - https://api.pwskills.com/v1/learn/lesson/course/63a2eb428899436daf7eb489/63fa2330182c6727c14b9189
 5. Assignment
-   1. Get a particular Assignment data. If quiz is submitted, marks details includes in the response data.
+   1. Get a particular Assignment data. If assignment is submitted, marks and submitted url details includes in the response data.
       - https://api.pwskills.com/v1/learn/lesson/course/63a2eb428899436daf7eb489/63fa1682182c67aa884b90ef

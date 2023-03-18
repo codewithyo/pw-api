@@ -72,17 +72,18 @@ class LiveCourse(BaseModel):
 
         df = sections.merge(lessons, on='_id', how='inner')
 
-        # Base url for video
-        base_vid_url = f'https://api.pwskills.com/v1/learn/lesson/video-session/{course_id}/lesson/'
-        videos = df.query('type=="video"')
-        df.loc[videos.index, 'url'] = base_vid_url + videos['_id']
-
-        # Base url for Quiz and Assignment
+        # Base URL
         base_url = f'https://api.pwskills.com/v1/learn/lesson/course/{course_id}/'
+
+        # URL for videos
+        videos = df.query('type=="video"')
+        df.loc[videos.index, 'url'] = base_url + videos['_id']
+
+        # URL for quizzes
         quizzes = df.query('type=="quiz"')
         df.loc[quizzes.index, 'url'] = base_url + quizzes['_id']
 
-        # Assignment url
+        # URL for assignments
         assignments = df.query('type=="assignment"')
         df.loc[assignments.index, 'url'] = base_url + assignments['_id']
 
