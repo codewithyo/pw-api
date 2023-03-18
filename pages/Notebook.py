@@ -1,7 +1,7 @@
 
 import streamlit as st
 
-from utils.course import Course, Instructors, get_course_id_title
+from utils import Course, get_course_id_title
 
 # --- --- Sidebar --- --- #
 course_dict = get_course_id_title()

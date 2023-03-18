@@ -8,8 +8,8 @@ from matplotlib import pyplot as plt
 from requests import get
 
 import utils.logger
+from utils import LiveCourse
 from utils.logger import LoggingMessage
-from utils.streamlit.live_course import LiveCourse
 
 courses_dict: dict = load(open('data/courses/all_courses_dict.json'))
 

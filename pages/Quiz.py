@@ -4,13 +4,11 @@ from pathlib import Path
 
 import streamlit as st
 
-from utils.parser import Quiz
-from utils.user import User
+from utils import Quiz, User
 
 # --- --- CSS --- --- #
 st.write("""<style>
          [data-testid="stMetricValue"] div {
-            color: #4AFDBF;
             font-weight: bold;
          }
          [data-testid="stMetricLabel"] p{
@@ -20,7 +18,6 @@ st.write("""<style>
         .stRadio p {
             font-size: 20px;
             font-weight: 600;
-            color: #4AFDBF;
         }
          label[data-baseweb="radio"]:first-child {
              display: none;

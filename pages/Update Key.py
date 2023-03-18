@@ -1,6 +1,6 @@
 import streamlit as st
 
-from utils.user import User
+from utils import User
 
 st.title('Update the Authorization Key')
 st.subheader(

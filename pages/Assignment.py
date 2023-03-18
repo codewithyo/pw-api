@@ -4,8 +4,7 @@ from webbrowser import open_new_tab
 
 import streamlit as st
 
-from utils.parser import Assignment
-from utils.user import User
+from utils import Assignment, User
 
 
 def selected_assignment() -> Path:

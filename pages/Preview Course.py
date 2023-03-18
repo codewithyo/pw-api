@@ -25,9 +25,10 @@ with st.sidebar:
 @st.cache_resource
 def get_preview_course_object(id: str):
     url = f"https://api.pwskills.com/v1/course/{id}?withAllCourseMetas=true&ignoreInActive=true"
-    pc = get(url).json()['data']
+    r = get(url)
+    pc = r.json()['data']
     logging.info(LoggingMessage.get_request_log.format(url))
-    logging.info(LoggingMessage.status_code_log.format(pc.status_code))
+    logging.info(LoggingMessage.status_code_log.format(r.status_code))
 
     return pc
 
