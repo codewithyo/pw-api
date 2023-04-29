@@ -1,2 +1,6 @@
 requests
 streamlit
+pydantic
+bs4
+pandas
+matplotlib
