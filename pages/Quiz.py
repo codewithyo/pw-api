@@ -4,7 +4,8 @@ from pathlib import Path
 
 import streamlit as st
 
-from utils import Quiz, User
+from utils import Quiz
+from utils.utils import get_all_files
 
 # --- --- CSS --- --- #
 st.write("""<style>
@@ -29,7 +30,7 @@ st.write("""<style>
 
 
 def selected_quiz(path: Path):
-    all_files = User.get_all_files('data', 'quiz')
+    all_files = get_all_files('data', 'quiz')
 
     options = [i.stem for i in all_files]
     sl = str(st.sidebar.selectbox('Select Quiz', options))

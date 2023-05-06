@@ -8,12 +8,13 @@ from json import dump, load
 from pathlib import Path
 
 import logger
-from user import User
+
+from utils.utils import get_all_files
 
 
 def clean_quiz_assignment_data():
-    all_files = (User.get_all_files('data', 'quiz') +
-                 User.get_all_files('data', 'assignment'))
+    all_files = (get_all_files('data', 'quiz') +
+                 get_all_files('data', 'assignment'))
 
     for i in all_files:
         d = load(open(i))

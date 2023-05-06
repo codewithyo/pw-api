@@ -4,11 +4,12 @@ from webbrowser import open_new_tab
 
 import streamlit as st
 
-from utils import Assignment, User
+from utils import Assignment
+from utils.utils import get_all_files
 
 
 def selected_assignment() -> Path:
-    all_files = User.get_all_files('data', 'assignment')
+    all_files = get_all_files('data', 'assignment')
 
     options = sorted([i.stem for i in all_files])
     sl = str(st.selectbox('Select Assignment', options))
