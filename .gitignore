@@ -12,3 +12,4 @@ logs/
 auth_key.txt
 data/others/
 data/har/
+*.cookie
