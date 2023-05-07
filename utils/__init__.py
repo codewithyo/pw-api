@@ -1,4 +1,4 @@
-from utils.downloader import gdrive, pw_api
+from utils.downloader import gdrive
 from utils.parser import Assignment, Quiz
 from utils.streamlit.analytics import (AnalyticsSubmissions, AnalyticsUsers,
                                        QuizAnalytics, get_live_course_df)

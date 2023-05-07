@@ -1,11 +1,9 @@
 """ Login to get access to amazing features. """
 
 from json import load
-from time import sleep
 
 import streamlit as st
 
-from utils.downloader import pw_api
 from utils.pw.credentials import Credentials
 from utils.pw.user import LoggedUser
 
@@ -28,7 +26,7 @@ def login_form():
                 try:
                     Credentials(auth_key, course_id).download()
                     st.experimental_rerun()
-                except (pw_api.StatusCodeError, ValueError):
+                except ValueError:
                     st_msg.error('Please check your auth key or chosen course.')
 
 

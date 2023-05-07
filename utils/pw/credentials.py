@@ -7,7 +7,7 @@ from pathlib import Path
 from shutil import rmtree
 from time import sleep
 
-from utils.downloader import pw_api
+from .api import PWApi
 
 
 class Credentials:
@@ -18,6 +18,7 @@ class Credentials:
         self.auth_key = auth_key
         self.cid = course_id
         self.login_for = login_for
+        self.api = PWApi(auth_key, course_id)
 
         dirname = str(dt.now().replace(microsecond=0)) + '.cookie'
         self.cookie_dir = Path(dirname)
@@ -62,7 +63,7 @@ class Credentials:
 
         for fname, url in links.items():
             sleep(1)
-            res = pw_api.data_from_api(url, self.auth_key)
+            res = self.api.get(url)
             with open(self.cookie_dir / (fname+'.json'), 'w') as f:
                 dump(res, f, indent=2)
 
