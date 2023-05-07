@@ -67,20 +67,27 @@ class PWApi:
 
     def get_assignment_data(self, url: str):
         data = self.get(url)['data']
+
+        solution_link = None
+        user_sub = data.get('userSubmission', None)
+        if user_sub is not None:
+            solution_link = user_sub['assignmentSubmission']['data']['url']
+
         res = {
-            '_id': data['_id'],
-            'title': data['title'],
-            'data': data['data'],
-            'createdAt': data['createdAt'],
+            '_id': data['lesson']['_id'],
+            'title': data['lesson']['title'],
+            'data': data['lesson']['data'],
+            'solution': solution_link,
+            'createdAt': data['lesson']['createdAt'],
         }
         return res
 
     def get_quiz_data(self, url: str):
         data = self.get(url)['data']
         res = {
-            '_id': data['_id'],
-            'title': data['title'],
-            'options': data['options'],
-            'createdAt': data['createdAt'],
+            '_id': data['lesson']['_id'],
+            'title': data['lesson']['title'],
+            'quizQuestions': data['lesson']['quizQuestions'],
+            'createdAt': data['lesson']['createdAt'],
         }
         return res
