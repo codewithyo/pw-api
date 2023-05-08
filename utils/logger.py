@@ -1,17 +1,18 @@
+""" Basic logging definition for this project. """
+
 import logging
-import os
-from datetime import datetime
+from datetime import date
+from pathlib import Path
 
-LOG_FILE = f"{datetime.now().strftime(r'%m_%d_%Y')}.log"
-logs_path = os.path.join(os.getcwd(), "logs", LOG_FILE[:-4])
-os.makedirs(logs_path, exist_ok=True)
+log_dir_path = Path('logs')
+log_dir_path.mkdir(exist_ok=True)
 
-LOG_FILE_PATH = os.path.join(logs_path, LOG_FILE)
+log_fp = log_dir_path / (date.today().strftime('%d-%m-%Y') + '.log')
 
 logging.basicConfig(
-    filename=LOG_FILE_PATH,
+    filename=log_fp,
     format="[ %(asctime)s ] %(filename)s:[%(lineno)d] %(name)s - %(levelname)s - %(message)s",
-    level=logging.INFO
+    level=logging.INFO,
 )
 
 
