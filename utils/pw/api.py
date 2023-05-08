@@ -91,3 +91,28 @@ class PWApi:
             'createdAt': data['lesson']['createdAt'],
         }
         return res
+
+    def url_from_id(self, *id: str) -> list[str]:
+        url = f'https://api.pwskills.com/v1/course/{self.cid}/'
+        ids = []
+        for i in id:
+            ids.append(url + i)
+        return ids
+
+    def update_solution_links(self, force_update: bool = False) -> None:
+        """ Update existing assignments' solution link. """
+        fp = self.generate_fp('assignment')
+        data: list[dict] = load(open(fp))
+
+        for d in data:
+            if d['solution'] is not None:
+                if not force_update:
+                    continue
+
+            url = self.url_from_id(d['_id'])[0]
+            new_link = self.get_assignment_data(url)['solution']
+            if new_link is not None:
+                d['solution'] = new_link
+
+        # Dump the updated data
+        dump(data, open(fp, 'w'), indent=2)
