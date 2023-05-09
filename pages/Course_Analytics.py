@@ -1,11 +1,13 @@
-from json import load, loads
+from json import loads
+from typing import Literal
 
 import pandas as pd
 import streamlit as st
 from bs4 import BeautifulSoup
 from requests import HTTPError, get
 
-from utils import AnalyticsSubmissions, AnalyticsUsers, get_live_course_df
+from utils import (AnalyticsSubmissions, AnalyticsUsers, courses_dict,
+                   get_live_course_df)
 from utils.logger import LoggingMessage, logging
 from utils.streamlit.analytics import QuizAnalytics
 
@@ -21,7 +23,7 @@ def get_analytics_data(url):
 
     if r.status_code != 200:
         logging.error('URL response is not 200.')
-        raise HTTPError('URL: {url} response is not 200.')
+        raise HTTPError(f'{r.status_code} response: {url}')
 
     # Parse html with BeautifulSoup
     soup = BeautifulSoup(r.text, 'html.parser')
@@ -39,8 +41,8 @@ def get_analytics_data(url):
         QuizAnalytics(**{'quizAnalytics': quiz_analytics}),
         get_live_course_df(
             data['props']['pageProps']['sections'],
-            sl_course,
-            courses_dict[sl_course],
+            courses_dict[cid],
+            cid,
         )
     )
 
@@ -48,26 +50,25 @@ def get_analytics_data(url):
 def get_url(course_name: str):
     """ Course analytics url constructor. """
     base = f'https://learn.pwskills.com/course-analytics/{course_name.replace(" ", "-")}/'
-    return base + courses_dict[course_name]
+    return base + cid
 
-
-courses_dict = load(open('data/courses/all_courses_dict.json'))
 
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
 # Sidebar
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
 with st.sidebar:
-    sl_course = str(st.selectbox('Select Course', courses_dict))
+    cid = str(st.selectbox('Select Course', courses_dict.keys(),
+                           format_func=lambda x: courses_dict[x]))
 
     radio = st.radio('Select Analytics',
                      ['Assignments Analytics', 'Quiz Analytics'])
 
 try:
-    (sub, users, qz, lc) = get_analytics_data(get_url(sl_course))
-except KeyError:
+    (sub, users, qz, lc) = get_analytics_data(get_url(courses_dict[cid]))
+except KeyError as e:
     st.title('This course has not any analytics.')
 else:
-    st.metric(courses_dict[sl_course], sl_course)
+    st.metric(cid, courses_dict[cid])
 
     resource_type_count = lc['type'].value_counts().to_dict()
     total_assignment_points = int(lc['totalPointsInAssignment'].sum())
@@ -106,12 +107,11 @@ else:
             """
         )
 
-    def get_img_url(img_url: str):
-        return f'https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F{img_url}&w=96&q=75'
-
-    def get_ggl_img_url(img_url: str):
-        base = f'https://learn.pwskills.com/_next/image?url={img_url}&w=96&q=75'
-        return base
+    def get_img_url(img_url: str, type: Literal['pw', 'google']):
+        if type == 'pw':
+            return f'https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F{img_url}&w=96&q=75'
+        else:
+            return f'https://learn.pwskills.com/_next/image?url={img_url}&w=96&q=75'
 
     if radio == 'Assignments Analytics':
         # --- --- Top 3 - Students --- ---
@@ -127,12 +127,12 @@ else:
                 dp = dp.link
                 if '.jpeg' in dp:
                     cols[i].write(
-                        f"""<img alt="student-pic" src="{get_img_url(dp)}" height=50 width=50 style="border-radius:10px;">""",
+                        f"""<img alt="student-pic" src="{get_img_url(dp, 'pw')}" height=50 width=50 style="border-radius:10px;">""",
                         unsafe_allow_html=True
                     )
                 else:
                     cols[i].write(
-                        f"""<img alt="student-pic" src="{get_ggl_img_url(dp)}" height=50 width=50 style="border-radius:10px;">""",
+                        f"""<img alt="student-pic" src="{get_img_url(dp, 'google')}" height=50 width=50 style="border-radius:10px;">""",
                         unsafe_allow_html=True
                     )
             else:
