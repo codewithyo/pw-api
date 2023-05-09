@@ -1,40 +1,36 @@
-from json import load
-from pathlib import Path
-from webbrowser import open_new_tab
-
 import streamlit as st
 
-from utils import Assignment
-from utils.utils import get_all_files
+from utils import courses_dict
+from utils.pw import Assignment
+
+st_msg = st.empty()
+with st.sidebar:
+    cid = str(st.selectbox('Select Course', courses_dict.keys(),
+                           format_func=lambda x: courses_dict[x],
+                           ))
+
+    try:
+        assignments = Assignment.get_all_title_with_id(
+            Assignment.generate_fp(cid))
+    except FileNotFoundError:
+        st_msg.error(
+            f'Assignment for {courses_dict[cid]} course not available.'
+        )
+        st.stop()
+
+    assignment_id = str(st.selectbox(
+        'Select Assignment', assignments.keys(),
+        format_func=lambda x: assignments[x],
+    ))
 
 
-def selected_assignment() -> Path:
-    all_files = get_all_files('data', 'assignment')
+as_obj = Assignment.from_id(Assignment.generate_fp(cid), assignment_id)
 
-    options = sorted([i.stem for i in all_files])
-    sl = str(st.selectbox('Select Assignment', options))
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
+st.metric(as_obj.id_, as_obj.title)
+f'##### :red[Date :] {as_obj.date_created:%d %B, %Y}'
+f'##### :red[Total Marks :] {as_obj.marks}'
+f'## [Question Pdf]({as_obj.question_url})'
 
-    parent = all_files[options.index(sl)].parent
-    return parent / (sl+'.json')
-
-
-# Create Assignment parser
-a = Assignment(load(open(selected_assignment()))['data'])
-
-# Display components in page
-'---'
-st.metric(a.id, a.title)
-f'##### :red[Date :] {a.date_created:%d %B, %Y}'
-f'##### :red[Marks :] {a.marks}'
-
-
-if st.button('Open PDF'):
-    open_new_tab(a.url)
-
-if st.button('Download PDF'):
-    open_new_tab(a.download_url)
-
-if st.button('Get Solution'):
-    d = a.date_created
-    prefix = 'https://github.com/arv-anshul/pw-impact-batch/blob/main/'
-    open_new_tab(f'{prefix}{d:%B}/{d:%d %h}/{d:%d %h} - Answer.ipynb')
+if as_obj.solution_url:
+    st.write(f'## [Solution Notebook]({as_obj.solution_url})')

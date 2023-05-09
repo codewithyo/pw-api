@@ -1,13 +1,14 @@
 {
-  "Data Science masters": "63a2eb428899436daf7eb489",
-  "Stock Market Fundamentals": "63f6f3b4a9d3a25d2eb43ba3",
-  "Decode DSA with C++": "63eb1ae1194b22195fe5d967",
-  "Java with DSA and system design": "63a2f02d889943137f7ec85f",
-  "Java with DSA and System Design": "63a2f0198899433e697ec2ac",
-  "Full Stack web development": "63a2ecf58899439c8d7ebdc6",
-  "Full Stack Web Development": "63a2ecdd88994300d47eb9ad",
-  "Data Science Masters": "63a2ea7e8899438ee77eae5a",
-  "Business Analytics Foundations": "63a0bfb680762882188f490b",
-  "C++  Foundation": "63a0ba6180762892138f404f",
-  "Cracking the Coding Interview in Java - Foundation": "63a0ad31ff94e14fb832b423"
+  "63a2ea7e8899438ee77eae5a": "Data Science Masters",
+  "63a2eb428899436daf7eb489": "Data Science masters",
+  "63a2ecdd88994300d47eb9ad": "Full Stack Web Development",
+  "63a2ecf58899439c8d7ebdc6": "Full Stack web development",
+  "63a2f0198899433e697ec2ac": "Java with DSA and System Design",
+  "63a2f02d889943137f7ec85f": "Java with DSA and system design",
+  "64207e5daf09d6280f5654d0": "Data Science Masters 2.0",
+  "64207ec8af09d6d106565a06": "Data Science masters 2.0",
+  "642152e5af09d60df056811a": "Full Stack Web Development 2.0",
+  "64215310af09d6aa495682f5": "Full Stack web development 2.0",
+  "642165fdaf09d675ce568cd0": "Java with DSA and System Design 2.0",
+  "64216620af09d6f5fb568f80": "Java with DSA and system design 2.0"
 }

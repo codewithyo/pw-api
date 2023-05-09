@@ -1,0 +1,4158 @@
+[
+  {
+    "_id": "63ee3b09ff47662563dc23ad",
+    "title": "Database quiz",
+    "quizQuestions": [
+      {
+        "_id": "63ee3b09ff476647eedc23ae",
+        "title": "<p>What does SQL stand for?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;Structured Query Language</p>"
+          },
+          {
+            "name": "<p>&nbsp;Simple Query Language</p>"
+          },
+          {
+            "name": "<p>&nbsp;Structured Questioning Logic</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ee3b09ff4766bee2dc23af",
+        "title": "<p>What is the purpose of SQL?</p>",
+        "options": [
+          {
+            "name": "<p>To communicate with and manipulate databases</p>"
+          },
+          {
+            "name": "<p>To write computer programs</p>"
+          },
+          {
+            "name": "<p>&nbsp;To create websites</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ee3b09ff47668262dc23b0",
+        "title": "<p>What is a database management system (DBMS)?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;Software that interacts with the end user, applications, and the database itself to capture and analyse the data</p>"
+          },
+          {
+            "name": "<p>&nbsp;A system for organising and storing data in a database</p>"
+          },
+          {
+            "name": "<p>A program for creating websites</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ee3b09ff47662f81dc23b1",
+        "title": "<p>What is the most common type of DBMS?</p>",
+        "options": [
+          {
+            "name": "<p>The object-oriented database management system (OODBMS)</p>"
+          },
+          {
+            "name": "<p>&nbsp;The relational database management system (RDBMS)</p>"
+          },
+          {
+            "name": "<p>&nbsp;The hierarchical database management system (HDBMS)</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ee3b09ff4766e958dc23b2",
+        "title": "<p>What is a relational database?</p>",
+        "options": [
+          {
+            "name": "<p>A database management system based on the object-oriented model</p>"
+          },
+          {
+            "name": "<p>&nbsp;A database management system based on the relational model</p>"
+          },
+          {
+            "name": "<p>&nbsp;A database management system based on the hierarchical model</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ee3b09ff47663e7edc23b3",
+        "title": "<p>What is a table in a relational database?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;A system for storing data in a database</p>"
+          },
+          {
+            "name": "<p>&nbsp;A program for organizing data in a database</p>"
+          },
+          {
+            "name": "<p>A collection of data organized into rows and columns</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ee3b09ff47661986dc23b4",
+        "title": "<p>What is a primary key in a relational database table?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;A column in a relational database table</p>"
+          },
+          {
+            "name": "<p>&nbsp;A unique identifier for each row in a relational database table</p>"
+          },
+          {
+            "name": "<p>&nbsp;A system for storing data in a database</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ee3b09ff4766d730dc23b5",
+        "title": "<p>What is the syntax to select all columns from a table named \"customers\"?</p>",
+        "options": [
+          {
+            "name": "<p>SELECT * FROM customers;</p>"
+          },
+          {
+            "name": "<p>SELECT ALL FROM customers;</p>"
+          },
+          {
+            "name": "<p>SELECT customers;</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ee3b09ff47665d7cdc23b6",
+        "title": "<p>How do you execute an SQL query in Python using mysql-connector library?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;cursor.query(\"SELECT * FROM customers\")</p>"
+          },
+          {
+            "name": "<p>&nbsp;cursor.execute(\"SELECT * FROM customers\")</p>"
+          },
+          {
+            "name": "<p>&nbsp;cursor.run(\"SELECT * FROM customers\")</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ee3b09ff4766fb5adc23b7",
+        "title": "<p>How do you retrieve the result of an SQL query in Python using the mysql-connector library?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;result = cursor.retrieve()</p>"
+          },
+          {
+            "name": "<p>&nbsp;result = cursor.fetchone()</p>"
+          },
+          {
+            "name": "<p>&nbsp;result = cursor.fetchall()</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-16T14:17:45.235Z"
+  },
+  {
+    "_id": "63f38dccff4766bde1dcd111",
+    "title": "Flask quiz",
+    "quizQuestions": [
+      {
+        "_id": "63f38dccff476623a7dcd112",
+        "title": "<p>What is the difference between a microweb framework and a full-stack framework?</p>",
+        "options": [
+          {
+            "name": "<p>Microweb frameworks offer a complete solution, while full-stack frameworks provide limited functionality</p>"
+          },
+          {
+            "name": "<p>Microweb frameworks provide limited functionality, while full-stack frameworks offer a complete solution</p>"
+          },
+          {
+            "name": "<p>Microweb frameworks are faster, while full-stack frameworks are slower</p>"
+          },
+          {
+            "name": "<p>Microweb frameworks are harder to use, while full-stack frameworks are easier to use</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f38dccff4766d583dcd113",
+        "title": "<p>What are blueprints in Flask?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;A way to create reusable code in Flask</p>"
+          },
+          {
+            "name": "<p>A way to organize application routes in Flask</p>"
+          },
+          {
+            "name": "<p>A way to manage database connections in Flask</p>"
+          },
+          {
+            "name": "<p>A way to handle user authentication in Flask</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f38dccff4766edb2dcd114",
+        "title": "<p>What is Postman?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;A tool for managing database connections</p>"
+          },
+          {
+            "name": "<p>&nbsp;A tool for designing APIs</p>"
+          },
+          {
+            "name": "<p>A tool for testing web applications</p>"
+          },
+          {
+            "name": "<p>A tool for automating API tests</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f38dccff4766fe90dcd115",
+        "title": "<p>Why is Postman used with Flask?</p>",
+        "options": [
+          {
+            "name": "<p>To test the functionality of the Flask application</p>"
+          },
+          {
+            "name": "<p>To design the Flask application</p>"
+          },
+          {
+            "name": "<p>To manage the database connections in Flask</p>"
+          },
+          {
+            "name": "<p>To handle user authentication in Flask</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f38dccff4766bb01dcd116",
+        "title": "<p>What are some of the features of Postman?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;Automated testing</p>"
+          },
+          {
+            "name": "<p>Request and response history</p>"
+          },
+          {
+            "name": "<p>Environment variables</p>"
+          },
+          {
+            "name": "<p>All of the above</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-20T15:12:12.978Z"
+  },
+  {
+    "_id": "63e506e0194b22666ee4d62e",
+    "title": " OOPS TASK quiz",
+    "quizQuestions": [
+      {
+        "_id": "63e506e0194b220715e4d62f",
+        "title": "<p>Refer the below code:</p><p>&nbsp;</p><p>class Human:</p><p>def __init__(self, first_name, last_name, age):</p><p>self.first_name = first_name</p><p>self.last_name = last_name</p><p>self.age = age</p><p>&nbsp;</p><p>h001 = Human(\u201cAbhay\u201d, \u201cKashyap\u201d, 26)</p><p>&nbsp;</p><p>In the above code which will act as the object?</p>",
+        "options": [
+          {
+            "name": "<p>Human</p>"
+          },
+          {
+            "name": "<p>h001</p>"
+          },
+          {
+            "name": "<p>Abhay</p>"
+          },
+          {
+            "name": "<p>\u201cAbhay\u201d</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e506e0194b226082e4d630",
+        "title": "<p>In the above code self is a ____ .</p>",
+        "options": [
+          {
+            "name": "<p>keyword</p>"
+          },
+          {
+            "name": "<p>attribute</p>"
+          },
+          {
+            "name": "<p>constructor</p>"
+          },
+          {
+            "name": "<p>reference to current instance to the class</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e506e0194b221648e4d631",
+        "title": "<p>Maximum how many objects can be created using a class?</p>",
+        "options": [
+          {
+            "name": "<p>Only 2</p>"
+          },
+          {
+            "name": "<p>1</p>"
+          },
+          {
+            "name": "<p>depends on the number of attribute in it</p>"
+          },
+          {
+            "name": "<p>Multiple&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e506e0194b228b7ce4d632",
+        "title": "<p>From the above code, which one is the constructor?</p>",
+        "options": [
+          {
+            "name": "<p>class</p>"
+          },
+          {
+            "name": "<p>def</p>"
+          },
+          {
+            "name": "<p>__init__</p>"
+          },
+          {
+            "name": "<p>Human</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-09T14:44:48.276Z"
+  },
+  {
+    "_id": "63de5610194b223dc7e3e1c4",
+    "title": "Feb 4 python Quiz",
+    "quizQuestions": [
+      {
+        "_id": "63de5610194b2231e7e3e1c5",
+        "title": "<p>What does the lambda function in Python do?</p>",
+        "options": [
+          {
+            "name": "<p><strong>&nbsp;</strong>creates an infinite loop</p>"
+          },
+          {
+            "name": "<p>creates a named function</p>"
+          },
+          {
+            "name": "<p>creates an anonymous function</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63de5610194b223befe3e1c6",
+        "title": "<p>What does the map function in Python do?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;returns the first element in a list</p>"
+          },
+          {
+            "name": "<p>&nbsp;applies a function to each element in a list and returns a list of the results</p>"
+          },
+          {
+            "name": "<p>&nbsp;returns the last element in a list</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63de5610194b223166e3e1c7",
+        "title": "<p>What does the reduce function in Python do?</p>",
+        "options": [
+          {
+            "name": "<p>applies a function to each element in a list and returns a list of the results</p>"
+          },
+          {
+            "name": "<p>&nbsp;applies a function cumulatively to elements of an iterable, from left to right</p>"
+          },
+          {
+            "name": "<p>returns the first element in a list</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63de5610194b22f72ce3e1c8",
+        "title": "<p>What does the filter function in Python do?</p>",
+        "options": [
+          {
+            "name": "<p>returns a filtered list of elements that satisfy a condition</p>"
+          },
+          {
+            "name": "<p>&nbsp;returns the first element in a list</p>"
+          },
+          {
+            "name": "<p>&nbsp;returns the last element in a list</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63de5610194b225779e3e1c9",
+        "title": "<p>What is the output of the following code?</p><p>numbers = [1, 2, 3, 4, 5]</p><p>squared_numbers = map(lambda x: x**2, numbers)</p><p>print(list(squared_numbers))</p>",
+        "options": [
+          {
+            "name": "<p>[0, 1, 4, 9, 16]</p>"
+          },
+          {
+            "name": "<p>&nbsp;[2, 4, 6, 8, 10]</p>"
+          },
+          {
+            "name": "<p>[1, 4, 9, 16, 25]</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63de5610194b22a5dae3e1ca",
+        "title": "<p>What is the output of the following code?</p><p>from functools import reduce</p><p>numbers = [1, 2, 3, 4, 5]</p><p>product = reduce(lambda x, y: x*y, numbers)</p><p>print(product)</p>",
+        "options": [
+          {
+            "name": "<p>120</p>"
+          },
+          {
+            "name": "<p>&nbsp;30</p>"
+          },
+          {
+            "name": "<p>15</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63de5610194b220c24e3e1cb",
+        "title": "<p>What is the output of the following code?</p><p>numbers = [1, 2, 3, 4, 5]</p><p>even_numbers = filter(lambda x: x%2 == 0, numbers)</p><p>print(list(even_numbers))</p><p>&nbsp;</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;[2, 4]</p>"
+          },
+          {
+            "name": "<p>[1, 3, 5]</p>"
+          },
+          {
+            "name": "<p>&nbsp;[1, 2, 3, 4, 5]</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-04T12:56:48.323Z"
+  },
+  {
+    "_id": "63da85f10e5fcb19a18611fc",
+    "title": "29 th Jan Quiz",
+    "quizQuestions": [
+      {
+        "_id": "63da85f10e5fcb783d8611fd",
+        "title": "<ol><li>Which of the following are the type-casting methods in Python Programming language?</li></ol><p>1. int()</p><p>2. type()</p><p>3. float()</p><p>4. str()</p>",
+        "options": [
+          {
+            "name": "<p>1 and 2</p>"
+          },
+          {
+            "name": "<p>&nbsp;1, 3 and 4</p>"
+          },
+          {
+            "name": "<p>1, 2, and 3&nbsp;</p>"
+          },
+          {
+            "name": "<p>1,2,3 and 4&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63da85f10e5fcb00f08611fe",
+        "title": "<p>Choose the option containing all correct Keywords in Python Programming Language?</p><ol><li>False, True, None</li><li>Class, def, continue</li><li>import, from global</li><li>or, yield, generator</li></ol>",
+        "options": [
+          {
+            "name": "<p>1 and 2 are correct</p>"
+          },
+          {
+            "name": "<p>1, 2, and 3 are correct&nbsp;</p>"
+          },
+          {
+            "name": "<p>1, 3, and 4 are correct</p>"
+          },
+          {
+            "name": "<ol><li>All are correct</li></ol><p>&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63da85f10e5fcbc80f8611ff",
+        "title": "<p>What will be the output of the following code: 1/ False</p>",
+        "options": [
+          {
+            "name": "<p>inf&nbsp;</p>"
+          },
+          {
+            "name": "<p>&nbsp;ZeroDivisionError&nbsp;</p>"
+          },
+          {
+            "name": "<p>&nbsp;Zero</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63da85f10e5fcb0c39861200",
+        "title": "<p>Is python a dynamically typed Programming language?</p>",
+        "options": [
+          {
+            "name": "<p>True</p>"
+          },
+          {
+            "name": "<p>False&nbsp;</p>"
+          },
+          {
+            "name": "<p>Can\u2019t say</p>"
+          },
+          {
+            "name": "<p>&nbsp;None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63da85f10e5fcb69cf861201",
+        "title": "<p>What will be the output of the following code:</p><p>num1= 23</p><p>num2= 44</p><p>num2= 2+3j</p><p>num1= num2.imag</p><p>num2-num1</p>",
+        "options": [
+          {
+            "name": "<p>21&nbsp;</p>"
+          },
+          {
+            "name": "<p>-21&nbsp;</p>"
+          },
+          {
+            "name": "<p>-1+3j&nbsp;</p>"
+          },
+          {
+            "name": "<p>&nbsp;1-3j</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63da85f10e5fcb3518861202",
+        "title": "<p>&nbsp;Choose the correct code from the options to rectify the following incorrect code.</p><p>&nbsp;</p><p>\u2018Pwskills\u2019 + 1</p>",
+        "options": [
+          {
+            "name": "<p>int(\u2018pwskills\u2019) + 1&nbsp;</p>"
+          },
+          {
+            "name": "<p>int(\u2018pwskills\u2019) + int(1)&nbsp;</p>"
+          },
+          {
+            "name": "<p>\u2018pwskills\u2019 + type(1)</p>"
+          },
+          {
+            "name": "<p>pwskills\u2019 + str(1)</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63da85f10e5fcb7ff2861203",
+        "title": "<p>Please select the legally allowed variable names from the below given variable names.</p><p>&nbsp;</p><ol><li>20%_num&nbsp; 2. Num_100&nbsp; &nbsp;3. Pw-skills&nbsp; &nbsp;4. _pw_skills</li></ol><p>&nbsp;</p>",
+        "options": [
+          {
+            "name": "<p>1 and 2 are correct&nbsp;</p>"
+          },
+          {
+            "name": "<p>1 and 4 are correct</p>"
+          },
+          {
+            "name": "<p>1, 2, and 4 are correct.&nbsp;</p>"
+          },
+          {
+            "name": "<ol><li>2 and 4 are correct.</li></ol><p>&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63da85f10e5fcb7be1861204",
+        "title": "<p>What is the correct way to define a multiline string?</p><ol><li>A string enclosed in single triple quotes</li><li>A string enclosed in double triple quotes</li></ol><p>&nbsp;</p>",
+        "options": [
+          {
+            "name": "<p>1 only&nbsp;</p>"
+          },
+          {
+            "name": "<p>2 only&nbsp;</p>"
+          },
+          {
+            "name": "<p>1 and 2&nbsp;&nbsp;</p>"
+          },
+          {
+            "name": "<ol><li>None</li></ol>"
+          }
+        ]
+      },
+      {
+        "_id": "63da85f10e5fcbb41c861205",
+        "title": "<p>What will be the output of the following code:&nbsp;</p><p>&nbsp;</p><p>Name = \u2018pwskills\u2019</p><p>Name[0] = \u2018P\u2019</p>",
+        "options": [
+          {
+            "name": "<p>pwskills</p>"
+          },
+          {
+            "name": "<p>&nbsp;Pwskills&nbsp;&nbsp;</p>"
+          },
+          {
+            "name": "<p>TypeError&nbsp;</p>"
+          },
+          {
+            "name": "<p>. Ppwskills&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63da85f10e5fcbc6f6861206",
+        "title": "<p>What will be the output of the following code:</p><p>&nbsp;</p><p>\u2018pwskills\u2019.upper().lower().isalnum()</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;False</p>"
+          },
+          {
+            "name": "<p>PWSKILLS&nbsp;</p>"
+          },
+          {
+            "name": "<p>True</p>"
+          },
+          {
+            "name": "<p>&nbsp;pwskills&nbsp;</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-01T15:32:01.698Z"
+  },
+  {
+    "_id": "63e3a5e4194b229df6e498d6",
+    "title": " OOPs quiz",
+    "quizQuestions": [
+      {
+        "_id": "63e3a5e4194b2255f2e498d7",
+        "title": "<p>&nbsp;Which among the following best defines abstraction?</p>",
+        "options": [
+          {
+            "name": "<p>Hiding the implementation</p>"
+          },
+          {
+            "name": "<p>Showing the important data</p>"
+          },
+          {
+            "name": "<p>Hiding the important data</p>"
+          },
+          {
+            "name": "<p>Hiding the implementation and showing only the features</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e3a5e4194b220c3be498d8",
+        "title": "<p>class is ___ abstraction.</p>",
+        "options": [
+          {
+            "name": "<p>Object</p>"
+          },
+          {
+            "name": "<p>Logical</p>"
+          },
+          {
+            "name": "<p>Real</p>"
+          },
+          {
+            "name": "<p>Hypothetical</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e3a5e4194b224f63e498d9",
+        "title": "<p>Which among the following can be viewed as combination of abstraction of data and code.</p>",
+        "options": [
+          {
+            "name": "<p>class</p>"
+          },
+          {
+            "name": "<p>object</p>"
+          },
+          {
+            "name": "<p>inheritance</p>"
+          },
+          {
+            "name": "<p>interfaces</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e3a5e4194b223b60e498da",
+        "title": "<p>Encapsulation and abstraction differ as</p>",
+        "options": [
+          {
+            "name": "<p>Can be used any way</p>"
+          },
+          {
+            "name": "<p>Hiding and Binding respectively</p>"
+          },
+          {
+            "name": "<p>Binding and Hiding respectively</p>"
+          },
+          {
+            "name": "<p>Hiding and hiding respectively</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e3a5e4194b22e8fee498db",
+        "title": "<p>Hiding the implementation complexity can</p>",
+        "options": [
+          {
+            "name": "<p>Provide better features</p>"
+          },
+          {
+            "name": "<p>Make the programming complex</p>"
+          },
+          {
+            "name": "<p>Provide more number of features</p>"
+          },
+          {
+            "name": "<p>Make the programming easy</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e3a5e4194b223273e498dc",
+        "title": "<p>Data abstraction is nothing but the combination of \u2026\u2026\u2026..</p><p>&nbsp;</p>",
+        "options": [
+          {
+            "name": "<p>hiding and showing</p>"
+          },
+          {
+            "name": "<p>abstract class and interface</p>"
+          },
+          {
+            "name": "<p>unnecessary information</p>"
+          },
+          {
+            "name": "<p>none of the above</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-08T13:38:44.018Z"
+  },
+  {
+    "_id": "63f771b6a9d3a2026eb45887",
+    "title": "Pandas Basic quiz",
+    "quizQuestions": [
+      {
+        "_id": "63f771b6a9d3a25526b45888",
+        "title": "<p>How do you handle missing values in a Pandas Series in Python?</p>",
+        "options": [
+          {
+            "name": "<p>By using arithmetic operators or functions.</p>"
+          },
+          {
+            "name": "<p>By using functions like fillna(), dropna(), etc.</p>"
+          },
+          {
+            "name": "<p>by using modules&nbsp;</p>"
+          },
+          {
+            "name": "<p>none of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f771b6a9d3a20d64b45889",
+        "title": "<p>What is a Pandas Series in Python?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;A one-dimensional labeled array capable of holding any data type.</p>"
+          },
+          {
+            "name": "<p>By passing a list, dictionary, or scalar value to the Series() method of the Pandas library.</p>"
+          },
+          {
+            "name": "<p>By using arithmetic operators or functions.</p>"
+          },
+          {
+            "name": "<p>none of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f771b6a9d3a2ca20b4588a",
+        "title": "<p>What is the result of the following code?</p><p>&nbsp;</p><p>import pandas as pd</p><p>data = {'Name': ['John', 'Jane', 'Jim', 'Joan'],</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Age': [25, 30, 35, 40],</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Occupation': ['Engineer', 'Doctor', 'Teacher', 'Lawyer']}</p><p>df = pd.DataFrame(data)</p><p>print(df.loc[0])</p>",
+        "options": [
+          {
+            "name": "<p>Name: John, Age: 25, Occupation: Engineer</p>"
+          },
+          {
+            "name": "<p>&nbsp;Name: John, Age: 25</p>"
+          },
+          {
+            "name": "<p>&nbsp;John 25 Engineer</p>"
+          },
+          {
+            "name": "<p>none of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f771b6a9d3a2004cb4588b",
+        "title": "<p>What is the Pandas Panel in Python?</p>",
+        "options": [
+          {
+            "name": "<p><strong>&nbsp;</strong>It is a multi-dimensional array data structure used to store and manipulate data in a way that is easy and efficient.</p>"
+          },
+          {
+            "name": "<p>it is a one dimensional array data structure</p>"
+          },
+          {
+            "name": "<p>Fasten the Strips with Screw Anchors</p>"
+          },
+          {
+            "name": "<p><strong>&nbsp;</strong>none of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f771b6a9d3a2c7beb4588c",
+        "title": "<p>&nbsp;How do you create a Pandas Panel in Python?</p>",
+        "options": [
+          {
+            "name": "<p>best operator device type.</p>"
+          },
+          {
+            "name": "<p>by using the pandas</p>"
+          },
+          {
+            "name": "<p>By using the pandas.Panel constructor</p>"
+          },
+          {
+            "name": "<p>all of the above</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-23T14:01:26.798Z"
+  },
+  {
+    "_id": "63f0e698ff4766b511dc661b",
+    "title": "Web API quiz",
+    "quizQuestions": [
+      {
+        "_id": "63f0e698ff4766293cdc661c",
+        "title": "<p>What is a Web API?</p>",
+        "options": [
+          {
+            "name": "<p>A set of standards and protocols for accessing web-based software applications or web tools</p>"
+          },
+          {
+            "name": "<p>A software framework for building web applications</p>"
+          },
+          {
+            "name": "<p>A web page design tool</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f0e698ff4766d8ecdc661d",
+        "title": "<p>What is the primary purpose of a Web API?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;To create web pages</p>"
+          },
+          {
+            "name": "<p>To access and retrieve data from a remote server</p>"
+          },
+          {
+            "name": "<p>&nbsp;To provide a user interface for web-based applications</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f0e698ff47666fe8dc661e",
+        "title": "<p>What is an API endpoint?</p>",
+        "options": [
+          {
+            "name": "<p>A server that hosts an API</p>"
+          },
+          {
+            "name": "<p>&nbsp;A unique address that specifies the location of a server's API</p>"
+          },
+          {
+            "name": "<p>&nbsp;A graphical representation of API data</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f0e698ff4766725adc661f",
+        "title": "<p>What is a REST API?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;A type of API that uses Representational State Transfer (REST) principles</p>"
+          },
+          {
+            "name": "<p>&nbsp;A software tool for testing API functionality</p>"
+          },
+          {
+            "name": "<p>A programming language used for creating APIs</p>"
+          },
+          {
+            "name": "<p>&nbsp;All of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f0e698ff47662006dc6620",
+        "title": "<p>What is an API?</p>",
+        "options": [
+          {
+            "name": "<p>An Application Programming Interface that allows software applications to interact with each other.</p>"
+          },
+          {
+            "name": "<p>A Web-based Application Programming Interface that allows software applications to interact over the internet.</p>"
+          },
+          {
+            "name": "<p>A software platform that provides a graphical user interface.</p>"
+          },
+          {
+            "name": "<p>All of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f0e698ff47665fe1dc6621",
+        "title": "<p>What are some common uses of Web APIs?</p>",
+        "options": [
+          {
+            "name": "<p>Accessing databases and servers.</p>"
+          },
+          {
+            "name": "<p>Integrating third-party services and data into applications.</p>"
+          },
+          {
+            "name": "<p>&nbsp;Allowing applications to communicate with each other.</p>"
+          },
+          {
+            "name": "<p>Both A and B</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f0e698ff47660eeedc6622",
+        "title": "<p>What is REST?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;A software architecture style for creating scalable web services.</p>"
+          },
+          {
+            "name": "<p>&nbsp;A protocol for sending and receiving messages between applications.</p>"
+          },
+          {
+            "name": "<p>&nbsp;A database management system.</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f0e698ff4766f918dc6623",
+        "title": "<p>What is SOAP?</p>",
+        "options": [
+          {
+            "name": "<p>A software architecture style for creating scalable web services.</p>"
+          },
+          {
+            "name": "<p>A protocol for sending and receiving messages between applications.</p>"
+          },
+          {
+            "name": "<p>&nbsp;A database management system.</p>"
+          },
+          {
+            "name": "<p>All of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f0e698ff47662016dc6624",
+        "title": "<p>What are some benefits of using REST architecture?</p>",
+        "options": [
+          {
+            "name": "<p>It is lightweight and easy to use.</p>"
+          },
+          {
+            "name": "<p>It provides a standardized way for applications to communicate with each other.</p>"
+          },
+          {
+            "name": "<p>Both a) and b)</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f0e698ff476634cedc6625",
+        "title": "<p>What are some benefits of using SOAP architecture?</p>",
+        "options": [
+          {
+            "name": "<p>It is lightweight and easy to use.</p>"
+          },
+          {
+            "name": "<p>It provides a standardized way for applications to communicate with each other.</p>"
+          },
+          {
+            "name": "<p>&nbsp;Both a) and b)</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-18T14:54:16.887Z"
+  },
+  {
+    "_id": "63ef87bfff47667bf6dc4ed8",
+    "title": " Database quiz",
+    "quizQuestions": [
+      {
+        "_id": "63ef87bfff47667cd4dc4ed9",
+        "title": "<p>What is the name of the official MongoDB driver for Python?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;MongoPython</p>"
+          },
+          {
+            "name": "<p>PyMongoDB</p>"
+          },
+          {
+            "name": "<p>&nbsp;MongoDB-Py</p>"
+          },
+          {
+            "name": "<p>&nbsp;PyMongo</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ef87bfff476601cddc4eda",
+        "title": "<p>How do you connect to MongoDB using PyMongo in Python?</p>",
+        "options": [
+          {
+            "name": "<p>By using the connect() method</p>"
+          },
+          {
+            "name": "<p>&nbsp;By using the PyMongo() method</p>"
+          },
+          {
+            "name": "<p>&nbsp;By using the MongoClient() method</p>"
+          },
+          {
+            "name": "<p>&nbsp;By using the MongoDB() method</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ef87bfff4766fc3fdc4edb",
+        "title": "<p>How do you access a collection in MongoDB using PyMongo in Python?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;By using the collection() method</p>"
+          },
+          {
+            "name": "<p>By using the get_collection() method</p>"
+          },
+          {
+            "name": "<p>&nbsp;By using the get_database() method</p>"
+          },
+          {
+            "name": "<p>By using the database[collection] syntax</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ef87bfff47666493dc4edc",
+        "title": "<p>How do you insert a document into a collection in MongoDB using PyMongo in Python?</p>",
+        "options": [
+          {
+            "name": "<p>By using the insert_one() method</p>"
+          },
+          {
+            "name": "<p>&nbsp;By using the insert() method</p>"
+          },
+          {
+            "name": "<p>&nbsp;By using the save() method</p>"
+          },
+          {
+            "name": "<p>&nbsp;By using the add() method</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ef87bfff4766c633dc4edd",
+        "title": "<p>How do you query documents from a collection in MongoDB using PyMongo in Python?</p>",
+        "options": [
+          {
+            "name": "<p>By using the find() method</p>"
+          },
+          {
+            "name": "<p>&nbsp;By using the query() method</p>"
+          },
+          {
+            "name": "<p>&nbsp;By using the get() method</p>"
+          },
+          {
+            "name": "<p>&nbsp;By using the select() method</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ef87bfff4766181bdc4ede",
+        "title": "<p>What is MongoDB?</p>",
+        "options": [
+          {
+            "name": "<p>A relational database management system</p>"
+          },
+          {
+            "name": "<p>&nbsp;A document-oriented database management system</p>"
+          },
+          {
+            "name": "<p>&nbsp;A graph database management system</p>"
+          },
+          {
+            "name": "<p>A key-value store database management system</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ef87bfff476603f5dc4edf",
+        "title": "<p>What is a collection in MongoDB?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;A database</p>"
+          },
+          {
+            "name": "<p>A table</p>"
+          },
+          {
+            "name": "<p>A set of documents</p>"
+          },
+          {
+            "name": "<p>&nbsp;A set of rows</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ef87bfff4766bebbdc4ee0",
+        "title": "<p>What is a document in MongoDB?</p>",
+        "options": [
+          {
+            "name": "<p>A row</p>"
+          },
+          {
+            "name": "<p>A tuple</p>"
+          },
+          {
+            "name": "<p>An instance of data</p>"
+          },
+          {
+            "name": "<p>&nbsp;A JSON-like structure</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ef87bfff47667486dc4ee1",
+        "title": "<p>What is the default storage engine for MongoDB?</p>",
+        "options": [
+          {
+            "name": "<p>RocksDB</p>"
+          },
+          {
+            "name": "<p>&nbsp;WiredTiger</p>"
+          },
+          {
+            "name": "<p>&nbsp;InnoDB</p>"
+          },
+          {
+            "name": "<p>&nbsp;MyISAM</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ef87bfff47660738dc4ee2",
+        "title": "<p>What is the purpose of the MongoDB aggregation framework?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;To perform complex data processing on collections</p>"
+          },
+          {
+            "name": "<p>&nbsp;To enforce data consistency and integrity</p>"
+          },
+          {
+            "name": "<p>&nbsp;To manage transactions and rollbacks</p>"
+          },
+          {
+            "name": "<p>To define indexing strategies</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-17T13:57:19.119Z"
+  },
+  {
+    "_id": "63db945e194b22806fe3730f",
+    "title": "31st Jan Quiz-2",
+    "quizQuestions": [
+      {
+        "_id": "63db945e194b220ed2e37310",
+        "title": "<p>&nbsp;Which of the following statement is correct?</p><ol><li>True or False and True \u2192 True</li><li>not(True) or False and True \u2192 True</li><li>False or False and not(True) \u2192 False&nbsp;</li></ol>",
+        "options": [
+          {
+            "name": "<p>&nbsp;1 and 2 are correct</p>"
+          },
+          {
+            "name": "<p>&nbsp;1, and 3 are correct</p>"
+          },
+          {
+            "name": "<p>&nbsp;1, 2, 3, and 4 are correct</p>"
+          },
+          {
+            "name": "<p>&nbsp;None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db945e194b224f22e37311",
+        "title": "<p>Which of the following is correct for a string?</p><p>1.&nbsp; &nbsp; &nbsp; String can be indexed.</p><p>2.&nbsp; &nbsp; &nbsp; String can be sliced.</p><p>3.&nbsp; &nbsp; &nbsp; String can be concatenated.</p><p>4.&nbsp; &nbsp; &nbsp; String items can be reassigned.</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;1 and 2 are correct</p>"
+          },
+          {
+            "name": "<p>1, 2, and 3 are correct</p>"
+          },
+          {
+            "name": "<p>1, 2, and 4 are correct</p>"
+          },
+          {
+            "name": "<p>All statements are correct.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db945e194b2217fee37312",
+        "title": "<p>Which of the following is correct in respect of the string Method?</p><ol><li>isalnum(): Returns True if all characters in the string are alphanumeric.</li><li>isalpha(): Returns True if all characters in the string are in the alphabet.</li><li>isnumeric(): Returns True if all characters in the string are numeric.</li></ol>",
+        "options": [
+          {
+            "name": "<p>1, and 2 are correct.</p>"
+          },
+          {
+            "name": "<p>1, and 3 are correct.</p>"
+          },
+          {
+            "name": "<p>1, 2, and 3 are correct.</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db945e194b22e78ae37313",
+        "title": "<p>&nbsp;Which of the following are used in python for string formatting?</p><ol><li>f string method</li><li>format() method</li></ol>",
+        "options": [
+          {
+            "name": "<p>Option 1 is correct.</p>"
+          },
+          {
+            "name": "<p>Option 2 is correct</p>"
+          },
+          {
+            "name": "<p>Both options are correct.</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db945e194b221472e37314",
+        "title": "<p>What will be the output of the following code?</p><p>string = \"p w s k i l l s\"</p><p>\" \".join(string.replace(\" \", \"\"))</p>",
+        "options": [
+          {
+            "name": "<p>\"p w s k i l l s\"</p>"
+          },
+          {
+            "name": "<p>\"pwskills\"</p>"
+          },
+          {
+            "name": "<p>\"P W S K I L L S\"</p>"
+          },
+          {
+            "name": "<p>\"PWSKILLS\"</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db945e194b2282c9e37315",
+        "title": "<p>Which of the following is an incorrect statement with respect to python operators?</p><ol><li>Assignment operators: =, +=, /=, %=</li><li>Comparison operators: ==, !=, &gt;, &lt;, &gt;=, &gt;&gt;=</li><li>Logical operators: and, or, not</li><li>Membership operators: in, not in, is, is not</li></ol>",
+        "options": [
+          {
+            "name": "<p>1 and 2 are correct.</p>"
+          },
+          {
+            "name": "<p>1 and 3 are correct.</p>"
+          },
+          {
+            "name": "<p>1, 2, 3, and 4 are correct.</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db945e194b229ff9e37316",
+        "title": "<p>What will be the output of the following code?</p><p>\"pwskills\"[::-1].upper().replace(\"SLLIKSWP\", \"pwskills\").islower()</p>",
+        "options": [
+          {
+            "name": "<p>pwskills</p>"
+          },
+          {
+            "name": "<p>SLLIKSWP</p>"
+          },
+          {
+            "name": "<p>False</p>"
+          },
+          {
+            "name": "<p>True</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db945e194b2268e6e37317",
+        "title": "<p>What will be the output of the following code?</p><p>s = \"I want to become a data scientist\"</p><p>for i in s.split():</p><p>&nbsp;&nbsp;&nbsp;&nbsp;i.capitalize()</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(i.title())</p>",
+        "options": [
+          {
+            "name": "<p>Each word is capitalized and printed in a new line.</p>"
+          },
+          {
+            "name": "<p>Each word is lowercase and printed in a single line.</p>"
+          },
+          {
+            "name": "<p>Each word is uppercase and printed in a new line</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db945e194b226e46e37318",
+        "title": "<p>Which method is used in strings to justify the string?</p><ol><li>center()</li><li>ljust()</li></ol><p>rjust()</p>",
+        "options": [
+          {
+            "name": "<p>1 and 2 are correct</p>"
+          },
+          {
+            "name": "<p>1 and 3 are correct</p>"
+          },
+          {
+            "name": "<p>2 and 3 are correct</p>"
+          },
+          {
+            "name": "<p>1, 2, and 3 are correct.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db945e194b227457e37319",
+        "title": "<p>Can string characters be assigned a different value? or the following code is correct:</p><p>'pwskills'[0]='P'</p>",
+        "options": [
+          {
+            "name": "<p>Yes&nbsp;</p>"
+          },
+          {
+            "name": "<p>No</p>"
+          },
+          {
+            "name": "<p>Insufficient data</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-02T10:45:50.232Z"
+  },
+  {
+    "_id": "63eb9a79194b225c77e5f536",
+    "title": " Multithreading quiz",
+    "quizQuestions": [
+      {
+        "_id": "63eb9a79194b226ff2e5f537",
+        "title": "<p>&nbsp;What is multithreading in Python?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;A process of running multiple threads simultaneously within a single process.</p>"
+          },
+          {
+            "name": "<p>&nbsp;A process of running multiple processes simultaneously within a single thread</p>"
+          },
+          {
+            "name": "<p>A process of running multiple processes simultaneously within multiple threads.</p>"
+          },
+          {
+            "name": "<p>A process of running a single process within multiple threads.</p><p>&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63eb9a79194b22b349e5f538",
+        "title": "<p>What is the purpose of multithreading in Python?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;To improve the performance of a program by using multiple CPUs or CPU cores.</p>"
+          },
+          {
+            "name": "<p>&nbsp;To improve the memory utilization of a program by using multiple CPUs or CPU cores.</p>"
+          },
+          {
+            "name": "<p>To improve the overall efficiency of a program by using multiple CPUs or CPU cores.</p>"
+          },
+          {
+            "name": "<p>&nbsp;To improve the input/output operations of a program by using multiple CPUs or CPU cores.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63eb9a79194b220dd1e5f539",
+        "title": "<p>&nbsp;Which module is used to create and manage threads in Python?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;threading</p>"
+          },
+          {
+            "name": "<p>&nbsp;multiprocessing</p>"
+          },
+          {
+            "name": "<p>&nbsp;concurrent.futures</p>"
+          },
+          {
+            "name": "<p>queue</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63eb9a79194b22c712e5f53a",
+        "title": "<p>What is a mutex in multithreading?</p>",
+        "options": [
+          {
+            "name": "<p>A type of thread that performs a specific task.</p>"
+          },
+          {
+            "name": "<p>&nbsp;A type of thread that runs in the background to handle incoming requests.</p>"
+          },
+          {
+            "name": "<p>&nbsp;A synchronization primitive used to protect shared resources from being accessed by multiple threads at the same time.</p>"
+          },
+          {
+            "name": "<p>A built-in function in Python that is used to release the Global Interpreter Lock.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63eb9a79194b228fe6e5f53b",
+        "title": "<p>&nbsp;Which method is used to start a new thread in Python?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;start()</p>"
+          },
+          {
+            "name": "<p>&nbsp;run()</p>"
+          },
+          {
+            "name": "<p>create()</p>"
+          },
+          {
+            "name": "<p>&nbsp;begin()</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63eb9a79194b2204a0e5f53c",
+        "title": "<p>&nbsp;What is the Global Interpreter Lock (GIL) in Python?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;A lock used to protect shared resources from being accessed by multiple threads at the same time.</p>"
+          },
+          {
+            "name": "<p>&nbsp;A mechanism used by Python to ensure that only one thread executes Python bytecode at a time.</p>"
+          },
+          {
+            "name": "<p>&nbsp;A thread that runs in the background to handle incoming requests.</p>"
+          },
+          {
+            "name": "<p>A type of thread that performs a specific task.</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-14T14:28:09.119Z"
+  },
+  {
+    "_id": "63e25e45194b22f870e472ba",
+    "title": "Python Task 2 quiz",
+    "quizQuestions": [
+      {
+        "_id": "63e25e45194b22dac2e472bb",
+        "title": "<p>&nbsp;What will be the output of the following code?</p><p>a = [1, 2, 3, 4, 5]</p><p>print(a[0:3])</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;[1, 2, 3, 4, 5]</p>"
+          },
+          {
+            "name": "<p>&nbsp;[1, 2, 3]</p>"
+          },
+          {
+            "name": "<p>&nbsp;[2, 3, 4]</p>"
+          },
+          {
+            "name": "<p>[1, 2]</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e25e45194b227556e472bc",
+        "title": "<p>What will be the output of the following code?</p><p>def add_numbers(x, y):</p><p>&nbsp;&nbsp;&nbsp;&nbsp;return x + y</p><p>result = add_numbers(3, 5)</p><p>print(result)</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;8</p>"
+          },
+          {
+            "name": "<p>&nbsp;3, 5</p>"
+          },
+          {
+            "name": "<p>&nbsp;None</p>"
+          },
+          {
+            "name": "<p>&nbsp;Error</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e25e45194b22121ce472bd",
+        "title": "<p>&nbsp;What will be the output of the following code?</p><p>numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</p><p>for number in numbers:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;if number % 2 == 0:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(number)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;else:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;continue</p>",
+        "options": [
+          {
+            "name": "<p>1, 3, 5, 7, 9</p>"
+          },
+          {
+            "name": "<p><strong>&nbsp;</strong>2, 4, 6, 8, 10</p>"
+          },
+          {
+            "name": "<p>&nbsp;10, 9, 8, 7, 6, 5, 4, 3, 2, 1</p>"
+          },
+          {
+            "name": "<p>2, 4, 6, 8, 10, 1, 3, 5, 7, 9</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e25e45194b22a390e472be",
+        "title": "<p>&nbsp;What is inheritance in OOP?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;The ability of an object to share properties and behaviors with other objects</p>"
+          },
+          {
+            "name": "<p>&nbsp;The ability of an object to hide its properties and behaviors from other objects</p>"
+          },
+          {
+            "name": "<p>&nbsp;The ability to create objects from a class</p>"
+          },
+          {
+            "name": "<p>&nbsp;The ability to overload methods in a class</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e25e45194b227596e472bf",
+        "title": "<p>What is the output of the following code?</p><p>x = 10</p><p>y = 15</p><p>if x &gt; y:</p><p>&nbsp;&nbsp;print(\"x is greater than y\")</p><p>elif x == y:</p><p>&nbsp;&nbsp;print(\"x is equal to y\")</p><p>else:</p><p>&nbsp;&nbsp;print(\"x is less than y\")</p>",
+        "options": [
+          {
+            "name": "<p>x is greater than y</p>"
+          },
+          {
+            "name": "<p>x is equal to y</p>"
+          },
+          {
+            "name": "<p>&nbsp;x is less than y</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e25e45194b2274e4e472c0",
+        "title": "<p>What is the output of the following code?</p><p>x = True</p><p>y = False</p><p>if x and y:</p><p>&nbsp;&nbsp;print(\"x and y are both true\")</p><p>else:</p><p>&nbsp;&nbsp;print(\"x and y are not both true\")</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;x and y are both true</p>"
+          },
+          {
+            "name": "<p>x and y are not both true</p>"
+          },
+          {
+            "name": "<p>&nbsp;None</p>"
+          },
+          {
+            "name": "<p>Syntax error</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e25e45194b2205c4e472c1",
+        "title": "<p>What is the output of the following code?</p><p>x = [1, 2, 3, 4, 5]</p><p>for i in x:</p><p>&nbsp;&nbsp;if i % 2 == 0:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;break</p><p>&nbsp;&nbsp;print(i)</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;1</p>"
+          },
+          {
+            "name": "<p>&nbsp;1 2</p>"
+          },
+          {
+            "name": "<p>&nbsp;1 2 3</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-07T14:20:53.342Z"
+  },
+  {
+    "_id": "63ece79b194b228862e60dc6",
+    "title": "Memory Management quiz",
+    "quizQuestions": [
+      {
+        "_id": "63ece79b194b22ce3be60dc7",
+        "title": "<p>What is multiprocessing in Python?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;A process of running multiple threads simultaneously within a single process.</p>"
+          },
+          {
+            "name": "<p>A process of running multiple processes simultaneously within a single thread.</p>"
+          },
+          {
+            "name": "<p>&nbsp;A process of running multiple processes simultaneously within multiple threads.</p>"
+          },
+          {
+            "name": "<p>A process of running a single process within multiple threads.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ece79b194b229d34e60dc8",
+        "title": "<p>What is the purpose of multiprocessing in Python?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;To improve the performance of a program by using multiple CPUs or CPU cores.</p>"
+          },
+          {
+            "name": "<p>&nbsp;To improve the memory utilization of a program by using multiple CPUs or CPU cores.</p>"
+          },
+          {
+            "name": "<p>To improve the overall efficiency of a program by using multiple CPUs or CPU cores.</p>"
+          },
+          {
+            "name": "<p>&nbsp;To improve the input/output operations of a program by using multiple CPUs or CPU cores.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ece79b194b22865be60dc9",
+        "title": "<p>&nbsp;Which module is used to create and manage processes in Python?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;multiprocessing</p>"
+          },
+          {
+            "name": "<p>&nbsp;threading</p>"
+          },
+          {
+            "name": "<p>concurrent.futures</p>"
+          },
+          {
+            "name": "<p>queue</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ece79b194b225d1de60dca",
+        "title": "<p>What is a process pool in multiprocessing?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;A group of threads that share the same set of variables.</p>"
+          },
+          {
+            "name": "<p>A group of processes that share the same set of variables.</p>"
+          },
+          {
+            "name": "<p>&nbsp;A set of processes that can be executed concurrently to perform a specific task.</p>"
+          },
+          {
+            "name": "<p>&nbsp;A set of threads that can be executed concurrently to perform a specific task.</p><p>&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ece79b194b220b15e60dcb",
+        "title": "<p>&nbsp;Which method is used to start a new process in Python?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;start()</p>"
+          },
+          {
+            "name": "<p>&nbsp;run()</p>"
+          },
+          {
+            "name": "<p>&nbsp;create()</p>"
+          },
+          {
+            "name": "<p>&nbsp;begin()</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ece79b194b226808e60dcc",
+        "title": "<p>What is the difference between multiprocessing and multithreading in Python?</p>",
+        "options": [
+          {
+            "name": "<p>Multithreading runs multiple threads simultaneously within a single process, while<strong>&nbsp;</strong>multiprocessing runs multiple processes simultaneously within a single thread.</p>"
+          },
+          {
+            "name": "<p>Multithreading runs multiple processes simultaneously within a single thread, while multiprocessing runs multiple threads simultaneously within a single process.</p>"
+          },
+          {
+            "name": "<p>Multithreading and multiprocessing are the same thing.</p>"
+          },
+          {
+            "name": "<p>Multiprocessing is used for CPU-bound tasks, while multithreading is used for I/O-bound tasks.</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-15T14:09:31.201Z"
+  },
+  {
+    "_id": "63dad6730e5fcb5bc886185b",
+    "title": "31st Jan quiz",
+    "quizQuestions": [
+      {
+        "_id": "63dad6730e5fcb9eec86185c",
+        "title": "<p>&nbsp;Which of the following data types can be stored in a list?</p><p>1.&nbsp; &nbsp; &nbsp; int, float, complex</p><p>2.&nbsp; &nbsp; &nbsp; str, list, tuple, set</p><p>3.&nbsp; &nbsp; &nbsp; dict, NoneType, bytes</p><p>4.&nbsp; &nbsp; &nbsp; bool, frozenset, range</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;1 and 2 are correct</p>"
+          },
+          {
+            "name": "<p>&nbsp; 1, 2 and 3 are correct</p>"
+          },
+          {
+            "name": "<p>&nbsp;1, 2, 3 and 4 are correct</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63dad6730e5fcbec7d86185d",
+        "title": "<p>&nbsp;Which of the following is correct for a list?</p><p>1.&nbsp; &nbsp; &nbsp; List can be indexed.</p><p>2.&nbsp; &nbsp; &nbsp; Lists can be sliced.</p><p>3.&nbsp; &nbsp; &nbsp; Lists can be concatenated.</p><p>4.&nbsp; &nbsp; &nbsp; Lists items can be reassigned.</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;1 and 2 are correct</p>"
+          },
+          {
+            "name": "<p>&nbsp;&nbsp; 1, 2, and 3 are correct</p>"
+          },
+          {
+            "name": "<p>&nbsp;1, 2, and 4 are correct</p>"
+          },
+          {
+            "name": "<p>&nbsp;&nbsp; All statements are correct.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63dad6730e5fcb0bf386185e",
+        "title": "<p>Which of the following is correct for a list?</p><p>1.&nbsp; &nbsp; &nbsp; List is unordered.</p><p>2.&nbsp; &nbsp; &nbsp; List is mutable.</p><p>3.&nbsp; &nbsp; &nbsp; List allows duplicate.</p><p>4.&nbsp; &nbsp; &nbsp; Lists allow users to store only a single data type.</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp; 2 and 3 are correct</p>"
+          },
+          {
+            "name": "<p>1 and 4 are correct</p>"
+          },
+          {
+            "name": "<p>&nbsp; All statements are correct.</p>"
+          },
+          {
+            "name": "<p>&nbsp; None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63dad6730e5fcb8d9686185f",
+        "title": "<p>Which of the following list methods definition is correct?</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;1.&nbsp; append(): Adds an element at the end of the list.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;2. extend(): Add the elements of any iterable, to the end of the current list.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;3. remove(): Removes the item with the specified value</p><p>4. pop(): Adds an element at the specified position</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp; 1, 2, and 4 are correct</p>"
+          },
+          {
+            "name": "<p>1, 2, and 3 are correct.</p>"
+          },
+          {
+            "name": "<p>&nbsp;1 and 2 are correct</p>"
+          },
+          {
+            "name": "<p>&nbsp;&nbsp; All statements are correct</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63dad6730e5fcb8d9d861860",
+        "title": "<p>What will be the output of the following code:</p><p>list_out=[]</p><p>for i in range(0,51,10):</p><p>&nbsp;&nbsp;&nbsp;&nbsp;list_out.append(str(i))</p><p>print(list_out)</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp; [0, 10, 20, 30, 40]</p>"
+          },
+          {
+            "name": "<p>&nbsp;['0', '10', '20', '30', '40']</p>"
+          },
+          {
+            "name": "<p>&nbsp;['0', '10', '20', '30', '40', '50']</p>"
+          },
+          {
+            "name": "<p>&nbsp;[0, 10, 20, 30, 40, 50]</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63dad6730e5fcb4e5b861861",
+        "title": "<p>Which of the following is correct for a tuple?</p><p>1.&nbsp; &nbsp; &nbsp; Tuple is ordered.</p><p>2.&nbsp; &nbsp; &nbsp; Tuple is mutable.</p><p>3.&nbsp; &nbsp; &nbsp; Tuple allows duplicate.</p><p>4.&nbsp; &nbsp; The following is not a tuple: (45, )</p>",
+        "options": [
+          {
+            "name": "<p>1, and 2 are correct.</p>"
+          },
+          {
+            "name": "<p>1, and 3 are correct.</p>"
+          },
+          {
+            "name": "<p>1, 2, 3, and 4 are correct.</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63dad6730e5fcb749c861862",
+        "title": "<p>Is Item assignment allowed in tuples?</p>",
+        "options": [
+          {
+            "name": "<p>True</p>"
+          },
+          {
+            "name": "<p>False</p>"
+          },
+          {
+            "name": "<p>Insufficient data</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63dad6730e5fcb59b4861863",
+        "title": "<p>Select the correct option for the following code:</p><p>numbers = (1,2,3,4,5, 5,4,3,2,1)</p><p>list=[]</p><p>for number in numbers:</p><p>&nbsp;&nbsp;&nbsp;list.append(number**2)</p><p>print(set(list))</p>",
+        "options": [
+          {
+            "name": "<p>[1, 4, 9, 16, 25, 25, 16, 9, 4, 1]</p>"
+          },
+          {
+            "name": "<p>(1, 4, 9, 16, 25, 25, 16, 9, 4, 1)</p>"
+          },
+          {
+            "name": "<p>{1, 4, 9, 16, 25}</p>"
+          },
+          {
+            "name": "<p>{1, 4, 9, 16, 25, 25, 16, 9, 4, 1}</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63dad6730e5fcb331a861864",
+        "title": "<p>Which two methods are used to join the two sets?</p>",
+        "options": [
+          {
+            "name": "<p>+ and join()</p>"
+          },
+          {
+            "name": "<p>union() and update()</p>"
+          },
+          {
+            "name": "<p>append() and extend()</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63dad6730e5fcb29ec861865",
+        "title": "<p>Which of the following methods are used for tuples and sets?</p><ol><li>Tuples:&nbsp; count() and index()</li><li>Tuples: append() and extend()</li><li>Sets: add(), pop() and union()</li><li>Sets: union(), update(), and index()</li></ol>",
+        "options": [
+          {
+            "name": "<p>1, and 2 are correct.</p>"
+          },
+          {
+            "name": "<p>1, and 3 are correct</p>"
+          },
+          {
+            "name": "<p>1, 2, 3, and 4 are correct.</p>"
+          },
+          {
+            "name": "<p>2, and 3 are correct.</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-01T21:15:31.419Z"
+  },
+  {
+    "_id": "63ea5376194b2263f7e5d39d",
+    "title": " Exception Handling quiz",
+    "quizQuestions": [
+      {
+        "_id": "63ea5376194b2238b4e5d39e",
+        "title": "<p><strong>&nbsp;</strong>_____ is a type of errors produce in python programs.</p>",
+        "options": [
+          {
+            "name": "<p>compile time error</p>"
+          },
+          {
+            "name": "<p>run time error</p>"
+          },
+          {
+            "name": "<p>both (a) and (b)</p>"
+          },
+          {
+            "name": "<p><strong>&nbsp;</strong>none of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ea5376194b2247cce5d39f",
+        "title": "<p>What exception is raised when a name is not found in the local or global namespace?</p>",
+        "options": [
+          {
+            "name": "<p>TypeError</p>"
+          },
+          {
+            "name": "<p>&nbsp;NameError</p>"
+          },
+          {
+            "name": "<p>&nbsp;ValueError</p>"
+          },
+          {
+            "name": "<p>&nbsp;ImportError</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ea5376194b225f01e5d3a0",
+        "title": "<p>What exception is raised when an attempt is made to divide a number by zero?</p>",
+        "options": [
+          {
+            "name": "<p><strong>&nbsp;</strong>ZeroDivisionError</p>"
+          },
+          {
+            "name": "<p>KeyError</p>"
+          },
+          {
+            "name": "<p>&nbsp;IndexError</p>"
+          },
+          {
+            "name": "<p>&nbsp;TypeError</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ea5376194b22b778e5d3a1",
+        "title": "<p>What exception is raised when a file or directory is requested but does not exist?</p>",
+        "options": [
+          {
+            "name": "<p>SyntaxError</p>"
+          },
+          {
+            "name": "<p>FileNotFoundError</p>"
+          },
+          {
+            "name": "<p>&nbsp;AttributeError</p>"
+          },
+          {
+            "name": "<p>&nbsp;ImportError</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ea5376194b223580e5d3a2",
+        "title": "<p>What exception is raised when an attribute reference or assignment fails?</p>",
+        "options": [
+          {
+            "name": "<p>ZeroDivisionError</p>"
+          },
+          {
+            "name": "<p>&nbsp;KeyError</p>"
+          },
+          {
+            "name": "<p>AttributeError</p>"
+          },
+          {
+            "name": "<p>TypeError</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63ea5376194b222fbee5d3a3",
+        "title": "<p>Look at the following code and select the correct description of error shown while executing it:</p><p>&nbsp;</p><p>X = int(input(\"Enter a Number\"))&nbsp;</p><p>R = X*X print \"Square=\",R</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;can only concatenate str (not</p><p>&nbsp;</p><p>\"int\") to str</p>"
+          },
+          {
+            "name": "<p>missing parenthesis in call to 'print'</p>"
+          },
+          {
+            "name": "<p>name 'Print' is not defined</p>"
+          },
+          {
+            "name": "<p>none of the above</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-13T15:12:54.393Z"
+  },
+  {
+    "_id": "63dfd5b9194b220affe3f319",
+    "title": " OOPS quiz",
+    "quizQuestions": [
+      {
+        "_id": "63dfd5b9194b2285a1e3f31a",
+        "title": "<p>&nbsp;oop\u2019s is stand for&nbsp;</p>",
+        "options": [
+          {
+            "name": "<p>object oriented programming.</p>"
+          },
+          {
+            "name": "<p>object oriented programming pillar</p>"
+          },
+          {
+            "name": "<p>object oriented programming system</p>"
+          },
+          {
+            "name": "<p>object oriented programming principles</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63dfd5b9194b225574e3f31b",
+        "title": "<p>How many basic pillar in oops</p>",
+        "options": [
+          {
+            "name": "<p>3</p>"
+          },
+          {
+            "name": "<p>4</p>"
+          },
+          {
+            "name": "<p>2</p>"
+          },
+          {
+            "name": "<p>5</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63dfd5b9194b22641be3f31c",
+        "title": "<p>&nbsp;Class is a \u2026\u2026\u2026\u2026. Which defines some properties and behaviours.</p>",
+        "options": [
+          {
+            "name": "<p>instance</p>"
+          },
+          {
+            "name": "<p>member</p>"
+          },
+          {
+            "name": "<p>function</p>"
+          },
+          {
+            "name": "<p>blueprint</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63dfd5b9194b22c2c4e3f31d",
+        "title": "<p>How many types of inheritance in python</p>",
+        "options": [
+          {
+            "name": "<p>5</p>"
+          },
+          {
+            "name": "<p>3</p>"
+          },
+          {
+            "name": "<p>7</p>"
+          },
+          {
+            "name": "<p>4</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63dfd5b9194b2200a7e3f31e",
+        "title": "<p>what is the advantage of inheritance</p>",
+        "options": [
+          {
+            "name": "<p>Multiple form</p>"
+          },
+          {
+            "name": "<p>inherit property</p>"
+          },
+          {
+            "name": "<p>code reusability.</p>"
+          },
+          {
+            "name": "<p>function reusability</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-05T16:13:45.849Z"
+  },
+  {
+    "_id": "63dbe45a194b221d50e382b0",
+    "title": " Feb 2 Python_Quiz_",
+    "quizQuestions": [
+      {
+        "_id": "63dbe45a194b22712fe382b1",
+        "title": "<p>What is the output of the following code?</p><p>x = 5</p><p>if x &gt; 10:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(\"x is greater than 10\")</p><p>else:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(\"x is not greater than 10\")</p>",
+        "options": [
+          {
+            "name": "<p>x is not greater than 10</p>"
+          },
+          {
+            "name": "<p>&nbsp;x is greater than</p>"
+          },
+          {
+            "name": "<p>&nbsp;&nbsp;Both a &amp; b</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63dbe45a194b224ac3e382b2",
+        "title": "<p>Can if statement have multiple elif clauses in Python?</p>",
+        "options": [
+          {
+            "name": "<p>Yes, an if statement can have multiple elif clauses in Python.</p>"
+          },
+          {
+            "name": "<p>No, an if statement cannot hold multiple clauses</p>"
+          },
+          {
+            "name": "<p>Both a &amp; b</p>"
+          },
+          {
+            "name": "<p>. None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63dbe45a194b22e787e382b3",
+        "title": "<p>Which of the following is not a type of loop in Python?</p>",
+        "options": [
+          {
+            "name": "<p>for loop</p>"
+          },
+          {
+            "name": "<p>while loop</p>"
+          },
+          {
+            "name": "<p>&nbsp;do-while loop</p>"
+          },
+          {
+            "name": "<p>&nbsp;foreach loop</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63dbe45a194b2222d4e382b4",
+        "title": "<p>What is the output of the following code?</p><p>&nbsp;</p><p>for i in range(1, 5):</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(i)</p>",
+        "options": [
+          {
+            "name": "<p>0 1 2 3 4</p>"
+          },
+          {
+            "name": "<p>1 2 3 4</p>"
+          },
+          {
+            "name": "<p>&nbsp;0 1 2 3</p>"
+          },
+          {
+            "name": "<p>&nbsp;5</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63dbe45a194b229212e382b5",
+        "title": "<p>What is the output of the following code?</p><p>i = 0</p><p>while i &lt; 5:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(i)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;i += 1</p>",
+        "options": [
+          {
+            "name": "<p>0 1 2 3 4</p>"
+          },
+          {
+            "name": "<p>1 2 3 4 5</p>"
+          },
+          {
+            "name": "<p>0 1 2 3</p>"
+          },
+          {
+            "name": "<p>5</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-02T16:27:06.547Z"
+  },
+  {
+    "_id": "63f8d170182c6729f54b7c80",
+    "title": "Pandas Advance quiz",
+    "quizQuestions": [
+      {
+        "_id": "63f8d170182c6773564b7c81",
+        "title": "<p>How can you re-index a pandas DataFrame in python?</p>",
+        "options": [
+          {
+            "name": "<p>by using index</p>"
+          },
+          {
+            "name": "<p>by using re-index<strong>&nbsp;</strong></p>"
+          },
+          {
+            "name": "<p>by using pandas<strong>&nbsp;</strong></p>"
+          },
+          {
+            "name": "<p>none of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f8d170182c674ebe4b7c82",
+        "title": "<p>&nbsp;What is the output of the following code?<br><br>&nbsp;</p><p>import pandas as pd</p><p>&nbsp;</p><p>data = {'name': ['John', 'Jane', 'Bob'], 'age': [25, 30, 35]}</p><p>df = pd.DataFrame(data)</p><p>&nbsp;</p><p>df_reindexed = df.reindex([2, 1, 0])</p><p>&nbsp;</p><p>print(df_reindexed)</p>",
+        "options": [
+          {
+            "name": "<p>A DataFrame with rows in the original order</p>"
+          },
+          {
+            "name": "<p>&nbsp;A DataFrame with rows in reverse order</p>"
+          },
+          {
+            "name": "<p>&nbsp;A DataFrame with rows sorted by age</p>"
+          },
+          {
+            "name": "<p>A DataFrame with columns in reverse order</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f8d170182c674c5f4b7c83",
+        "title": "<p><strong>&nbsp;</strong>What is the output of the following code?</p><p>&nbsp;</p><p>import pandas as pd</p><p>&nbsp;</p><p>data = {'name': ['John', 'Jane', 'Bob'], 'age': [25, 30, 35]}</p><p>df = pd.DataFrame(data)</p><p>&nbsp;</p><p>for index, row in df.iterrows():</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(row['name'], row['age'])</p><p>&nbsp;</p>",
+        "options": [
+          {
+            "name": "<p>John 25, Jane 30, Bob 35</p>"
+          },
+          {
+            "name": "<p>name John, age 25, name Jane, age 30, name Bob, age 35</p>"
+          },
+          {
+            "name": "<p>['John', 25], ['Jane', 30], ['Bob', 35]</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f8d170182c6732ac4b7c84",
+        "title": "<p>What is the best way to iterate over the rows of a Pandas DataFrame?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;Using a for loop to iterate through the rows by index</p>"
+          },
+          {
+            "name": "<p>&nbsp;Using the apply() method to apply a function to each row</p>"
+          },
+          {
+            "name": "<p>Using the iterrows() method</p>"
+          },
+          {
+            "name": "<p>Using the itertuples() method</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f8d170182c67e0ae4b7c85",
+        "title": "<p>What is the difference between the iterrows() method and the itertuples() method for iterating over a Pandas DataFrame?</p><p>&nbsp;</p>",
+        "options": [
+          {
+            "name": "<p>The iterrows() method is faster but yields a Series, while the itertuples() method is slower but yields a named tuple.</p>"
+          },
+          {
+            "name": "<p>The iterrows() method yields a Series, while the itertuples() method yields a DataFrame<strong>.</strong></p>"
+          },
+          {
+            "name": "<p>The iterrows() method yields a Series, while the itertuples() method yields a named tuple.</p>"
+          },
+          {
+            "name": "<p>The iterrows() method yields a DataFrame, while the itertuples() method yields a Series.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f8d170182c6712c74b7c86",
+        "title": "<p>What is the output of the following code?</p><p>&nbsp;</p><p>import pandas as pd</p><p>&nbsp;</p><p>data = {'name': ['John', 'Jane', 'Bob'], 'age': [25, 30, 35]}</p><p>df = pd.DataFrame(data)</p><p>&nbsp;</p><p>df['name_upper'] = df['name'].str.upper()</p><p>&nbsp;</p><p>print(df)</p><p>&nbsp;</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;A DataFrame with an extra column containing uppercase names</p>"
+          },
+          {
+            "name": "<p>A DataFrame with the 'name' column modified to contain uppercase names</p>"
+          },
+          {
+            "name": "<p>&nbsp;A DataFrame with an error</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f8d170182c6765ca4b7c87",
+        "title": "<p>How can you sort a pandas DataFrame by a specific column in ascending order?</p>",
+        "options": [
+          {
+            "name": "<p>df.sort(column_name)</p>"
+          },
+          {
+            "name": "<p>df.sort_values(column_name)</p>"
+          },
+          {
+            "name": "<p>df.sort_ascending(column_name)</p>"
+          },
+          {
+            "name": "<p>df.sort_up(column_name)</p><p>&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f8d170182c6767e64b7c88",
+        "title": "<p>Which of the following can be used to clean text data?</p>",
+        "options": [
+          {
+            "name": "<p>Removing special characters</p>"
+          },
+          {
+            "name": "<p>&nbsp;Converting all text to lowercase</p>"
+          },
+          {
+            "name": "<p>&nbsp;Removing stop words</p>"
+          },
+          {
+            "name": "<p><strong>&nbsp;</strong>All of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f8d170182c670ea64b7c89",
+        "title": "<p>&nbsp;What is the output of the following code?</p><p>&nbsp;</p><p>import pandas as pd</p><p>&nbsp;</p><p>data = {'name': ['Alice', 'Bob', 'Charlie'], 'age': [30, 25, 40]}</p><p>df = pd.DataFrame(data)</p><p>&nbsp;</p><p>df_subset = df.loc[1:2, 'name']</p><p>&nbsp;</p><p>print(df_subset)</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;A DataFrame with rows 1 and 2 and the 'name' column</p>"
+          },
+          {
+            "name": "<p>A DataFrame with the 'name' column for rows 1 and 2</p>"
+          },
+          {
+            "name": "<p><strong>&nbsp;</strong>A Series with the 'name' values for rows 1 and 2</p>"
+          },
+          {
+            "name": "<p>&nbsp;An error</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f8d170182c67e43f4b7c8a",
+        "title": "<p><strong>&nbsp;</strong>What is the output of the following code?<br><br>import pandas as pd</p><p>&nbsp;</p><p>data = {'name': ['Alice', 'Bob', 'Charlie'], 'age': [30, 25, 40]}</p><p>df = pd.DataFrame(data)</p><p>&nbsp;</p><p>max_age = df['age'].max()</p><p>&nbsp;</p><p>print(max_age)</p>",
+        "options": [
+          {
+            "name": "<p>The maximum age</p>"
+          },
+          {
+            "name": "<p>The median age</p>"
+          },
+          {
+            "name": "<p>The mean age</p>"
+          },
+          {
+            "name": "<p>The mode age</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f8d170182c6784984b7c8b",
+        "title": "<p>What is the output of the following code?<br><br>import pandas as pd</p><p>&nbsp;</p><p>data = {'date': ['2022-01-01', '2022-02-01', '2022-03-01'], 'sales': [100, 200, 300]}</p><p>df = pd.DataFrame(data)</p><p>&nbsp;</p><p>df['date'] = pd.to_datetime(df['date'])</p><p>df['month'] = df['date'].dt.month</p><p>&nbsp;</p><p>print(df)</p>",
+        "options": [
+          {
+            "name": "<p>A DataFrame with an extra column containing the month</p>"
+          },
+          {
+            "name": "<p>A DataFrame with the 'date' column modified to contain the month</p>"
+          },
+          {
+            "name": "<p>A DataFrame with an error</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-24T15:02:08.985Z"
+  },
+  {
+    "_id": "63da89410e5fcb869a8612b3",
+    "title": "30th Jan quiz",
+    "quizQuestions": [
+      {
+        "_id": "63da89410e5fcb222a8612b4",
+        "title": "<ol><li>Which of the following are the type-casting methods in Python Programming language?</li></ol><p>1. int()</p><p>2. type()</p><p>3. float()</p><p>4. str()</p>",
+        "options": [
+          {
+            "name": "<p>1 and 2</p>"
+          },
+          {
+            "name": "<p>1, 3 and 4</p>"
+          },
+          {
+            "name": "<p>&nbsp;1, 2, and 3&nbsp;</p>"
+          },
+          {
+            "name": "<p>1,2,3 and 4&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63da89410e5fcba6dd8612b5",
+        "title": "<p>What is used for concatenating two or more strings?</p><p>&nbsp;</p>",
+        "options": [
+          {
+            "name": "<p>*&nbsp;</p>"
+          },
+          {
+            "name": "<p>&nbsp;/&nbsp;</p>"
+          },
+          {
+            "name": "<p>+&nbsp;&nbsp;</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63da89410e5fcb70718612b6",
+        "title": "<p>What will be the output of the following code: True/ False</p>",
+        "options": [
+          {
+            "name": "<p>inf&nbsp;</p>"
+          },
+          {
+            "name": "<p>ZeroDivisionError&nbsp;</p>"
+          },
+          {
+            "name": "<p>Zero</p>"
+          },
+          {
+            "name": "<ol><li>None</li></ol>"
+          }
+        ]
+      },
+      {
+        "_id": "63da89410e5fcb7ace8612b7",
+        "title": "<p>Which method is used to check the type and the length of the string variable?</p><p>&nbsp;</p><ol><li>len() b. type()&nbsp; c. type() and len()&nbsp; d. None</li></ol>",
+        "options": [
+          {
+            "name": "<p>len()</p>"
+          },
+          {
+            "name": "<p>type()&nbsp;</p>"
+          },
+          {
+            "name": "<p>&nbsp;type() and len()&nbsp;</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63da89410e5fcb3dd58612b8",
+        "title": "<p>What will be the output of the following code:</p><p>num1= 23</p><p>num2= 44</p><p>num2= 2+3j</p><p>num1= num2.imag</p><p>num2-num1</p>",
+        "options": [
+          {
+            "name": "<p>21&nbsp;</p>"
+          },
+          {
+            "name": "<p>-21</p>"
+          },
+          {
+            "name": "<p>&nbsp;-1+3j&nbsp;</p>"
+          },
+          {
+            "name": "<p>&nbsp;1-3j</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63da89410e5fcb82cc8612b9",
+        "title": "<p>Choose the correct code from the options to rectify the following incorrect code.</p><p>&nbsp;</p><p>\u2018Pwskills\u2019 + 1</p>",
+        "options": [
+          {
+            "name": "<p>int(\u2018pwskills\u2019) + 1&nbsp;</p>"
+          },
+          {
+            "name": "<p>&nbsp;int(\u2018pwskills\u2019) + int(1)</p>"
+          },
+          {
+            "name": "<p>&nbsp;\u2018pwskills\u2019 + type(1)</p>"
+          },
+          {
+            "name": "<p>\u2018pwskills\u2019 + str(1)</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63da89410e5fcb3b558612ba",
+        "title": "<p>Please select the legally allowed variable names from the below given variable names.</p><p>&nbsp;</p><ol><li>100_num&nbsp; 2. Num_100&nbsp; &nbsp;3. My-name&nbsp; &nbsp;4. _my_name</li></ol><p>&nbsp;</p>",
+        "options": [
+          {
+            "name": "<p>1 and 2 are correct&nbsp;</p>"
+          },
+          {
+            "name": "<p>1 and 4 are correct&nbsp;&nbsp;</p>"
+          },
+          {
+            "name": "<p>1, 2, and 4 are correct.&nbsp;</p>"
+          },
+          {
+            "name": "<p>&nbsp;2 and 4 are correct.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63da89410e5fcb4fb48612bb",
+        "title": "<p>&nbsp;What is the correct way to define a multiline string?</p><ol><li>A string enclosed in single triple quotes</li><li>A string enclosed in double triple quotes</li></ol>",
+        "options": [
+          {
+            "name": "<p>1 only&nbsp;</p>"
+          },
+          {
+            "name": "<p>2 only</p>"
+          },
+          {
+            "name": "<p>1 and 2&nbsp;&nbsp;</p>"
+          },
+          {
+            "name": "<p>&nbsp;None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63da89410e5fcb3b238612bc",
+        "title": "<p>What will be the output of the following code:&nbsp;</p><p>&nbsp;</p><p>Name = \u2018pwskills\u2019</p><p>Name[0] = \u2018P\u2019</p>",
+        "options": [
+          {
+            "name": "<p>pwskills</p>"
+          },
+          {
+            "name": "<p>&nbsp;Pwskills&nbsp;&nbsp;</p>"
+          },
+          {
+            "name": "<p>TypeError</p>"
+          },
+          {
+            "name": "<p>&nbsp;Ppwskills&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63da89410e5fcb05468612bd",
+        "title": "<p>&nbsp;What will be the output of the following code:</p><p>&nbsp;</p><p>\u2018pwskills\u2019.upper().lower().isupper()</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;False</p>"
+          },
+          {
+            "name": "<p>&nbsp;PWSKILLS&nbsp;</p>"
+          },
+          {
+            "name": "<p>&nbsp;True</p>"
+          },
+          {
+            "name": "<p>&nbsp;pwskills&nbsp;</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-01T15:46:09.023Z"
+  },
+  {
+    "_id": "63f23a1bff47667f71dc9d57",
+    "title": " Flask quiz",
+    "quizQuestions": [
+      {
+        "_id": "63f23a1bff4766ddf4dc9d58",
+        "title": "<p>What is Flask?</p>",
+        "options": [
+          {
+            "name": "<p>A Python library for developing web applications</p>"
+          },
+          {
+            "name": "<p>&nbsp;A JavaScript library for developing web applications</p>"
+          },
+          {
+            "name": "<p>A Ruby library for developing web applications</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f23a1bff47660f4ddc9d59",
+        "title": "<p>What is the main feature of Flask?</p>",
+        "options": [
+          {
+            "name": "<p>Lightweight and simple to use</p>"
+          },
+          {
+            "name": "<p>Robust and complex to use</p>"
+          },
+          {
+            "name": "<p>Heavyweight and simple to use</p>"
+          },
+          {
+            "name": "<p>&nbsp;Heavyweight and complex to use</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f23a1bff476671f9dc9d5a",
+        "title": "<p>What is the main advantage of using Flask over a full-stack framework like Django?</p>",
+        "options": [
+          {
+            "name": "<p>Flask is more secure than Django.</p>"
+          },
+          {
+            "name": "<p>Flask has a simpler learning curve compared to Django.</p>"
+          },
+          {
+            "name": "<p>Flask is more scalable than Django.</p>"
+          },
+          {
+            "name": "<p>none of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f23a1bff47664085dc9d5b",
+        "title": "<p>What is Flask in Python used for?</p>",
+        "options": [
+          {
+            "name": "<p>Data Visualization</p>"
+          },
+          {
+            "name": "<p><strong>&nbsp;</strong>Gaming Development&nbsp;</p>"
+          },
+          {
+            "name": "<p>&nbsp;Machine Learning</p>"
+          },
+          {
+            "name": "<p>&nbsp;Web Development</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f23a1bff476649f9dc9d5c",
+        "title": "<p>What is app routing in Flask?</p>",
+        "options": [
+          {
+            "name": "<p>It is a way to handle user authentication in Flask.</p>"
+          },
+          {
+            "name": "<p>&nbsp;It is a method to store and retrieve data from a database in Flask.</p>"
+          },
+          {
+            "name": "<p>It is a process of mapping URLs to Python functions in a Flask application.</p>"
+          },
+          {
+            "name": "<p>&nbsp;It is a way to create and manage sessions in Flask.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f23a1bff4766ab25dc9d5d",
+        "title": "<p>What is the correct syntax to define a URL route in Flask?</p>",
+        "options": [
+          {
+            "name": "<p><strong>&nbsp;</strong>@app.route('/')</p>"
+          },
+          {
+            "name": "<p>&nbsp;app.route('/')</p>"
+          },
+          {
+            "name": "<p>&nbsp;app.add_route('/')</p>"
+          },
+          {
+            "name": "<p>none of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63f23a1bff4766b636dc9d5e",
+        "title": "<p>How do you specify a URL parameter with a default value in Flask?</p>",
+        "options": [
+          {
+            "name": "<p>@app.route('/&lt;param=default&gt;')</p>"
+          },
+          {
+            "name": "<p>&nbsp;@app.route('/&lt;param&gt;=default')</p>"
+          },
+          {
+            "name": "<p>&nbsp;@app.route('/&lt;param&gt;', defaults={'param': 'default'})</p>"
+          },
+          {
+            "name": "<p>none of the above</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-19T15:02:51.863Z"
+  },
+  {
+    "_id": "63de53bc194b22913ae3e146",
+    "title": "Feb 3 ,Python quiz",
+    "quizQuestions": [
+      {
+        "_id": "63de53bc194b22111ce3e147",
+        "title": "<p>What is the purpose of a function in Python?</p>",
+        "options": [
+          {
+            "name": "<p>To break up a program into smaller, reusable pieces of code</p>"
+          },
+          {
+            "name": "<p>&nbsp;To store data in memory</p>"
+          },
+          {
+            "name": "<p>To perform a specific task or set of tasks</p>"
+          },
+          {
+            "name": "<p>To control the flow of a program</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63de53bc194b22d265e3e148",
+        "title": "<p>What is the syntax for defining a function in Python?</p>",
+        "options": [
+          {
+            "name": "<p>define function_name(arguments):</p>"
+          },
+          {
+            "name": "<p>function function_name(arguments):</p>"
+          },
+          {
+            "name": "<p>def function_name(arguments)</p>"
+          },
+          {
+            "name": "<p>&nbsp;create function_name(arguments):</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63de53bc194b2231d3e3e149",
+        "title": "<p>What are parameter passing in Python?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;The process of sending data to a function as input</p>"
+          },
+          {
+            "name": "<p>&nbsp;The process of storing data in memory</p>"
+          },
+          {
+            "name": "<p>The process of returning data from a function</p>"
+          },
+          {
+            "name": "<p>&nbsp;The process of manipulating data in a function</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63de53bc194b22420fe3e14a",
+        "title": "<p>What is the purpose of iterators in Python?</p>",
+        "options": [
+          {
+            "name": "<p>To repeat a block of code a specified number of times</p>"
+          },
+          {
+            "name": "<p><strong>&nbsp;</strong>To allow for efficient access to elements in a sequence one at a time</p>"
+          },
+          {
+            "name": "<p>To store data in memory</p>"
+          },
+          {
+            "name": "<p>To manipulate data in a function</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63de53bc194b223c8fe3e14b",
+        "title": "<p>What is a generator function in Python?</p>",
+        "options": [
+          {
+            "name": "<p>A function that generates a sequence of values</p>"
+          },
+          {
+            "name": "<p>&nbsp;A function that creates an iterator</p>"
+          },
+          {
+            "name": "<p>A function that performs a specific task or set of tasks</p>"
+          },
+          {
+            "name": "<p>&nbsp;A function that breaks up a program into smaller, reusable pieces of code</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63de53bc194b2262cae3e14c",
+        "title": "<p>What is the difference between a normal function and a generator function in Python?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;Normal functions return a single value, while generator functions return an iterator</p>"
+          },
+          {
+            "name": "<p>Normal functions use the return statement, while generator functions use the yield statement</p>"
+          },
+          {
+            "name": "<p>Normal functions can only be used once, while generator functions can be used multiple times</p>"
+          },
+          {
+            "name": "<p>&nbsp;Normal functions can only return numbers, while generator functions can return any type of data</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-04T12:46:52.852Z"
+  },
+  {
+    "_id": "63e11713194b2283f1e42f23",
+    "title": " Python Task quiz",
+    "quizQuestions": [
+      {
+        "_id": "63e11713194b226c28e42f24",
+        "title": "<p>&nbsp;What is the output of the following Python code?</p><p>x = 10</p><p>y = 20</p><p>if x == 10:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;x = x + y</p><p>print(x)</p>",
+        "options": [
+          {
+            "name": "<p>10</p>"
+          },
+          {
+            "name": "<p>20</p>"
+          },
+          {
+            "name": "<p>&nbsp;30</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e11713194b2267b8e42f25",
+        "title": "<p>What will be the output of the following code?</p><p>def print_square(x):</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(x * x)</p><p>print_square(10)</p>",
+        "options": [
+          {
+            "name": "<p>100</p>"
+          },
+          {
+            "name": "<p>10</p>"
+          },
+          {
+            "name": "<p>&nbsp;'10'</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e11713194b22481fe42f26",
+        "title": "<p>What is the output of the following code?</p><p>class Car:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;def __init__(self, color, model):</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.color = color</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.model = model</p><p>&nbsp;&nbsp;&nbsp;&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;def get_color(self):</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return self.color</p><p>&nbsp;</p><p>my_car = Car(\"red\", \"sedan\")</p><p>print(my_car.get_color())</p>",
+        "options": [
+          {
+            "name": "<p>red</p>"
+          },
+          {
+            "name": "<p>sedan</p>"
+          },
+          {
+            "name": "<p>Car</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e11713194b2204dde42f27",
+        "title": "<p>What is the output of the following code?</p><p>my_dict = {\"a\": 1, \"b\": 2, \"c\": 3}</p><p>my_set = set(my_dict.keys())</p><p>my_set.add(\"d\")</p><p>print(my_dict)</p>",
+        "options": [
+          {
+            "name": "<p>{'a': 1, 'b': 2, 'c': 3, 'd': None}</p>"
+          },
+          {
+            "name": "<p>&nbsp;{'a': 1, 'b': 2, 'c': 3}</p>"
+          },
+          {
+            "name": "<p>{'a': 1, 'b': 2, 'c': 3, 'd'}</p>"
+          },
+          {
+            "name": "<p>Error</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e11713194b2245ebe42f28",
+        "title": "<p>What is the output of the following code?</p><p>x = 10</p><p>if x &lt; 20:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(\"x is less than 20\")</p><p>else:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(\"x is greater than or equal to 20\")</p>",
+        "options": [
+          {
+            "name": "<p><strong>&nbsp;</strong>x is less than 20</p>"
+          },
+          {
+            "name": "<p>&nbsp;x is greater than or equal to 20</p>"
+          },
+          {
+            "name": "<p>&nbsp;x</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e11713194b2251f7e42f29",
+        "title": "<p>What is the mutable data type in Python?</p>",
+        "options": [
+          {
+            "name": "<p>Tuple</p>"
+          },
+          {
+            "name": "<p>&nbsp;List</p>"
+          },
+          {
+            "name": "<p>Numbers</p>"
+          },
+          {
+            "name": "<p>String</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e11713194b226a02e42f2a",
+        "title": "<p>What does the range() function do in a for loop?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;Determines the number of times the loop will run</p>"
+          },
+          {
+            "name": "<p>Specifies the values that the loop variable will take on</p>"
+          },
+          {
+            "name": "<p>&nbsp;Determines the starting and ending values of the loop</p>"
+          },
+          {
+            "name": "<p><strong>&nbsp;</strong>All of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e11713194b2296d7e42f2b",
+        "title": "<p>What is the output of the following code?</p><p>i = 1</p><p>while i &lt; 5:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(i)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;i = i + 1</p>",
+        "options": [
+          {
+            "name": "<p>0 1 2 3 4</p>"
+          },
+          {
+            "name": "<p>1 2 3 4</p>"
+          },
+          {
+            "name": "<p>5 6 7 8</p>"
+          },
+          {
+            "name": "<p>&nbsp;1 2 3 4 5</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-06T15:04:51.666Z"
+  },
+  {
+    "_id": "63e90f67194b220e8fe5b53a",
+    "title": " Exception Handling quiz",
+    "quizQuestions": [
+      {
+        "_id": "63e90f67194b224721e5b53b",
+        "title": "<p>What is the purpose of the try and except keywords in Python?</p>",
+        "options": [
+          {
+            "name": "<p>To handle errors and exceptions in a program.</p>"
+          },
+          {
+            "name": "<p>To perform conditional operations.</p>"
+          },
+          {
+            "name": "<p>To create user-defined functions.</p>"
+          },
+          {
+            "name": "<p>To import modules.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e90f67194b220b03e5b53c",
+        "title": "<p>What happens if an exception is raised in the try block?</p><p>&nbsp;</p>",
+        "options": [
+          {
+            "name": "<p>The except block will be executed.</p>"
+          },
+          {
+            "name": "<p>&nbsp;The program will continue to run.</p>"
+          },
+          {
+            "name": "<p>The program will stop executing.</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e90f67194b22f8f7e5b53d",
+        "title": "<p>What happens if no exception is raised in the try block?</p><p>&nbsp;</p>",
+        "options": [
+          {
+            "name": "<p>The except block will be executed.</p>"
+          },
+          {
+            "name": "<p>&nbsp;The program will continue to run.</p>"
+          },
+          {
+            "name": "<p>The program will stop executing.</p>"
+          },
+          {
+            "name": "<p>&nbsp;None of the above.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e90f67194b225c77e5b53e",
+        "title": "<p>What is the use of the finally keyword in exception handling?</p>",
+        "options": [
+          {
+            "name": "<p>To handle exceptions and errors.</p>"
+          },
+          {
+            "name": "<p>To specify a block of code that will be executed regardless of whether an exception was raised or not.</p>"
+          },
+          {
+            "name": "<p>To create user-defined functions.</p>"
+          },
+          {
+            "name": "<p>None of the above.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e90f67194b225ba6e5b53f",
+        "title": "<p>What is a custom exception in Python?</p>",
+        "options": [
+          {
+            "name": "<p><strong>&nbsp;</strong>A built-in exception</p>"
+          },
+          {
+            "name": "<p>A user-defined exception</p>"
+          },
+          {
+            "name": "<p><strong>&nbsp;</strong>Both A and B</p>"
+          },
+          {
+            "name": "<p>none of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e90f67194b22b91de5b540",
+        "title": "<p>can you create a custom exception in Python?</p>",
+        "options": [
+          {
+            "name": "<p>By using the raise statement</p>"
+          },
+          {
+            "name": "<p>By using the assert statement</p>"
+          },
+          {
+            "name": "<p>Both A and B</p>"
+          },
+          {
+            "name": "<p>none of the above</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-12T16:10:15.353Z"
+  },
+  {
+    "_id": "63fce096182c6709784bbb21",
+    "title": "Numpy quiz",
+    "quizQuestions": [
+      {
+        "_id": "63fce096182c671d224bbb22",
+        "title": "<p>What is the purpose of indexing and slicing in Numpy?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;To change elements in a Numpy array</p>"
+          },
+          {
+            "name": "<p>To extract specific elements or sub-arrays from a Numpy array</p>"
+          },
+          {
+            "name": "<p>To add elements to a Numpy array</p>"
+          },
+          {
+            "name": "<p>To recreate the array</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fce096182c67dfcd4bbb23",
+        "title": "<p>How can you access elements in a 2D Numpy array using indexing and slicing?</p>",
+        "options": [
+          {
+            "name": "<p>By using one set of square brackets</p>"
+          },
+          {
+            "name": "<p>By using two sets of square brackets</p>"
+          },
+          {
+            "name": "<p>By using parentheses</p>"
+          },
+          {
+            "name": "<p>By using two sets of parentheses</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fce096182c6712634bbb24",
+        "title": "<p>How to perform element-wise multiplication of two arrays of different shapes using broadcasting?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;np.multiply(array1, array2)</p>"
+          },
+          {
+            "name": "<p>np.dot(array1, array2)</p>"
+          },
+          {
+            "name": "<p>array1 * array2</p>"
+          },
+          {
+            "name": "<p>&nbsp;All of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fce096182c67dccd4bbb25",
+        "title": "<p>How to iterate over a Numpy array and modify elements based on a condition?</p>",
+        "options": [
+          {
+            "name": "<p>for i in np.nditer(array):</p><p>if i &lt; threshold:</p><p>i = 0</p>"
+          },
+          {
+            "name": "<p>&nbsp;for i in range(np.shape(array)[0]):</p><p>for j in range(np.shape(array)[1]):</p><p>if array[i][j] &lt; threshold:</p><p>array[i][j] = 0</p>"
+          },
+          {
+            "name": "<p>array[array &lt; threshold] = 0</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fce096182c6771fe4bbb26",
+        "title": "<p>How to extract all unique elements from a Numpy array?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;np.unique(array)</p>"
+          },
+          {
+            "name": "<p>&nbsp;np.distinct(array)</p>"
+          },
+          {
+            "name": "<p>np.uniqelements(array)</p>"
+          },
+          {
+            "name": "<p>&nbsp;&nbsp;All of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fce096182c6798ab4bbb27",
+        "title": "<p>What does the 'np.concatenate()' function do in NumPy?</p>",
+        "options": [
+          {
+            "name": "<p>It adds two arrays element-wise</p>"
+          },
+          {
+            "name": "<p>It merges two or more arrays into a single array</p>"
+          },
+          {
+            "name": "<p>&nbsp;It performs a dot product between two arrays</p>"
+          },
+          {
+            "name": "<p>&nbsp;It subtracts two arrays element-wise<br>&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fce096182c676dd04bbb28",
+        "title": "<p>&nbsp;Which of the following operators is used to perform element-wise multiplication of two arrays in NumPy?</p>",
+        "options": [
+          {
+            "name": "<p>+</p>"
+          },
+          {
+            "name": "<p><strong>*</strong></p>"
+          },
+          {
+            "name": "<p>&nbsp;/</p>"
+          },
+          {
+            "name": "<p>-</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fce096182c673a7d4bbb29",
+        "title": "<p>&nbsp;What does the np.char.upper() function do in NumPy?</p>",
+        "options": [
+          {
+            "name": "<p>It returns the length of each string in an array</p>"
+          },
+          {
+            "name": "<p>It sorts an array of strings in alphabetical order</p>"
+          },
+          {
+            "name": "<p>It converts each string in an array to uppercase</p>"
+          },
+          {
+            "name": "<p>It returns the index of the first occurrence of a substring in a string array</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fce096182c6753cf4bbb2a",
+        "title": "<p>Which of the following functions can be used to calculate the standard deviation of an array in NumPy?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;np.mean()</p>"
+          },
+          {
+            "name": "<p>&nbsp;np.median()</p>"
+          },
+          {
+            "name": "<p>np.var()</p>"
+          },
+          {
+            "name": "<p>&nbsp;np.std()</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fce096182c67788e4bbb2b",
+        "title": "<p>&nbsp;What does the np.power() function do in NumPy?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;It performs element-wise addition of two arrays</p>"
+          },
+          {
+            "name": "<p>&nbsp;It calculates the square root of each element in an array</p>"
+          },
+          {
+            "name": "<p>It raises each element in an array to a specified power</p>"
+          },
+          {
+            "name": "<p>&nbsp;It performs matrix multiplication of two arrays</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fce096182c6744e64bbb2c",
+        "title": "<p>&nbsp;Which of the following operators is used to perform element-wise division of two arrays in NumPy?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;+</p>"
+          },
+          {
+            "name": "<p>&nbsp;*</p>"
+          },
+          {
+            "name": "<p>&nbsp;/</p>"
+          },
+          {
+            "name": "<p>&nbsp;-</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fce096182c6785664bbb2d",
+        "title": "<p>&nbsp;What does the \u2018np.flip()\u2019 function do in NumPy?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;It reverses the order of elements in an array</p>"
+          },
+          {
+            "name": "<p>It reshapes an array into a specified shape</p>"
+          },
+          {
+            "name": "<p>&nbsp;It sorts an array in ascending order</p>"
+          },
+          {
+            "name": "<p>It returns the cumulative sum of elements in an array</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fce096182c6723c14bbb2e",
+        "title": "<p>&nbsp;What does the 'np.argsort()' function do in NumPy?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;It returns the indices that would sort an array</p>"
+          },
+          {
+            "name": "<p>&nbsp;It searches for the maximum value in an array</p>"
+          },
+          {
+            "name": "<p>&nbsp;It returns the number of occurrences of a specified element in an array</p>"
+          },
+          {
+            "name": "<p>&nbsp;It counts the number of elements in an array that satisfy a specified condition</p><p>&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fce096182c67c8c34bbb2f",
+        "title": "<p>Which of the following functions can be used to count the number of occurrences of a specified element in an array in NumPy?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;np.argmax()</p>"
+          },
+          {
+            "name": "<p>np.argsort()</p>"
+          },
+          {
+            "name": "<p>np.count_nonzero()</p>"
+          },
+          {
+            "name": "<p>&nbsp;np.flip()</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fce096182c6725394bbb30",
+        "title": "<p>What does the np.transpose() function do in NumPy?</p>",
+        "options": [
+          {
+            "name": "<p>It returns the dot product of two arrays</p>"
+          },
+          {
+            "name": "<p>&nbsp;It returns the inverse of a matrix</p>"
+          },
+          {
+            "name": "<p>&nbsp;It returns a view of the array with axes transposed</p>"
+          },
+          {
+            "name": "<p>It returns the eigenvalues of a matrix</p><p>&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fce096182c673fce4bbb31",
+        "title": "<p>Which of the following functions can be used to swap the byte order of an array in NumPy?</p>",
+        "options": [
+          {
+            "name": "<p>np.ndarray.copy()</p>"
+          },
+          {
+            "name": "<p>np.dot()</p>"
+          },
+          {
+            "name": "<p>np.byteswap()</p>"
+          },
+          {
+            "name": "<p>np.diag()</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-27T16:55:50.413Z"
+  },
+  {
+    "_id": "63fa2330182c6727c14b9189",
+    "title": "Pandas Advance quiz",
+    "quizQuestions": [
+      {
+        "_id": "63fa2330182c6732bd4b918a",
+        "title": "<p>Given a Pandas DataFrame df with a column 'date', how can you create a new column 'month' that contains the month value of each date?</p>",
+        "options": [
+          {
+            "name": "<p>df['month'] = df['date'].month</p>"
+          },
+          {
+            "name": "<p>df['month'] = df['date'].apply(lambda x: x.month)</p>"
+          },
+          {
+            "name": "<p>&nbsp;df['month'] = pd.to_datetime(df['date']).month</p>"
+          },
+          {
+            "name": "<p>df['month'] = df['date'].dt.month<br>&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fa2330182c67edf34b918b",
+        "title": "<p>How can you group a Pandas DataFrame df by the 'category' column and calculate the mean of the 'value' column for each group?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;df.groupby('category').mean('value')</p>"
+          },
+          {
+            "name": "<p>df.groupby('category')['value'].mean()</p>"
+          },
+          {
+            "name": "<p>&nbsp;df.mean('category', 'value')</p>"
+          },
+          {
+            "name": "<p>&nbsp;df.mean(groupby='category', column='value')</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fa2330182c67797e4b918c",
+        "title": "<p>&nbsp;How can you create a scatter plot of two columns 'x' and 'y' in a Pandas DataFrame df?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;df.plot(x='x', y='y', kind='scatter')</p>"
+          },
+          {
+            "name": "<p>df.scatter(x='x', y='y')</p>"
+          },
+          {
+            "name": "<p>df.plot.scatter(x='x', y='y')</p>"
+          },
+          {
+            "name": "<p>&nbsp;df.plot(kind='scatter', x='x', y='y')</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fa2330182c67b5874b918d",
+        "title": "<p>&nbsp;How can you read a CSV file 'data.csv' into a Pandas DataFrame and display the first 5 rows of data?</p>",
+        "options": [
+          {
+            "name": "<p>df = pd.read_csv('data.csv', nrows=5)</p>"
+          },
+          {
+            "name": "<p>df = pd.read_csv('data.csv', skiprows=5)</p>"
+          },
+          {
+            "name": "<p>df = pd.read_csv('data.csv').head()</p>"
+          },
+          {
+            "name": "<p>df = pd.read_csv('data.csv').iloc[:5]</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fa2330182c6731424b918e",
+        "title": "<p>Which method in Pandas can be used to create a time delta object?</p>",
+        "options": [
+          {
+            "name": "<p>pd.to_timedelta()</p>"
+          },
+          {
+            "name": "<p>&nbsp;pd.timedelta()</p>"
+          },
+          {
+            "name": "<p>pd.create_timedelta()</p>"
+          },
+          {
+            "name": "<p>pd.time_delta()</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fa2330182c6723ee4b918f",
+        "title": "<p>&nbsp;How can you convert a column in a Pandas DataFrame to categorical data?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;df.convert_to_categorical()</p>"
+          },
+          {
+            "name": "<p>df.to_categorical()</p>"
+          },
+          {
+            "name": "<p>df.astype('category')</p>"
+          },
+          {
+            "name": "<p>df.categorical()</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fa2330182c6740874b9190",
+        "title": "<p>&nbsp;Which method in Pandas can be used to create a scatter plot?</p>",
+        "options": [
+          {
+            "name": "<p>df.plot(kind='scatter')</p>"
+          },
+          {
+            "name": "<p>df.plot(kind='line')</p>"
+          },
+          {
+            "name": "<p>df.plot(kind='hist')</p>"
+          },
+          {
+            "name": "<p>df.plot(kind='bar')</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63fa2330182c6753244b9191",
+        "title": "<p>&nbsp;How can you drop a column from a Pandas DataFrame?</p>",
+        "options": [
+          {
+            "name": "<p>df.drop_column('column_name')</p>"
+          },
+          {
+            "name": "<p>df.remove_column('column_name')</p>"
+          },
+          {
+            "name": "<p>df.drop('column_name', axis=1)</p>"
+          },
+          {
+            "name": "<p>&nbsp;df.remove('column_name', axis=1)</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-25T15:03:12.947Z"
+  },
+  {
+    "_id": "63e7b4f1194b220eaee5abe5",
+    "title": " Files quiz",
+    "quizQuestions": [
+      {
+        "_id": "63e7b4f1194b229c36e5abe6",
+        "title": "<p>To open a file c:\\scores.txt for reading, we use _____</p>",
+        "options": [
+          {
+            "name": "<p>infile = open(\u201cc:\\scores.txt\u201d, \u201cr\u201d)</p>"
+          },
+          {
+            "name": "<p>infile = open(\u201cc:\\\\scores.txt\u201d, \u201cr\u201d)</p>"
+          },
+          {
+            "name": "<p>infile = open(file = \u201cc:\\scores.txt\u201d, \u201cr\u201d)</p>"
+          },
+          {
+            "name": "<p>infile = open(file = \u201cc:\\\\scores.txt\u201d, \u201c<strong>r\u201d)</strong></p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e7b4f1194b2220a4e5abe7",
+        "title": "<p>Which of the following statements are true?</p>",
+        "options": [
+          {
+            "name": "<p>When you open a file for reading, if the file does not exist, an error occurs</p>"
+          },
+          {
+            "name": "<p>When you open a file for writing, if the file does not exist, a new file is created</p>"
+          },
+          {
+            "name": "<p>When you open a file for writing, if the file exists, the existing file is overwritten with the new file</p>"
+          },
+          {
+            "name": "<p>All of the mentioned</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e7b4f1194b22daf2e5abe8",
+        "title": "<p>Which one of the following is not attributes of file?</p>",
+        "options": [
+          {
+            "name": "<p>closed</p>"
+          },
+          {
+            "name": "<p>softspace</p>"
+          },
+          {
+            "name": "<p>rename</p>"
+          },
+          {
+            "name": "<p>mode</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e7b4f1194b228321e5abe9",
+        "title": "<p>Which of these class contains the methods used to write in a file?</p>",
+        "options": [
+          {
+            "name": "<p>FileStream</p>"
+          },
+          {
+            "name": "<p>FileInputStream</p>"
+          },
+          {
+            "name": "<p>BUfferedOutputStream</p>"
+          },
+          {
+            "name": "<p>FileBufferStream</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e7b4f1194b2259efe5abea",
+        "title": "<p>Which of these methods are used to read in from file?</p>",
+        "options": [
+          {
+            "name": "<p>get()</p>"
+          },
+          {
+            "name": "<p>read()</p>"
+          },
+          {
+            "name": "<p>scan()</p>"
+          },
+          {
+            "name": "<p>readFileInput()</p><p>&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e7b4f1194b22b0d2e5abeb",
+        "title": "<p>.the logging \u2026\u2026.. In python.</p>",
+        "options": [
+          {
+            "name": "<p>function</p>"
+          },
+          {
+            "name": "<p>module</p>"
+          },
+          {
+            "name": "<p>variable</p>"
+          },
+          {
+            "name": "<p>datatype</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e7b4f1194b22910ae5abec",
+        "title": "<p>which one of the following is the lowest level of logging?</p><p>&nbsp;</p>",
+        "options": [
+          {
+            "name": "<p>debug</p>"
+          },
+          {
+            "name": "<p>warming</p>"
+          },
+          {
+            "name": "<p>error</p>"
+          },
+          {
+            "name": "<p>none of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e7b4f1194b22d9a5e5abed",
+        "title": "<p>Which of the following is not a logging function in Python?</p>",
+        "options": [
+          {
+            "name": "<p>logger</p>"
+          },
+          {
+            "name": "<p>filter</p>"
+          },
+          {
+            "name": "<p>critical</p>"
+          },
+          {
+            "name": "<p>All the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e7b4f1194b22852de5abee",
+        "title": "<p>which of these is not involved in the process of debugging?</p>",
+        "options": [
+          {
+            "name": "<p>Fixing</p>"
+          },
+          {
+            "name": "<p>Isolating</p>"
+          },
+          {
+            "name": "<p>Identifying</p>"
+          },
+          {
+            "name": "<p>Testing</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e7b4f1194b222925e5abef",
+        "title": "<p>What is the purpose of of the import statement in python?</p>",
+        "options": [
+          {
+            "name": "<p>import the statement into a python program</p>"
+          },
+          {
+            "name": "<p>import the function into a python program</p>"
+          },
+          {
+            "name": "<p>import the module into a python program</p>"
+          },
+          {
+            "name": "<p>&nbsp;none of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e7b4f1194b226423e5abf0",
+        "title": "<p>How can you reload a module in Python?</p>",
+        "options": [
+          {
+            "name": "<p><strong>&nbsp;</strong>importlib.reload function.</p>"
+          },
+          {
+            "name": "<p><strong>&nbsp;</strong>import<strong>&nbsp;</strong>reload</p>"
+          },
+          {
+            "name": "<p>import logging</p>"
+          },
+          {
+            "name": "<p>none of the above</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-11T15:32:01.457Z"
+  },
+  {
+    "_id": "63e65a82194b227911e57d0c",
+    "title": " OOPs Concepts quiz",
+    "quizQuestions": [
+      {
+        "_id": "63e65a82194b22cf4ae57d0d",
+        "title": "<p>The __ symbol along with the name of the decorator function can be placed above the definition of the function to be decorated works as an alternate way for decorating a function.</p>",
+        "options": [
+          {
+            "name": "<p>#</p>"
+          },
+          {
+            "name": "<p>&nbsp;$</p>"
+          },
+          {
+            "name": "<p>&nbsp;@</p>"
+          },
+          {
+            "name": "<p>&amp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e65a82194b2205d5e57d0e",
+        "title": "<p>In the following Python code, which function is the decorator?</p><p>&nbsp;</p><p>&nbsp;</p><p>def mk(x):</p><p>&nbsp;&nbsp;&nbsp;&nbsp;def mk1():</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(\"Decorated\")</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x()</p><p>&nbsp;&nbsp;&nbsp;&nbsp;return mk1</p><p>def mk2():</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(\"Ordinary\")</p><p>p = mk(mk2)</p><p>p()</p><p>&nbsp;</p>",
+        "options": [
+          {
+            "name": "<p>p()</p>"
+          },
+          {
+            "name": "<p>mk()</p>"
+          },
+          {
+            "name": "<p>mk1()</p>"
+          },
+          {
+            "name": "<p>mk()</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e65a82194b227762e57d0f",
+        "title": "<p>Which of the following statements is true?</p>",
+        "options": [
+          {
+            "name": "<p>class is a blueprint for the object.</p>"
+          },
+          {
+            "name": "<p><strong>&nbsp;</strong>You can only make a single object from the given class.</p>"
+          },
+          {
+            "name": "<p>&nbsp;Both statements are true.</p>"
+          },
+          {
+            "name": "<p>Neither statement is true.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e65a82194b220698e57d10",
+        "title": "<p>What are the dunder (magic) methods in Python?</p><p>&nbsp;</p>",
+        "options": [
+          {
+            "name": "<p>Methods that start with a double underscore.</p>"
+          },
+          {
+            "name": "<p>Methods that start and end with a double underscore</p><p>&nbsp;</p>"
+          },
+          {
+            "name": "<p>Methods that start with a single underscore</p><p>&nbsp;</p>"
+          },
+          {
+            "name": "<p>Methods that start and end with a single underscore</p><p>&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63e65a82194b22762ee57d11",
+        "title": "<p>Methods of a class that provide access to private members of the class are called as</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;getters/setters</p>"
+          },
+          {
+            "name": "<p>repr/str_</p>"
+          },
+          {
+            "name": "<p>user-defined functions/in-built functions</p>"
+          },
+          {
+            "name": "<p>init/del</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-10T14:53:54.125Z"
+  },
+  {
+    "_id": "63db9131194b226e24e3717b",
+    "title": "30th Jan Quiz-2",
+    "quizQuestions": [
+      {
+        "_id": "63db9131194b22f43de3717c",
+        "title": "<ol><li>Which of the following are used for the loop Control in Python Programming Language?</li></ol><p>1. for</p><p>2. break</p><p>3. continue</p><p>4. pass</p>",
+        "options": [
+          {
+            "name": "<p>1 and 2</p>"
+          },
+          {
+            "name": "<p>&nbsp;1, 3 and 4</p>"
+          },
+          {
+            "name": "<p>&nbsp;1, 2, and 3</p>"
+          },
+          {
+            "name": "<p>&nbsp;2,3 and 4&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db9131194b226e7be3717d",
+        "title": "<p>Which of the following can be iterated using a for loop or a while loop?</p><p>&nbsp;</p><ol><li>String</li><li>List</li><li>Tuple</li><li>Integer</li></ol>",
+        "options": [
+          {
+            "name": "<p>1 and 2</p>"
+          },
+          {
+            "name": "<p>&nbsp;1, 3 and 4</p>"
+          },
+          {
+            "name": "<p>1, 2, and 3</p>"
+          },
+          {
+            "name": "<p>&nbsp;2,3 and 4&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db9131194b225a5be3717e",
+        "title": "<p>&nbsp;What will be the output of the following code:</p><p>&nbsp;</p><p>for course in ['Data Science Masters', 'ML', 'data science masters', 'DL']:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;if len(course)!= 2:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('PwSkills' , end=' ')</p>",
+        "options": [
+          {
+            "name": "<p>Pwskills Pwskills&nbsp;&nbsp;</p>"
+          },
+          {
+            "name": "<p>Pwskills&nbsp;&nbsp;</p>"
+          },
+          {
+            "name": "<p>Pwskills Pwskills Pwskills&nbsp;&nbsp;</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db9131194b22f8f7e3717f",
+        "title": "<p>What will be the output of the following code:</p><p>&nbsp;</p><p>sum = 0</p><p>for i in range(1,100):</p><p>&nbsp;&nbsp;&nbsp;&nbsp;sum += i</p><p>&nbsp;&nbsp;&nbsp;&nbsp;if sum &gt; 100:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</p><p>print(sum)</p>",
+        "options": [
+          {
+            "name": "<p>A number equal to 100&nbsp;&nbsp;</p>"
+          },
+          {
+            "name": "<p>A number less than 100&nbsp;&nbsp;</p>"
+          },
+          {
+            "name": "<p>A number greater than 100&nbsp;</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db9131194b228cfbe37180",
+        "title": "<p>&nbsp;What will be the output of the following code:</p><p>&nbsp;</p><p>i=0</p><p>while i&lt; 1:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print('pwskills')</p>",
+        "options": [
+          {
+            "name": "<p>Infinite loop &nbsp;</p>"
+          },
+          {
+            "name": "<p>100 times pwskills&nbsp;</p>"
+          },
+          {
+            "name": "<p>200 times pwskills&nbsp;</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db9131194b221089e37181",
+        "title": "<p>Choose the correct one for the given below statements.</p><p>&nbsp;</p><ol><li>for loop cannot be used with range().</li><li>for loop can be used with an if else statement.</li><li>for loop can be used with the break, continue and pass keywords.</li></ol>",
+        "options": [
+          {
+            "name": "<p>True, False, False</p>"
+          },
+          {
+            "name": "<p>True, True, True</p>"
+          },
+          {
+            "name": "<p>False, True, True</p>"
+          },
+          {
+            "name": "<p>False, False, False</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db9131194b2210dbe37182",
+        "title": "<p>What is the purpose of the following code?</p><p>&nbsp;</p><p>num = 2</p><p>sum = 0</p><p>while num &lt;=20:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;sum += num</p><p>&nbsp;&nbsp;&nbsp;&nbsp;num += 2</p><p>&nbsp;&nbsp;&nbsp;&nbsp;count+=1</p><p>print(sum)</p><p>&nbsp;</p>",
+        "options": [
+          {
+            "name": "<p>Sum of first 10 Even numbers</p>"
+          },
+          {
+            "name": "<p>Sum of first 10 Natural numbers</p>"
+          },
+          {
+            "name": "<p>Sum of first 10 Odd Numbers</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db9131194b2270e0e37183",
+        "title": "<p>Which of the following can be used with if-else statements to check conditions?</p><p>&nbsp;</p><ol><li>== and !=</li><li>&gt;= and &lt;=</li><li>&gt; and &lt;</li></ol>",
+        "options": [
+          {
+            "name": "<p>1,2, and 3&nbsp;</p>"
+          },
+          {
+            "name": "<p>1 and 3</p>"
+          },
+          {
+            "name": "<p>2 and 3&nbsp;</p>"
+          },
+          {
+            "name": "<p>None</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db9131194b227e47e37184",
+        "title": "<p>How many times the below program will return True?</p><p>&nbsp;</p><p>for i in 'Pwskills':</p><p>&nbsp;&nbsp;&nbsp;&nbsp;if i.lower() in ['a', 'e', 'i', 'o', 'u']:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(True)</p>",
+        "options": [
+          {
+            "name": "<p>8</p>"
+          },
+          {
+            "name": "<p>1</p>"
+          },
+          {
+            "name": "<p>3</p>"
+          },
+          {
+            "name": "<p>7</p>"
+          }
+        ]
+      },
+      {
+        "_id": "63db9131194b22af5ee37185",
+        "title": "<p>Which of the following statements is correct?</p><p>&nbsp;</p><ol><li>for loop is typically used when we know how many times the loop is required to run.</li><li>while loop repeats as long as its given condition is True.</li><li>break keyword is used to terminate a for and while loop.</li><li>pass keyword is used to skip the current iteration.</li></ol>",
+        "options": [
+          {
+            "name": "<p>1 and 2 are correct</p>"
+          },
+          {
+            "name": "<p>1, 3, and 4 are correct</p>"
+          },
+          {
+            "name": "<p>1, 2, 3, and 4 are correct</p>"
+          },
+          {
+            "name": "<p>None&nbsp;</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-02-02T10:32:17.288Z"
+  }
+]

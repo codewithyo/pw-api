@@ -21,15 +21,22 @@ class PWApi:
     def get(self, url: str) -> dict:
         """ Get JSON response from the provided PW API `URL` using `auth_key` """
         headers = {
+            'Origin': 'https://learn.pwskills.com',
+            'DNT': '1',
+            'Connection': 'keep-alive',
+            'Sec-Fetch-Dest': 'empty',
+            'Sec-Fetch-Mode': 'cors',
+            'Sec-Fetch-Site': 'same-site',
+            'Accept': 'application/json, text/plain, */*',
+            'Accept-Language': 'en-US,en;q=0.5',
+            'Referer': 'https://learn.pwskills.com/',
             'Authorization': self.auth_key,
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
         }
         r = get(url, headers=headers, timeout=3)
 
-        if r.status_code == 200:
-            return r.json()
-        else:
-            raise ValueError(f'Response has not status code of 200: {url}')
+        r.raise_for_status()
+        return r.json()
 
     def _id_from_url(self, url: str) -> str:
         return url.rsplit('/', 1)[-1]
@@ -93,7 +100,7 @@ class PWApi:
         return res
 
     def url_from_id(self, *id: str) -> list[str]:
-        url = f'https://api.pwskills.com/v1/course/{self.cid}/'
+        url = f'https://api.pwskills.com/v1/learn/lesson/course/{self.cid}/'
         ids = []
         for i in id:
             ids.append(url + i)
@@ -104,15 +111,19 @@ class PWApi:
         fp = self.generate_fp('assignment')
         data: list[dict] = load(open(fp))
 
-        for d in data:
-            if d['solution'] is not None:
-                if not force_update:
-                    continue
+        try:
+            for d in data:
+                if d['solution'] is not None:
+                    if not force_update:
+                        continue
 
-            url = self.url_from_id(d['_id'])[0]
-            new_link = self.get_assignment_data(url)['solution']
-            if new_link is not None:
-                d['solution'] = new_link
-
-        # Dump the updated data
-        dump(data, open(fp, 'w'), indent=2)
+                url = self.url_from_id(d['_id'])[0]
+                sleep(3)
+                new_link = self.get_assignment_data(url)['solution']
+                if new_link is not None:
+                    d['solution'] = new_link
+                    print(new_link)
+        except Exception:
+            raise
+        finally:
+            dump(data, open(fp, 'w'), indent=2)

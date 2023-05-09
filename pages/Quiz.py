@@ -1,11 +1,12 @@
 import re
-from json import load
-from pathlib import Path
 
 import streamlit as st
 
-from utils import Quiz
-from utils.utils import get_all_files
+from utils import courses_dict
+from utils.pw import Quiz
+from utils.pw.parser import QuizQuestions
+
+st_msg = st.empty()
 
 # --- --- CSS --- --- #
 st.write("""<style>
@@ -24,43 +25,45 @@ st.write("""<style>
              display: none;
          }
          label[data-baseweb="radio"] div {
-             font-family: 'Poppins' !important;
+             font-family: monospace !important;
          }
          </style>""", unsafe_allow_html=True)
 
+with st.sidebar:
+    cid = str(st.selectbox('Select Course', courses_dict.keys(),
+                           format_func=lambda x: courses_dict[x],
+                           ))
 
-def selected_quiz(path: Path):
-    all_files = get_all_files('data', 'quiz')
+    try:
+        questions = Quiz.get_all_title_with_id(Quiz.generate_fp(cid))
+    except FileNotFoundError:
+        st_msg.error(f'Quiz for {courses_dict[cid]} course not available.')
+        st.stop()
 
-    options = [i.stem for i in all_files]
-    sl = str(st.sidebar.selectbox('Select Quiz', options))
+    quiz_id = str(st.selectbox(
+        'Select Quiz', questions.keys(),
+        format_func=lambda x: questions[x],
+    ))
 
-    parent = all_files[options.index(sl)].parent
-    return Path.joinpath(parent, sl+'.json')
-
-
-quiz = selected_quiz(Path('data/quiz'))
-
-q = Quiz(load(open(quiz))['data'])
+q_obj = Quiz.from_id(Quiz.generate_fp(cid), quiz_id)
 
 
-def write_question(questions: list[tuple]):
-    res: list[str] = []
+def write_question(questions: QuizQuestions):
+    res: list = []
     for n, question in enumerate(questions, 1):
         sl = st.radio(re.sub(r'<.*?>', '', fr'{n}\. {question[0]}'),
-                      ['']+[re.sub(r'<.*?>|&nbsp;', ' ', i) for i in question[1:]])
-        res.append(str(sl))
+                      ['']+[re.sub(r'<.*?>|&nbsp;', '', i) for i in question[1]])
+        res.append(sl)
     return res
 
 
-st.error('For now evaluation of quizzes is not available.', icon='🚨')
-st.metric(q.id, q.title)
-st.write(f'##### **:red[Date :]** :green[{q.date_created:%d %h, %y}]')
-st.write(f'##### :red[Marks :] :green[{q.marks}]')
+# st.warning('Quiz evaluation is not available.')
+st.metric(q_obj.id_, q_obj.title)
+st.write(f'##### **:red[Date :]** :green[{q_obj.date_created:%d %h, %y}]')
+st.write(f'##### **:red[Marks :]** :green[{q_obj.marks}]')
 
 '---'
-r = write_question(q.questions())
-
+r = write_question(q_obj.questions())
 '---'
-'### You Selected'
+f'### :red[{q_obj.title}] - :green[{q_obj.date_created:%d %b, %Y}]'
 st.write(r)
