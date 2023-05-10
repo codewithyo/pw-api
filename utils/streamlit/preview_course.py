@@ -123,7 +123,8 @@ class PreviewCourse(BaseModel):
         df['date'] = pd.to_datetime(
             df['parentTitle']
             .str.rsplit(r'23', n=1).str.get(0).add('23')
-            .str.replace(r'^\d{1,2} - ', '', regex=True), errors='coerce')
+            .str.replace(r'^\d{1,2} - ', '', regex=True),
+            format="%d %b'%y", errors='coerce')
 
         # Remove date sub-string from parentTitle
         df['parentTitle'] = (df['parentTitle']
@@ -160,7 +161,8 @@ class PreviewCourse(BaseModel):
                                                    .str.extract(r"(\d{1,2} \w{3,5}'23)")[0])
 
         # Convert date column data type
-        project_df['date'] = project_df['date'].astype('datetime64')
+        project_df['date'] = pd.to_datetime(project_df['date'],
+                                            format="%d %b'%y", errors='coerce')
 
         # Filter parenTitle
         project_df['parentTitle'] = (project_df['parentTitle']

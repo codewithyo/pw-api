@@ -1,22 +1,21 @@
 import logging
-from json import load
 
 import pandas as pd
 import streamlit as st
 from requests import get
 
 import utils.logger
+from utils import courses_dict
 from utils.logger import LoggingMessage
 from utils.streamlit.preview_course import PreviewCourse
-
-courses_dict: dict = load(open('data/courses/all_courses_dict.json'))
 
 # Set page config
 st.set_page_config('Preview Courses', '🗂️', 'wide')
 
 # --- --- Sidebar --- --- #
 with st.sidebar:
-    sl = str(st.selectbox('Select Course', courses_dict.keys()))
+    cid = str(st.selectbox('Select Course', courses_dict.keys(),
+                           format_func=lambda x: courses_dict[x]))
     radio = st.radio('Select Page', ['Main', 'Curriculum', 'Projects'],
                      label_visibility='hidden')
 
@@ -34,7 +33,7 @@ def get_preview_course_object(id: str):
 
 
 # PreviewCourse Instance
-pc_dict = get_preview_course_object(courses_dict[sl])
+pc_dict = get_preview_course_object(cid)
 pc = PreviewCourse(**pc_dict)
 
 
@@ -47,7 +46,7 @@ def display_curr_details(df: pd.DataFrame, pat: str):
             # Get date
             date = new_df['date'].mean()
 
-            if date:
+            if type(date) != type(pd.NaT):
                 exp = st.expander(f'🗂️ {i} - **{date:%d %B, %Y}**')
             else:
                 exp = st.expander(f'🗂️ {i}')
@@ -58,10 +57,6 @@ def display_curr_details(df: pd.DataFrame, pat: str):
 
 match radio:
     case 'Main':
-        st.write('For detailed analysis head to [Jupyter Notebook](\
-                https://github.com/arv-anshul/working-with-pw-api/blob/main/analysis/_course_analysis.ipynb).')
-
-        # st.metric(courses_dict[sl], pc.title)
         st.title(pc.title)
         f'###### :red[Language :] :green[{pc.courseMetas[0].overview.language.capitalize()}]'
         f'###### :red[Duration :] :green[{pc.courseMetas[0].duration}]'
@@ -108,28 +103,24 @@ match radio:
                 '---'
 
     case 'Curriculum':
-        st.title(f'Curriculum of :red[{pc.title}] Course.')
-
         df = pc.curriculum_df()
 
-        st.metric(courses_dict[sl], pc.title)
-        st.write(
-            f":red[Sections in Course:] :green[{df['parentTitle'].nunique()}]")
-        st.write(
-            f":red[Lessons in Course:] :green[{df['childTitle'].nunique()}]")
-
+        st.title(f'Curriculum of :red[{pc.title}]')
+        l, r = st.columns([0.2, 0.8])
+        l.write(f':red[No. of Sections:] :green[{df.parentTitle.nunique()}]')
+        r.write(f':red[No. of Lessons:] :green[{df.childTitle.nunique()}]')
         st.write('---')
 
+        # --- --- Form --- --- #
         form = st.form('curriculum_choice')
         choice = form.text_input('Enter Section Name')
-
         if form.form_submit_button():
             display_curr_details(df, choice)
+        else:
+            display_curr_details(df, '')
 
     case 'Projects':
-
-        st.metric(courses_dict[sl], pc.title)
-        st.write('---')
+        st.title(pc.title)
         try:
             df = pc.projects_df()
         except ValueError as e:
@@ -154,11 +145,13 @@ match radio:
 
             st.write('---')
 
+            # --- --- Form --- --- #
             form = st.form('project_choice')
             choice = form.text_input('Enter Parent Project Name')
-
             if form.form_submit_button():
                 display_curr_details(df, choice)
+            else:
+                display_curr_details(df, '')
 
     case _:
         st.error('Nothing Selected!!')
