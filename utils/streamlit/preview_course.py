@@ -1,5 +1,3 @@
-""" Pydantic model for preview courses. """
-
 from __future__ import annotations
 
 from typing import List, Optional
@@ -8,29 +6,9 @@ import pandas as pd
 from pydantic import BaseModel
 
 
-class Seo(BaseModel):
-    keywords: str
-
-
 class Pricing(BaseModel):
     IN: int
-    US: int
     discount: float
-    isFree: bool
-
-
-class ClassTimings(BaseModel):
-    batchName: Optional[str]
-    doubtClearing: Optional[str]
-    startDate: str
-    timings: str
-
-
-class MobilePricing(BaseModel):
-    IN: Optional[int] = None
-    US: Optional[int] = None
-    discount: Optional[int] = None
-    isFree: bool
 
 
 class Social(BaseModel):
@@ -47,7 +25,6 @@ class Img(BaseModel):
 
 
 class InstructorsDetail(BaseModel):
-    _id: str
     name: str
     social: Social
     img: Img
@@ -63,39 +40,18 @@ class Overview(BaseModel):
 
 class CourseMeta(BaseModel):
     instructors: List[str]
-    _id: str
     certificateBenchmark: int
-    courseId: str
     overview: Overview
     curriculum: list[dict]
     projects: list[dict]
-    createdAt: str
-    updatedAt: str
-    duration: Optional[str] = 'N/A'
+    duration: str = 'N/A'
 
 
 class PreviewCourse(BaseModel):
     _id: str
-    isJobGuaranteeProgram: bool
-    isJobAssistanceProgram: bool
-    active: bool
-    platformType: str
-    tags: List[str]
-    labPlans: List
     title: str
-    description: str
-    mode: str
-    seo: Seo
     pricing: Pricing
-    batches: List
-    faq: List
-    createdAt: str
-    updatedAt: str
     img: str
-    categoryId: str
-    classTimings: ClassTimings
-    mobilePricing: MobilePricing
-    videoURL: Optional[str]
     instructorsDetails: List[InstructorsDetail]
     courseMetas: List[CourseMeta]
 

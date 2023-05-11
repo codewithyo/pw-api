@@ -14,21 +14,17 @@ class Img(BaseModel):
 
 
 class User(BaseModel):
-    _id: str
     firstName: str
     lastName: str
     img: Optional[Img] = None
 
 
 class Submission(BaseModel):
-    _id: str
     assignmentsMarkedCount: int
     totalAssignmentsScore: int
-    userId: str
 
 
 class QuizAnalytic(BaseModel):
-    _id: str
     totalPoints: int
     firstName: str
     lastName: str

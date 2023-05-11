@@ -68,7 +68,7 @@ try:
 except KeyError as e:
     st.title('This course has not any analytics.')
 else:
-    st.metric(cid, courses_dict[cid])
+    st.title(courses_dict[cid])
 
     resource_type_count = lc['type'].value_counts().to_dict()
     total_assignment_points = int(lc['totalPointsInAssignment'].sum())
@@ -158,7 +158,12 @@ else:
         df = pd.concat([df1, df2], axis=1)
 
         col_for_table.table(
-            df[['Name', 'assignmentsMarkedCount', 'totalAssignmentsScore']].loc[3:]
+            (df[['Name', 'assignmentsMarkedCount', 'totalAssignmentsScore']]
+             .rename(columns={
+                 'assignmentsMarkedCount': 'Marked',
+                 'totalAssignmentsScore': 'Total Score',
+             })
+             .loc[3:])
         )
 
     elif radio == 'Quiz Analytics':
