@@ -1,23 +1,26 @@
 import logging
-from json import load, loads
+from json import loads
 
+import pandas as pd
 import streamlit as st
 from bs4 import BeautifulSoup
 from matplotlib import pyplot as plt
 from requests import get
 
-import utils.logger
-from utils import LiveCourse
+from utils import LiveCourse, courses_dict
 from utils.logger import LoggingMessage
 
-courses_dict: dict = load(open('data/courses/all_courses_dict.json'))
+plt.style.use('ggplot')
+
 
 # Set page config
 st.set_page_config('Preview Courses', '🗂️', 'wide')
 
 # --- --- Sidebar --- --- #
 with st.sidebar:
-    sl = str(st.selectbox('Select Course', courses_dict.keys()))
+    cid = str(st.selectbox('Select Course', courses_dict.keys(),
+                           format_func=lambda x: courses_dict[x]))
+    course_name = courses_dict[cid]
     radio = st.radio('Select Page', ['Overview', 'Topics Resource', 'Extra Resource'],
                      label_visibility='hidden')
 
@@ -44,11 +47,11 @@ def get_live_course_dict(course_name: str, course_id: str):
 
 
 # LiveCourse Instance
-lc_dict = get_live_course_dict(sl, courses_dict[sl])
+lc_dict = get_live_course_dict(course_name, cid)
 lc = LiveCourse(**lc_dict)
 
 # Merged section and lesson data as df
-df = lc.merged_df(courses_dict[sl])
+df = lc.merged_df(cid)
 
 
 def display_curr_details(title: str):
@@ -92,16 +95,14 @@ def display_curr_details(title: str):
 
 match radio:
     case 'Overview':
-        st.write(f'For detailed analysis head to [Jupyter Notebook.](\
-            https://github.com/arv-anshul/working-with-pw-api/blob/main/analysis/live_course_analysis.ipynb)')
-        st.title(f'Overview of :red[{sl}] course.')
+        st.title(f'Overview of :red[{course_name}] course')
 
         # Quiz and Assignment details
         col1, col2, col3, col4 = st.columns(4)
         try:
             total_quiz_ques = df['totalQuestionsInQuiz'].sum()
             total_asg_points = df['totalPointsInAssignment'].sum()
-            total_video_duration = round(df['duration'].sum() / 3600, 2)
+            total_video_duration = round(df['duration'].sum() / 3600)
         except KeyError:
             total_quiz_ques = 0
             total_asg_points = 0
@@ -109,7 +110,8 @@ match radio:
 
         col1.metric('No. of questions in Quiz', int(total_quiz_ques))
         col2.metric('Total Assignments points', int(total_asg_points))
-        col3.metric('Total Duration of videos in course', total_video_duration)
+        col3.metric('Duration of videos in course',
+                    f'{total_video_duration} hours')
 
         # Dates metrics
         max_date = df['date'].max()
@@ -127,15 +129,14 @@ match radio:
         st.write('---')
         # Plot course resource count plot
         fig, ax = plt.subplots()
-        df['type'].value_counts().plot(kind='bar', ax=ax,
-                                       title='Distribution of resources in the Course',
-                                       xlabel='Resources', ylabel='Count',
-                                       figsize=(6, 4))
-        fig_col1, fig_col2 = st.columns(2)
-        fig_col1.pyplot(fig)
+        df['type'].value_counts().plot(kind='barh', ax=ax,
+                                       title='Distribution of course resources',
+                                       ylabel='Resources', xlabel='Count',
+                                       figsize=(10, 3), grid=False)
+        st.pyplot(fig)
 
     case 'Topics Resource':
-        st.title(f'Resources of {sl} course.')
+        st.title(f'Resources of :red[{course_name}] course')
 
         form = st.form('Section Resources')
         title = form.selectbox('Select Course Section',
@@ -144,21 +145,14 @@ match radio:
             display_curr_details(str(title))
 
     case 'Extra Resource':
-        st.title(f'Extra Resourses in {sl} course.')
+        st.title(f'Extra Resourses in :red[{course_name}] course')
 
-        # new_df includes sectionResources type
         new_df = df.query('type=="sectionResource"')
-
-        # One expander for every section
         for i in new_df['sectionsTitle'].unique():
             sl_df = new_df.query('sectionsTitle==@i')
-
-            # Get date to display
             date = sl_df['date'].mean()
-
-            text = f'🗂️ {i} - **{date:%d %h, %y}**' if date else f'🗂️ {i}'
+            text = f'🗂️ {i}' if date else f'🗂️ {i}'
 
             with st.expander(text):
-
                 for _, title, url in sl_df[['lessonsTitle', 'url']].itertuples():
                     st.write(f'- [{title}]({url})')

@@ -26,10 +26,11 @@ class LiveCourse(BaseModel):
         sections['date'] = pd.to_datetime(
             (sections['title']
              .str.rsplit('23', n=1).str.get(0).add('23')
-             .str.replace(r"' 23|'23| ' 23", ' 2023', regex=True)
-             .str.replace(r'^(23)$', '', regex=True)
-             .str.replace(r'^\d{1,2} - ', '', regex=True)
-             ), errors='coerce').bfill()
+             .str.replace(r" ?' ?23", ' 23', regex=True)
+             .str.replace(r'^23$', '', regex=True)
+             .str.replace(r'.*- ?', '', regex=True)
+             .str.replace(r'st|th|rd', '', regex=True)
+             ), format='%d %b %y', errors='coerce').bfill()
 
         # Clean title column
         sections['title'] = (sections['title']
