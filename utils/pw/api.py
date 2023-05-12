@@ -55,14 +55,19 @@ class PWApi:
         fp = self.generate_fp(type)
         stored_ids = self.load_downloaded_ids(fp) if fp.exists() else []
         res: list = load(open(fp))
-        for url in url_list:
-            sleep(wait)
-            if self._id_from_url(url) not in stored_ids:
-                if type == 'quiz':
-                    res.append(self.get_quiz_data(url))
-                else:
-                    res.append(self.get_assignment_data(url))
-        dump(res, open(fp, 'w'), indent=2)
+        try:
+            for url in url_list:
+                sleep(wait)
+                if self._id_from_url(url) not in stored_ids:
+                    if type == 'quiz':
+                        res.append(self.get_quiz_data(url))
+                    else:
+                        res.append(self.get_assignment_data(url))
+        except Exception:
+            raise
+        finally:
+            res = sorted(res, key=lambda x: x['createdAt'])
+            dump(res, open(fp, 'w'), indent=2)
 
     def load_downloaded_ids(self, fp: Path) -> list[str]:
         """ Returns ID of all downloaded Quizzes and Assignments. """
