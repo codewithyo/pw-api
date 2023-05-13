@@ -1,0 +1,872 @@
+[
+  {
+    "_id": "63da8af70e5fcb946686131d",
+    "title": "30th Jan Python Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1hyD9pv5dlwP2dnIkvfvyw2CHSECrJw2x/view?usp=sharing"
+    },
+    "solution": "https://docs.google.com/document/d/1vcHdP_bqvx7R5n2fiYTFhQYEmyH2K7duYCysyaqadf0/edit?usp=sharing",
+    "createdAt": "2023-02-01T15:53:27.260Z"
+  },
+  {
+    "_id": "63da8b150e5fcbe7d6861328",
+    "title": "29th Jan Python  Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1aMfiMF9iqbXT5XLuLHS-qMq_tC_PkDEs/view?usp=share_link"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/29th%20Jan%20Assignment_Data_Science_Masters.ipynb",
+    "createdAt": "2023-02-01T15:53:57.755Z"
+  },
+  {
+    "_id": "63dbb805194b22dafae37d87",
+    "title": "Tuple, Set & Dict Assignment",
+    "data": {
+      "maxPoints": 80,
+      "url": "https://drive.google.com/file/d/1CEHxdCxe84bz-2vn059PQTv2APIsk12Y/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/Assignment_2%20(Tuple%2C%20set%20and%20dict).ipynb",
+    "createdAt": "2023-02-02T13:17:57.109Z"
+  },
+  {
+    "_id": "63dce6a2194b22aa51e3a7fe",
+    "title": "Functions Assignment",
+    "data": {
+      "maxPoints": 70,
+      "url": "https://drive.google.com/file/d/1XSaezX1ChhjPIyneNElkR7CRgS28RWKn/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/3rd%20Feb%20Assignment%20Functions.ipynb",
+    "createdAt": "2023-02-03T10:49:06.629Z"
+  },
+  {
+    "_id": "63de3f8b194b2279d2e3dd96",
+    "title": "Python Assignment",
+    "data": {
+      "maxPoints": 60,
+      "url": "https://drive.google.com/file/d/1eTprnAgMQwfftn7w2gg0-nvSV-eb2FE2/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/Assignment_lambda_function.ipynb",
+    "createdAt": "2023-02-04T11:20:43.018Z"
+  },
+  {
+    "_id": "63dfb5fc194b223210e3ef4f",
+    "title": "OOPS Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1vaRzja9zRf2UqKKwRn5xMX1ORy2qESWL/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/5th%20Feb%20Class%20Assignment%20.ipynb",
+    "createdAt": "2023-02-05T13:58:20.818Z"
+  },
+  {
+    "_id": "63e105d9194b220df5e42df0",
+    "title": "Python Task 1",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1vaQPPVlGAZPODlgp-d0UZyAIHeGRkZyZ/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/6%20Feb_Assignment_DSM.ipynb",
+    "createdAt": "2023-02-06T13:51:21.540Z"
+  },
+  {
+    "_id": "63e25b62194b228802e4724a",
+    "title": "Python Task 2",
+    "data": {
+      "maxPoints": 200,
+      "url": "https://drive.google.com/file/d/1dJiiIdeT3mk6REVQgTZRj_bWuJ7NwEOL/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/07%20Feb_Assignment_DSM.ipynb",
+    "createdAt": "2023-02-07T14:08:34.607Z"
+  },
+  {
+    "_id": "63e4fbcb194b222916e4d5a3",
+    "title": "OOPS TASK",
+    "data": {
+      "maxPoints": 100,
+      "url": "https://drive.google.com/file/d/182RGfZjlU8-m2jMFwAyx8oCWGFekwlMv/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/09%20feb_AssQ_T.ipynb",
+    "createdAt": "2023-02-09T13:57:31.131Z"
+  },
+  {
+    "_id": "63e64d53194b2273e2e571cf",
+    "title": "OOPs Assignment",
+    "data": {
+      "maxPoints": 60,
+      "url": "https://drive.google.com/file/d/174GuEUOtgFWkNIqQCF6yYvwyI98FwZiH/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/10%20Feb_AssQ.ipynb",
+    "createdAt": "2023-02-10T13:57:39.987Z"
+  },
+  {
+    "_id": "63e8ef90194b2211f7e5b466",
+    "title": "Exception Handling",
+    "data": {
+      "maxPoints": 60,
+      "url": "https://drive.google.com/file/d/1MJ2u7Lh5zabWhCcjw0DX7cVjs3Ep4HnI/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/12%20Feb_AssQ.ipynb",
+    "createdAt": "2023-02-12T13:54:24.748Z"
+  },
+  {
+    "_id": "63ea4d91194b2265e8e5d2dc",
+    "title": "Exception Handling Assignment",
+    "data": {
+      "maxPoints": 60,
+      "url": "https://drive.google.com/file/d/1Jd3DJHIC4aT1WM2Axch3atm6GZK-6_PT/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/13%20Feb_AssQ.ipynb",
+    "createdAt": "2023-02-13T14:47:45.599Z"
+  },
+  {
+    "_id": "63eb8c44194b223b65e5f4d7",
+    "title": "Multithreading Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1nc20Se0FaWuA1UVrVtXmH-yRUqRD_X5D/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/14Feb_AssQ.ipynb",
+    "createdAt": "2023-02-14T13:27:32.887Z"
+  },
+  {
+    "_id": "63ecde41194b22ebd2e60d56",
+    "title": "Multiprocessing Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1FLnB3kOqJ_XipxdBehIFmy5zyDYfSmYN/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-02-15T13:29:37.026Z"
+  },
+  {
+    "_id": "63ee368fff4766745adc2305",
+    "title": "Mysql Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1UJGVQatMymsTAvLfwuILDnc_f7GhDrxT/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/16%20Feb_AssQ.ipynb",
+    "createdAt": "2023-02-16T13:58:39.355Z"
+  },
+  {
+    "_id": "63ef849fff47667dc1dc4e76",
+    "title": "MongoDB Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1LzTUwURsuTLcKHK1Y58vji2Uk-1klRdI/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/17_Feb%20AssQ.ipynb",
+    "createdAt": "2023-02-17T13:43:59.458Z"
+  },
+  {
+    "_id": "63f0e364ff47665869dc65a3",
+    "title": "API Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/19cg70Z1GhKikK-dVNR3EI6pmiHL8jp6U/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/18%20Feb_AssQ.ipynb",
+    "createdAt": "2023-02-18T14:40:36.358Z"
+  },
+  {
+    "_id": "63f22a02ff4766c876dc9c76",
+    "title": "Flask Assignment-1",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1RhuY31tBf5fbYGmzBZizvCL0B3n8h-Xl/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/19%20Feb_AssQ.ipynb",
+    "createdAt": "2023-02-19T13:54:10.351Z"
+  },
+  {
+    "_id": "63f38244ff47667d14dccfd6",
+    "title": "Flask Assignment-2",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1OqMU_BWp9wiZjt9kz5M9StMNnjtMVky0/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/20%20Feb_AssQ.ipynb",
+    "createdAt": "2023-02-20T14:23:00.945Z"
+  },
+  {
+    "_id": "63f4d9a3ff47664564dcf8b9",
+    "title": "Web Scraping Assignment",
+    "data": {
+      "maxPoints": 100,
+      "url": "https://drive.google.com/file/d/1P5qVB2NHJkaCa5z0pbuHgGajqTamM5g0/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/21%20Feb_AssQ%20(1).ipynb",
+    "createdAt": "2023-02-21T14:48:03.489Z"
+  },
+  {
+    "_id": "63f61f77a9d3a28d3cb437a0",
+    "title": "Image Scrapper Assignment",
+    "data": {
+      "maxPoints": 1000,
+      "url": "https://drive.google.com/file/d/1cHsg7RefjZl9QmKy6d0mPKBIipr2w6ar/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/YT%20scrap%20data%20.ipynb",
+    "createdAt": "2023-02-22T13:58:15.058Z"
+  },
+  {
+    "_id": "63f76643a9d3a255ffb457b4",
+    "title": "Pandas Basic Assignment",
+    "data": {
+      "maxPoints": 70,
+      "url": "https://drive.google.com/file/d/1c-JH0QloIirSUAxlYn2GUsoc8_tpJKMU/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/22%20Feb_AssQ.ipynb",
+    "createdAt": "2023-02-23T13:12:35.960Z"
+  },
+  {
+    "_id": "63f8c7b3182c67a0c74b7bc4",
+    "title": "Pandas Assignment",
+    "data": {
+      "maxPoints": 100,
+      "url": "https://drive.google.com/file/d/1RHLwrS-c5sPgr-TmK_cafpWb91ZlvU5Y/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/24%20Feb_AssQ.ipynb",
+    "createdAt": "2023-02-24T14:20:35.551Z"
+  },
+  {
+    "_id": "63fa16ae182c676d0d4b90f8",
+    "title": "Pandas Assignment",
+    "data": {
+      "maxPoints": 100,
+      "url": "https://drive.google.com/file/d/1KaQZJWR4k13AkolUIgCgazSGiYM96i_l/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/25%20Feb_AssQ.ipynb",
+    "createdAt": "2023-02-25T14:09:50.181Z"
+  },
+  {
+    "_id": "63fb7e75182c6739e64b9b16",
+    "title": "Numpy Assignment",
+    "data": {
+      "maxPoints": 100,
+      "url": "https://drive.google.com/file/d/1te1qkBrWcohVW95SHXAU7bks9f2zQZQK/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/26%20Feb_AssQ.ipynb",
+    "createdAt": "2023-02-26T15:44:53.258Z"
+  },
+  {
+    "_id": "64009e7d182c67cd504c0771",
+    "title": "Matplotlib Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1hJ38AJCizaN_JNe8neCVpOzrmHtpxY_y/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/2%20Mar_AssQ.ipynb",
+    "createdAt": "2023-03-02T13:02:53.852Z"
+  },
+  {
+    "_id": "64020033182c6716874c1bf0",
+    "title": "Seaborn Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1k6gjRuNKAsfPvCTtg0GT8KFelLZ2M0ur/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/seaborn%20(1).ipynb",
+    "createdAt": "2023-03-03T14:12:03.437Z"
+  },
+  {
+    "_id": "64034b71182c674d524c3119",
+    "title": "Plotly Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1wsyfRZG7xJVGAwAI0Czx9g_K0xfGwBPQ/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/04_Mar_AssQ_Plotly.ipynb",
+    "createdAt": "2023-03-04T13:45:21.452Z"
+  },
+  {
+    "_id": "6404286d182c6724804c3365",
+    "title": "Bokeh Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1osuZkHV8fakdv3yQdw6GtmbrLZvFFXqg/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-03-05T05:28:13.822Z"
+  },
+  {
+    "_id": "64060756182c671af94c5d11",
+    "title": "Statistics Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/14RDnaPx43ZZoCycB0YBBA9luNNxD8jSa/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/06%20Mar_AssQ.ipynb",
+    "createdAt": "2023-03-06T15:31:34.429Z"
+  },
+  {
+    "_id": "6407699a182c674b0f4c7b61",
+    "title": " Statistics Assignment ",
+    "data": {
+      "maxPoints": 70,
+      "url": "https://drive.google.com/drive/folders/11pflTUuJLBleHIO1RFHSQLW-wfuygEUV?usp=share_link"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/7th%20Mar_AssQ.ipynb",
+    "createdAt": "2023-03-07T16:43:06.453Z"
+  },
+  {
+    "_id": "640a033a182c6784f44c9405",
+    "title": "Statistics Advance Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/drive/folders/1NEBM5t0oANa-6t9XGCYK0_Zb0ir6oarE?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/08%20Mar_AssQ%20(1).ipynb",
+    "createdAt": "2023-03-09T16:03:06.881Z"
+  },
+  {
+    "_id": "640a038e182c67374f4c940b",
+    "title": "Statistics Advance Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/drive/folders/1YmkoQSdZKotGQeoFcfegUggrNelpNBFB?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/9th%20Mar_AssQ.ipynb",
+    "createdAt": "2023-03-09T16:04:30.607Z"
+  },
+  {
+    "_id": "640b391e182c6761f54cc0bd",
+    "title": "Statistics Advance Assignment",
+    "data": {
+      "maxPoints": 85,
+      "url": "https://drive.google.com/drive/folders/1y2dJu_b5pTq20-SmjcTUqtasmDPfQIs0?usp=share_link"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/10%20Mar_AssQ.ipynb",
+    "createdAt": "2023-03-10T14:05:18.513Z"
+  },
+  {
+    "_id": "640c90ef182c672ed84cd9a4",
+    "title": "Statistics Advance Assignment",
+    "data": {
+      "maxPoints": 70,
+      "url": "https://drive.google.com/drive/folders/1PJ11YXjHeDMR-Il8gtxJFLggXKo8tfMc?usp=share_link"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/11%20Mar_Class.ipynb",
+    "createdAt": "2023-03-11T14:32:15.790Z"
+  },
+  {
+    "_id": "640e07c8182c6742fe4ce1e7",
+    "title": "Statistics Advance Assignment ",
+    "data": {
+      "maxPoints": 55,
+      "url": "https://drive.google.com/drive/folders/1NiqEyaTzYhuWZtEtOVCIzInBT85dnQYt?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/12th%20March_AssQ.ipynb",
+    "createdAt": "2023-03-12T17:11:36.482Z"
+  },
+  {
+    "_id": "640f29e3182c67b12c4cff53",
+    "title": "Statistics Advance Assignment",
+    "data": {
+      "maxPoints": 60,
+      "url": "https://drive.google.com/drive/folders/1EVq_eoYr-4ylT8tYjEB8lED7PnIKh86b?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/13th%20Mar_AssQ.ipynb",
+    "createdAt": "2023-03-13T13:49:23.085Z"
+  },
+  {
+    "_id": "641080be182c67116b4d149d",
+    "title": "Statistics Advance Assignment",
+    "data": {
+      "maxPoints": 45,
+      "url": "https://drive.google.com/drive/folders/1O4Y3u6csXmz_g5A-mWVfWIVCRZuVqumw?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/14th%20Marc_AssQ.ipynb",
+    "createdAt": "2023-03-14T14:12:14.649Z"
+  },
+  {
+    "_id": "6411ce47182c6765004d2c94",
+    "title": "Machine Learning Assignment",
+    "data": {
+      "maxPoints": 40,
+      "url": "https://drive.google.com/drive/folders/1zv-IecH4HPsDDa_4C66e36hFzWMyQTpp?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/15th%20March_AssQ%20(1).ipynb",
+    "createdAt": "2023-03-15T13:55:19.593Z"
+  },
+  {
+    "_id": "641335e8182c67c8584d4eca",
+    "title": "Machine Learning Assignment",
+    "data": {
+      "maxPoints": 35,
+      "url": "https://drive.google.com/drive/folders/1SnN5yJS_91iEe1oncEiFBNtBDvVW65np?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/16th%20March_AssQ%20.ipynb",
+    "createdAt": "2023-03-16T15:29:44.887Z"
+  },
+  {
+    "_id": "64149932182c673c184d61c4",
+    "title": " Feature Engineering Assignment",
+    "data": {
+      "maxPoints": 55,
+      "url": "https://drive.google.com/drive/folders/1W5BRXxBaKU8VwUt2_TfucCHIl8RHNvfu?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/17%20Mar_AssQ.ipynb",
+    "createdAt": "2023-03-17T16:45:38.018Z"
+  },
+  {
+    "_id": "6416df46182c677ef44d75c2",
+    "title": " Feature Engineering Assignment",
+    "data": {
+      "maxPoints": 40,
+      "url": "https://drive.google.com/drive/folders/1YOCA-KaMKDe-Fu9HN4DqegJN6BBUJu6y?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-03-19T10:09:10.290Z"
+  },
+  {
+    "_id": "64174a67182c671db14d7888",
+    "title": "Feature Engineering Assignment",
+    "data": {
+      "maxPoints": 40,
+      "url": "https://drive.google.com/drive/folders/1eIktrY0EocYjdOO_lQA2sUrt88z7DxP0?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/19th_mar_AssQ.ipynb",
+    "createdAt": "2023-03-19T17:46:15.242Z"
+  },
+  {
+    "_id": "64187ef7182c67349a4d98e4",
+    "title": "Feature Engineering Assignment",
+    "data": {
+      "maxPoints": 35,
+      "url": "https://drive.google.com/drive/folders/1mOyxalPp6hvmR61UKmECMXWBarBS0GaU?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/20%20Mar_AssQ%20(1).ipynb",
+    "createdAt": "2023-03-20T15:42:47.220Z"
+  },
+  {
+    "_id": "6419d912182c67c8da4db26c",
+    "title": "Feature Engineering Assignment",
+    "data": {
+      "maxPoints": 35,
+      "url": "https://drive.google.com/drive/folders/1Xr6WCnWf5baDU_qtEvW4fOhSsehQRIFW?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/21st_Mar_AssQ.ipynb",
+    "createdAt": "2023-03-21T16:19:30.915Z"
+  },
+  {
+    "_id": "641b0b0e0938bda0ed85be95",
+    "title": " Feature Engineering Assignment",
+    "data": {
+      "maxPoints": 30,
+      "url": "https://drive.google.com/drive/folders/1h_pXNpyF5YlrqlkUYPhnhsfU3B036VND?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/22%20Mar_AssQ.ipynb",
+    "createdAt": "2023-03-22T14:05:02.797Z"
+  },
+  {
+    "_id": "641f0b2aaf09d61b2956491c",
+    "title": "EDA Assignment",
+    "data": {
+      "maxPoints": 30,
+      "url": "https://drive.google.com/file/d/1Eya9m2q9jM93B8H2ATEgulZBBpspcp_7/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/24_Mar_AssQ.ipynb",
+    "createdAt": "2023-03-25T14:54:34.562Z"
+  },
+  {
+    "_id": "641f0b55af09d6fc4e564921",
+    "title": "EDA Assignment",
+    "data": {
+      "maxPoints": 85,
+      "url": "https://drive.google.com/file/d/1cRhT10uk6tFLe7GNF0YJJ3-U2J8vnsLp/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/March/25%20Mar.ipynb",
+    "createdAt": "2023-03-25T14:55:17.383Z"
+  },
+  {
+    "_id": "6421c0a9af09d63df556a1d0",
+    "title": "Regression Assignment",
+    "data": {
+      "maxPoints": 40,
+      "url": "https://drive.google.com/drive/folders/1Fs5C7BhZl8cMT7iBTDrf369dowplah4r?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/March/26%20Mar.ipynb",
+    "createdAt": "2023-03-27T16:13:29.837Z"
+  },
+  {
+    "_id": "6421c0e3af09d6497656a1e3",
+    "title": "Regression Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/drive/folders/1N4A1z_Lg_Exjz8rS1hlryMHVKsqpl6QX?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/March/27%20Mar.ipynb",
+    "createdAt": "2023-03-27T16:14:27.376Z"
+  },
+  {
+    "_id": "6423221faf09d6c8c756c512",
+    "title": "Regression Assignment",
+    "data": {
+      "maxPoints": 80,
+      "url": "https://drive.google.com/file/d/15yy_Mchru1BEIRumSYWs4cT1NBQSi2Rk/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/March/28%20Mar.ipynb",
+    "createdAt": "2023-03-28T17:21:35.358Z"
+  },
+  {
+    "_id": "642589d1af09d6410c56f71d",
+    "title": " Regression Assignment",
+    "data": {
+      "maxPoints": 40,
+      "url": "https://drive.google.com/file/d/1fTiSocbd3t6Ha-Q7uOf_TQyQBQmCqeak/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/March/29%20Mar.ipynb",
+    "createdAt": "2023-03-30T13:08:33.613Z"
+  },
+  {
+    "_id": "64258aa6af09d6fe8056f757",
+    "title": "Regression Assignment",
+    "data": {
+      "maxPoints": 45,
+      "url": "https://drive.google.com/file/d/1-OGOkzpw7Tkp2hqdq47MxO_fRj1lBP2i/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/March/30%20Mar.ipynb",
+    "createdAt": "2023-03-30T13:12:06.631Z"
+  },
+  {
+    "_id": "6426e528af09d604d4571aab",
+    "title": " Regression Assignment",
+    "data": {
+      "maxPoints": 25,
+      "url": "https://drive.google.com/file/d/1IOn18-9cgMrgXHLL5gOVd8V2c620fzAu/view?usp=sharing"
+    },
+    "solution": "https://github.com/sambhavm22/data-science-master-course/blob/main/March/31%20Mar.ipynb",
+    "createdAt": "2023-03-31T13:50:32.499Z"
+  },
+  {
+    "_id": "642872dcaf09d6269e572a5d",
+    "title": "Logistics Regression -1Assignment",
+    "data": {
+      "maxPoints": 35,
+      "url": "https://drive.google.com/drive/folders/1sY4YrXUzA6NKi4vbvy1kH5wcqxXq-LLg?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-01T18:07:24.655Z"
+  },
+  {
+    "_id": "642af8dfaf09d6da92574bc0",
+    "title": "Logistic Regression -2  Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1loCSphb_-z51RfRNJK_dFdOGQleht4UA/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-03T16:03:43.661Z"
+  },
+  {
+    "_id": "642af9f5af09d600aa574bd5",
+    "title": "Logistics Regression-3 Assignment",
+    "data": {
+      "maxPoints": 45,
+      "url": "https://drive.google.com/file/d/1-mb3wRRi50VDZyicBJGm6GXNtD_1tNgJ/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-03T16:08:21.648Z"
+  },
+  {
+    "_id": "642c5941af09d61c6f5767ce",
+    "title": "Decision Tree-1 Assignment",
+    "data": {
+      "maxPoints": 45,
+      "url": "https://drive.google.com/file/d/1ixOMlbFjxX1hpKWdNmIAN_FV738HNput/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-04T17:07:13.750Z"
+  },
+  {
+    "_id": "642db3d8af09d63f65577983",
+    "title": "Decision Tree-2 Assignment",
+    "data": {
+      "maxPoints": 35,
+      "url": "https://drive.google.com/drive/folders/1pOd-UhR6B5xcBnI8p0uO42fGLgW1VoO-?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-05T17:46:00.285Z"
+  },
+  {
+    "_id": "642db422af09d6f92057798c",
+    "title": "Decision Tree-2 Assignment",
+    "data": {
+      "maxPoints": 35,
+      "url": "https://drive.google.com/drive/folders/1pOd-UhR6B5xcBnI8p0uO42fGLgW1VoO-?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-05T17:47:14.114Z"
+  },
+  {
+    "_id": "642f0f7aaf09d679b8578bb1",
+    "title": "Support Vector Machines-1 Assignment",
+    "data": {
+      "maxPoints": 30,
+      "url": "https://drive.google.com/file/d/1LYjS_t3g6O_mAU9Qf8rewgevzDVQoHft/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-06T18:29:14.355Z"
+  },
+  {
+    "_id": "64306585af09d6e40a57a97e",
+    "title": "Support Vector Machines-2 Assignment",
+    "data": {
+      "maxPoints": 25,
+      "url": "https://drive.google.com/file/d/1xaMR8Spnodiqka6iT06GE89SKTQCZHwA/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-07T18:48:37.220Z"
+  },
+  {
+    "_id": "6431a3baaf09d672de57b374",
+    "title": "Support Vector Machines-3 Assignment",
+    "data": {
+      "maxPoints": 25,
+      "url": "https://drive.google.com/drive/folders/10LRzXX18TdL5oJ3pHj83z2laoxbR4v5W?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-08T17:26:18.513Z"
+  },
+  {
+    "_id": "6434ffb1af09d6fe3657d4f1",
+    "title": "9th April Assignment",
+    "data": {
+      "maxPoints": 30,
+      "url": "https://drive.google.com/drive/folders/1AvhkFT1KRCvLFhuGyp37lpsrqRmU2dFy?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-11T06:35:29.662Z"
+  },
+  {
+    "_id": "6434ffc9af09d6051157d4f9",
+    "title": "10th April  Assignment",
+    "data": {
+      "maxPoints": 25,
+      "url": "https://drive.google.com/file/d/1f0h1BGTUUGytf1bPJ5AY4XYU0F75J4vP/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-11T06:35:53.209Z"
+  },
+  {
+    "_id": "6435a165af09d6820557f009",
+    "title": " Ensemble Techniques & it's types Assignment",
+    "data": {
+      "maxPoints": 45,
+      "url": "https://drive.google.com/file/d/1I_1bZqJtitQy1JemSRYcDX0e2d0p5o3t/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-11T18:05:25.677Z"
+  },
+  {
+    "_id": "6436faae01aa14d10bc16d9f",
+    "title": "Ensemble Techniques  And Its Types-2 Assignment",
+    "data": {
+      "maxPoints": 30,
+      "url": "https://drive.google.com/file/d/1ycoXwYf8j1mq_TuqKk2fMiuSUt9Uo4Uu/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-12T18:38:38.742Z"
+  },
+  {
+    "_id": "643a3f4950865438a0709a4d",
+    "title": "Ensemble Techniques  And Its Types-4 Assignment",
+    "data": {
+      "maxPoints": 40,
+      "url": "https://drive.google.com/file/d/1jg-cHrCnG_cF3hRZkGjHq8dqNMj9uaO7/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-15T06:08:09.797Z"
+  },
+  {
+    "_id": "643af7be5086543e6970b484",
+    "title": "Ensemble Techniques  And Its Types-5 Assignment",
+    "data": {
+      "maxPoints": 100,
+      "url": "https://drive.google.com/file/d/1gP6UuMYiBoeN0luFc6KXo7K3u-lboje-/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-15T19:15:10.944Z"
+  },
+  {
+    "_id": "643d846c5086543ceb70f408",
+    "title": "Boosting-1 Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1jcMN9B2IsEEPt7yutyqyvXtdy4m1uayL/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-17T17:39:56.187Z"
+  },
+  {
+    "_id": "643d8486508654003470f412",
+    "title": "Boosting-2 Assignment",
+    "data": {
+      "maxPoints": 35,
+      "url": "https://drive.google.com/file/d/1D0dQsGq-bx61byWGDl54xNbUPt7mPlJo/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-17T17:40:22.622Z"
+  },
+  {
+    "_id": "643e4f09508654bb24710f17",
+    "title": "Ensemble Techniques And Its Types-3 Assignment",
+    "data": {
+      "maxPoints": 40,
+      "url": "https://drive.google.com/file/d/1PZCyc8Us_fDUbXlV5PxY09c5hP1ao7dg/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-18T08:04:25.163Z"
+  },
+  {
+    "_id": "64416f52508654f6d5715ca8",
+    "title": "KNN-1 Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1HKJqw-mJy648IHUSR-5dIuBZP6dHRTej/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-20T16:58:58.391Z"
+  },
+  {
+    "_id": "6442e56d508654ff4e716db5",
+    "title": "KNN-2 Assignment",
+    "data": {
+      "maxPoints": 30,
+      "url": "https://drive.google.com/file/d/1gcpoWZPhXch8ICBjXVycR7VkHAYluTZc/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-21T19:35:09.414Z"
+  },
+  {
+    "_id": "64442b2e50865455e8717570",
+    "title": "KNN-3 Assignment",
+    "data": {
+      "maxPoints": 40,
+      "url": "https://drive.google.com/file/d/1IFLm_kikwzDI6QTDmEnfY-LL2eYULy_u/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-22T18:45:02.619Z"
+  },
+  {
+    "_id": "6446dbcf508654c0dc718e4c",
+    "title": "23rd April Assignment",
+    "data": {
+      "maxPoints": 35,
+      "url": "https://drive.google.com/file/d/1hzvDCARzuHnA3JUR9ifhvznxbdScY_NW/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-24T19:43:11.143Z"
+  },
+  {
+    "_id": "6446dc0e5086547afd718e51",
+    "title": "24th April Assignment",
+    "data": {
+      "maxPoints": 45,
+      "url": "https://drive.google.com/file/d/1d7kmXyQLjwpoHarpt_km-CrINNF0AQc_/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-24T19:44:14.402Z"
+  },
+  {
+    "_id": "6447df935086542b0a71a7b0",
+    "title": "25th April Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1sxRc5W4QVVE-rvqLIrjumjPUO0ABYrAy/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-25T14:11:31.989Z"
+  },
+  {
+    "_id": "644a00de6977cc798adc8efe",
+    "title": "26th April Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1gVt_4cI7XIMmuGaX111YgQyXouVpnA4Z/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-27T04:58:06.121Z"
+  },
+  {
+    "_id": "644d08c46977cc1160dcabde",
+    "title": "27th April'23 Assignment",
+    "data": {
+      "maxPoints": 35,
+      "url": "https://drive.google.com/file/d/1uOBCE8-xzigewhT6tUWb1nMHYbuG-AaC/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-29T12:08:36.288Z"
+  },
+  {
+    "_id": "644d092f6977cc2392dcabe3",
+    "title": "28th April'23 Assignment",
+    "data": {
+      "maxPoints": 35,
+      "url": "https://drive.google.com/drive/folders/1sexwP1a7_BkrfsZd5-1RQifcpVXekNJG?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-04-29T12:10:23.062Z"
+  },
+  {
+    "_id": "645114e36977ccfa52dcd165",
+    "title": "30th April Assignment",
+    "data": {
+      "maxPoints": 60,
+      "url": "https://drive.google.com/file/d/1MA7weMiY-8C1hJ39iEZQ-X4uOFCSVCrP/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-05-02T13:49:23.301Z"
+  },
+  {
+    "_id": "6451151c6977cccde1dcd16d",
+    "title": "1st May Assignment",
+    "data": {
+      "maxPoints": 35,
+      "url": "https://drive.google.com/file/d/15ciePyRH6KCMtwy7Z4w9kQbdj2zfLYBi/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-05-02T13:50:20.091Z"
+  },
+  {
+    "_id": "645350a76977cc7068dcf536",
+    "title": "2nd May Assignment",
+    "data": {
+      "maxPoints": 45,
+      "url": "https://drive.google.com/drive/folders/1K992ThRpwOY9UWzYpKaG2if470ojDsYz?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-05-04T06:28:55.671Z"
+  },
+  {
+    "_id": "645351466977cc6683dcf54f",
+    "title": "3rd May Assignment",
+    "data": {
+      "maxPoints": 55,
+      "url": "https://drive.google.com/drive/folders/1YwvmtVeBVX_QXHXwdKVUNFCLx-uI6tEu?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-05-04T06:31:34.930Z"
+  },
+  {
+    "_id": "645cc4066977ccb1bcdd9ebb",
+    "title": "4th May Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1CEeWUZeFW6o5iuHWMCcHoekaWDReyaDc/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-05-11T10:31:34.996Z"
+  },
+  {
+    "_id": "645cc4206977cc47ebdd9ec8",
+    "title": "5th May Assignment",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1a9b4siWgo8Hf3AzAqB3Tw_nyDrNjOPEt/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-05-11T10:32:00.615Z"
+  }
+]
