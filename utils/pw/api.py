@@ -3,12 +3,16 @@
 Also store the files in respective paths in JSON format.
 """
 
-from json import dump, load
+from json import dump, load, loads
 from pathlib import Path
 from time import sleep
 from typing import Literal, TypeAlias
 
+from bs4 import BeautifulSoup
 from requests import get
+
+from utils import LiveCourse
+from utils.logger import logging
 
 UrlType: TypeAlias = Literal['quiz', 'assignment']
 
@@ -46,28 +50,64 @@ class PWApi:
         return fp / f'{type}_{self.cid}.json'
 
     def export_data(
-        self, url_list: list[str], type: UrlType, wait: int = 1
+        self, cname: str, type: UrlType, wait: int = 3,
     ) -> None:
         """
         Stores quizzes and assignments in JSON format.
         Also, excludes the URL which are already downloaded and stored in the directory.
         """
+        url_list: list[str] = self.__get_ids_to_download(cname, type)
         fp = self.generate_fp(type)
         stored_ids = self.load_downloaded_ids(fp) if fp.exists() else []
-        res: list = load(open(fp))
+        res: list = load(open(fp)) if fp.exists() else []
+
+        logging.info(f'No. of {type!r} left to fetch: %s',
+                     (len(url_list) - len(stored_ids)))
         try:
+            count = 0
             for url in url_list:
-                sleep(wait)
+                count += 1
                 if self._id_from_url(url) not in stored_ids:
                     if type == 'quiz':
+                        sleep(wait)
+                        logging.info(
+                            f'{type.title()}[{count}/{len(url_list)}]: {url}'
+                        )
                         res.append(self.get_quiz_data(url))
                     else:
+                        sleep(wait)
+                        logging.info(
+                            f'{type.title()}[{count}/{len(url_list)}]: {url}'
+                        )
                         res.append(self.get_assignment_data(url))
-        except Exception:
+        except Exception as e:
+            logging.error(e)
             raise
         finally:
             res = sorted(res, key=lambda x: x['createdAt'])
             dump(res, open(fp, 'w'), indent=2)
+
+    def __get_live_course_dict(self, cname: str):
+        url = f"https://learn.pwskills.com/course/{cname.replace(' ', '-')}/{self.cid}"
+        r = get(url)
+        logging.info('GET[%s]: %s', r.status_code, r.url)
+
+        soup = BeautifulSoup(r.text, 'html.parser')
+        script = soup.find('script', {'id': '__NEXT_DATA__'})
+
+        if script:
+            data = script.text
+        else:
+            raise TypeError(
+                'Required script tag is not available for the available course url.'
+            )
+        return loads(data)['props']['pageProps']
+
+    def __get_ids_to_download(self, cname: str, type: UrlType) -> list[str]:
+        cdata = self.__get_live_course_dict(cname)
+        lc = LiveCourse(**cdata)
+        df = lc.merged_df(self.cid)
+        return df.query('type==@type')['url'].tolist()
 
     def load_downloaded_ids(self, fp: Path) -> list[str]:
         """ Returns ID of all downloaded Quizzes and Assignments. """
