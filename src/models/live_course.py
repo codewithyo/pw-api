@@ -1,43 +1,26 @@
 from __future__ import annotations
 
-from typing import Optional
-
 import pandas as pd
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
 class Sections(BaseModel):
-    _id: str
+    sectionId: str = Field(alias='_id')
     sections: list[dict]
     lessonDetails: list[dict]
 
 
 class LiveCourse(BaseModel):
-    paramLength: Optional[int]
     courseName: str
     sections: Sections
 
     def sections_df(self):
-        sections = pd.json_normalize(data=self.sections.sections,
-                                     record_path='lessons',
-                                     meta='title')
+        sections = pd.json_normalize(
+            data=self.sections.sections,
+            record_path='lessons',
+            meta='title',
+        )
 
-        # Create date column
-        sections['date'] = pd.to_datetime(
-            (sections['title']
-             .str.rsplit('23', n=1).str.get(0).add('23')
-             .str.replace(r" ?' ?23", ' 23', regex=True)
-             .str.replace(r'^23$', '', regex=True)
-             .str.replace(r'.*- ?', '', regex=True)
-             .str.replace(r'st|th|rd', '', regex=True)
-             ), format='%d %b %y', errors='coerce').bfill()
-
-        # Clean title column
-        sections['title'] = (sections['title']
-                             .apply(lambda x: str(x).rsplit('23', 1)[-1] if x else x)
-                             .str.strip())
-
-        # Rename the cols
         sections.rename(columns={0: '_id', 'title': 'sectionsTitle'},
                         inplace=True)
 
@@ -45,25 +28,14 @@ class LiveCourse(BaseModel):
 
     def lessons_df(self):
         lessons = pd.DataFrame(self.sections.lessonDetails)
-
-        # Get duration from data column
-        lessons['duration'] = (lessons['data']
-                               .str.get('duration'))  # type: ignore
-
-        # Extract assignments maxPoints from data column.
-        lessons['totalPointsInAssignment'] = (lessons['data']
-                                              .str.get('maxPoints'))  # type: ignore
-
-        # Create url column
+        lessons['duration'] = (
+            lessons['data'].str.get('duration'))  # type: ignore
+        lessons['totalPointsInAssignment'] = (
+            lessons['data'].str.get('maxPoints'))  # type: ignore
         lessons['url'] = lessons['data'].str.get('resourceURL')  # type: ignore
 
-        # Drop cols
         lessons.drop(columns=['data', 'quizQuestions'], inplace=True)
-
-        # Rename the title column to differentiate
-        lessons.rename(columns={
-            'title': 'lessonsTitle'
-        }, inplace=True)
+        lessons.rename(columns={'title': 'lessonsTitle'}, inplace=True)
 
         return lessons
 
