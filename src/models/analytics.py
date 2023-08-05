@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import List, Optional
+from typing import Optional
 
 import pandas as pd
 from pydantic import BaseModel
@@ -9,14 +9,27 @@ from src.models.live_course import LiveCourse
 
 
 class Img(BaseModel):
-    link: str
-    source: str
+    link: str | None = None
 
 
 class User(BaseModel):
     firstName: str
     lastName: str
     img: Optional[Img] = None
+
+    def get_img_link(self) -> str:
+        rv = """<img alt="student-pic" src="{}" height=50 width=50 style="border-radius:10px;">"""
+
+        if self.img is None or self.img.link is None:
+            src = 'https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f5889d90b2b9e65c8a73.jpeg&w=96&q=75'
+            return rv.format(src)
+
+        if '.jpeg' in self.img.link:
+            src = f'https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F{self.img.link}&w=96&q=75'
+            return rv.format(src)
+        else:
+            src = f'https://learn.pwskills.com/_next/image?url={self.img.link}&w=96&q=75'
+            return rv.format(src)
 
 
 class Submission(BaseModel):
@@ -32,34 +45,36 @@ class QuizAnalytic(BaseModel):
 
 
 class AnalyticsUsers(BaseModel):
-    users: List[User]
+    users: list[User]
 
     def get_df(self):
-        df = pd.DataFrame(self.dict()['users'])
+        df = pd.DataFrame(self.model_dump()['users'])
         return df
 
 
 class AnalyticsSubmissions(BaseModel):
-    submissions: List[Submission]
+    submissions: list[Submission]
 
     def get_df(self):
-        df = pd.DataFrame(self.dict()['submissions'])
+        df = pd.DataFrame(self.model_dump()['submissions'])
         return df
 
 
 class QuizAnalytics(BaseModel):
-    quizAnalytics: List[QuizAnalytic]
+    quizAnalytics: list[QuizAnalytic]
 
     def get_df(self):
-        df = pd.DataFrame(self.dict()['quizAnalytics'])
+        df = pd.DataFrame(self.model_dump()['quizAnalytics'])
         return df
 
 
-def get_live_course_df(data, course_name, course_id) -> pd.DataFrame:
+def get_live_course_df(
+    data: dict,
+    course_name: str,
+    course_id: str,
+) -> pd.DataFrame:
     live_course = {
-        "paramLength": 0,
-        "sections": data,
         "courseName": course_name,
+        "sections": data,
     }
-
     return LiveCourse(**live_course).merged_df(course_id)
