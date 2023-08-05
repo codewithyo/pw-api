@@ -7,7 +7,7 @@ Also store the files in respective paths in JSON format.
 from json import dump, load, loads
 from pathlib import Path
 from time import sleep
-from typing import Literal, TypeAlias
+from typing import Any, Literal, TypeAlias
 
 from bs4 import BeautifulSoup
 from requests import get
@@ -24,7 +24,7 @@ class PWApi:
         self.auth_key = auth_key
         self.cid = course_id
 
-    def get(self, url: str) -> dict:
+    def get(self, url: str) -> dict[str, Any]:
         """ Get JSON response from the provided PW API `URL` using `auth_key` """
         headers = {
             'Origin': 'https://learn.pwskills.com',
@@ -52,40 +52,60 @@ class PWApi:
         return fp / f'{type}_{self.cid}.json'
 
     def export_data(
-        self, cname: str, type: UrlType, wait: int = 3,
+        self, cname: str, type_: UrlType, wait: float = 2,
     ) -> None:
         """
         Stores quizzes and assignments in JSON format.
         Also, excludes the URL which are already downloaded and stored in the directory.
         """
-        url_list: list[str] = self.__get_ids_to_download(cname, type)
-        fp = self.generate_fp(type)
+        url_list: list[str] = self.__get_ids_to_download(cname, type_)
+        fp = self.generate_fp(type_)
         stored_ids = self.load_downloaded_ids(fp) if fp.exists() else []
         res: list = load(open(fp)) if fp.exists() else []
 
-        logger.info(f'No. of {type!r} left to fetch: %s',
+        logger.info(f'No. of {type_!r} left to fetch: %s',
                      (len(url_list) - len(stored_ids)))
         try:
             count = 0
+            dump_counter = 0
             for url in url_list:
+                if self._id_from_url(url) in stored_ids:
+                    continue
+
+                if type_ == 'quiz':
+                    sleep(wait)
+                    logger.info(
+                        f'{type_.title()}[{count}/{len(url_list)}]: {url}'
+                    )
+                    res.append(self.get_quiz_data(url))
+                elif type_ == 'assignment':
+                    sleep(wait)
+                    logger.info(
+                        f'{type_.title()}[{count}/{len(url_list)}]: {url}'
+                    )
+                    res.append(self.get_assignment_data(url))
+                else:
+                    raise TypeError(
+                        'Argument type_ must either quiz or assignment.'
+                    )
+
+                if dump_counter > 20:
+                    logger.info('Dumping at "%s"', fp)
+                    res = sorted(res, key=lambda x: x['createdAt'])
+                    dump(res, open(fp, 'w'), indent=2)
+
+                    logger.info('Loading from "%s"', fp)
+                    res: list = load(open(fp)) if fp.exists() else []
+
                 count += 1
-                if self._id_from_url(url) not in stored_ids:
-                    if type == 'quiz':
-                        sleep(wait)
-                        logger.info(
-                            f'{type.title()}[{count}/{len(url_list)}]: {url}'
-                        )
-                        res.append(self.get_quiz_data(url))
-                    else:
-                        sleep(wait)
-                        logger.info(
-                            f'{type.title()}[{count}/{len(url_list)}]: {url}'
-                        )
-                        res.append(self.get_assignment_data(url))
+                dump_counter += 1
+
         except Exception as e:
             logger.error(e)
             raise
+
         finally:
+            logger.info('Dumping at "%s"', fp)
             res = sorted(res, key=lambda x: x['createdAt'])
             dump(res, open(fp, 'w'), indent=2)
 
@@ -105,11 +125,11 @@ class PWApi:
             )
         return loads(data)['props']['pageProps']
 
-    def __get_ids_to_download(self, cname: str, type: UrlType) -> list[str]:
+    def __get_ids_to_download(self, cname: str, type_: UrlType) -> list[str]:
         cdata = self.__get_live_course_dict(cname)
         lc = LiveCourse(**cdata)
         df = lc.merged_df(self.cid)
-        return df.query('type==@type')['url'].tolist()
+        return df.query('type==@type_')['url'].tolist()
 
     def load_downloaded_ids(self, fp: Path) -> list[str]:
         """ Returns ID of all downloaded Quizzes and Assignments. """
@@ -119,7 +139,7 @@ class PWApi:
             ids.append(d['_id'])
         return ids
 
-    def get_assignment_data(self, url: str):
+    def get_assignment_data(self, url: str) -> dict[str, Any]:
         data = self.get(url)['data']
 
         solution_link = None
@@ -136,7 +156,7 @@ class PWApi:
         }
         return res
 
-    def get_quiz_data(self, url: str):
+    def get_quiz_data(self, url: str) -> dict[str, Any]:
         data = self.get(url)['data']
         res = {
             '_id': data['lesson']['_id'],
@@ -146,31 +166,39 @@ class PWApi:
         }
         return res
 
-    def url_from_id(self, *id: str) -> list[str]:
-        url = f'https://api.pwskills.com/v1/learn/lesson/course/{self.cid}/'
-        ids = []
-        for i in id:
-            ids.append(url + i)
-        return ids
-
     def update_solution_links(self, force_update: bool = False) -> None:
         """ Update existing assignments' solution link. """
         fp = self.generate_fp('assignment')
+
+        logger.info('Load data from "%s"', fp)
         data: list[dict] = load(open(fp))
 
         try:
+            count = 0
             for d in data:
                 if d['solution'] is not None:
                     if not force_update:
                         continue
 
-                url = self.url_from_id(d['_id'])[0]
-                sleep(3)
+                url = f'https://api.pwskills.com/v1/learn/lesson/course/{self.cid}/{d["_id"]}'
                 new_link = self.get_assignment_data(url)['solution']
                 if new_link is not None:
+                    count = count + 1
                     d['solution'] = new_link
+
                     print(new_link)
-        except Exception:
-            raise
+                    logger.info('Storing solution url for Assignment: %s', new_link)
+                else:
+                    logger.warning('No solution for Assignment: %s', url)
+                sleep(0.5)
+
+                if count > 20:
+                    logger.info('Dump data at "%s"', fp)
+                    dump(data, open(fp, 'w'), indent=2)
+
+                    logger.info('Load data from "%s"', fp)
+                    data: list[dict] = load(open(fp))
+                    count = 0
         finally:
+            logger.info('Dump data at "%s"', fp)
             dump(data, open(fp, 'w'), indent=2)
