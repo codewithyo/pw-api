@@ -2,18 +2,17 @@ from datetime import date
 from datetime import datetime as dt
 from json import load
 from pathlib import Path
-from typing import Self, TypeAlias
+from typing import Self
 
 from src.pw.api import UrlType
 
 from .api import UrlType
 
-QuestionTitle: TypeAlias = str
-QuizQuestions: TypeAlias = list[tuple[QuestionTitle,
-                                      tuple[str, str, str, str]]]
+QuestionTitle = str
+QuizQuestions = list[tuple[QuestionTitle, tuple[str, str, str, str]]]
 
 
-class GeneralParser:
+class _GeneralParser:
     def __init__(self, data: dict, type: UrlType) -> None:
         self.data = data
         self.type = type
@@ -48,7 +47,7 @@ class GeneralParser:
         return cls(d, type)
 
 
-class Quiz(GeneralParser):
+class Quiz(_GeneralParser):
     def __init__(self, data: dict) -> None:
         """ Use this to parse through the data related to Quiz. """
         super().__init__(data=data, type='quiz')
@@ -65,7 +64,7 @@ class Quiz(GeneralParser):
             for opt in i['options']:
                 options.append(opt['name'])
 
-            questions.append(tuple([title, tuple(options)]))
+            questions.append((title, tuple(options)))
         return questions
 
     @property
@@ -74,15 +73,15 @@ class Quiz(GeneralParser):
 
     @staticmethod
     def generate_fp(cid: str) -> Path:
-        return GeneralParser.generate_fp(cid, 'quiz')
+        return _GeneralParser.generate_fp(cid, 'quiz')
 
     @classmethod
     def from_id(cls, fp: Path, id_: str) -> Self:
-        parser = GeneralParser.from_id(fp, id_, 'quiz')
+        parser = _GeneralParser.from_id(fp, id_, 'quiz')
         return cls(parser.data)
 
 
-class Assignment(GeneralParser):
+class Assignment(_GeneralParser):
     def __init__(self, data: dict) -> None:
         """ Use this to parse through the data related to Assignment. """
         super().__init__(data=data, type='assignment')
@@ -110,9 +109,9 @@ class Assignment(GeneralParser):
 
     @staticmethod
     def generate_fp(cid: str) -> Path:
-        return GeneralParser.generate_fp(cid, 'assignment')
+        return _GeneralParser.generate_fp(cid, 'assignment')
 
     @classmethod
     def from_id(cls, fp: Path, id_: str) -> Self:
-        parser = GeneralParser.from_id(fp, id_, 'assignment')
+        parser = _GeneralParser.from_id(fp, id_, 'assignment')
         return Assignment(parser.data)
