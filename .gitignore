@@ -1,13 +1,20 @@
-.DS_Store
-**/__pycache__/
-**/.ipynb_checkpoints/
-.vscode/
-
-# Ignore virtual environment
+# Ignore virtual environments
 .venv/
 
-# Ignore Directory files
-__rough__.*
+# Ignore environment variables
+.env
+
+# Ignore files
+*__rough__*.*
+
+# Ignore directories
+.vscode/
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+__rough__/
+
+# Custom project files and folders
 logs/
 auth_key.txt
 data/others/
