@@ -20,138 +20,112 @@ with st.sidebar:
                      label_visibility='hidden')
 
 
-# Get response from api
 @st.cache_resource
-def get_preview_course_object(id: str):
+def get_preview_course_object(id: str) -> PreviewCourse:
     url = f"https://api.pwskills.com/v1/course/{id}?withAllCourseMetas=true&ignoreInActive=true"
     r = get(url)
-    pc = r.json()['data']
+    pc_dict = r.json()['data']
     logging.info(LoggingMessage.get_request_log.format(url))
     logging.info(LoggingMessage.status_code_log.format(r.status_code))
 
+    pc = PreviewCourse(**pc_dict)
     return pc
 
 
-# PreviewCourse Instance
-pc_dict = get_preview_course_object(cid)
-pc = PreviewCourse(**pc_dict)
-
-
-def display_curr_details(df: pd.DataFrame, pat: str):
+def display_curr_details(
+    df: pd.DataFrame,
+    pat: str = 'All',
+) -> None:
     """ Display the desired project. """
+    pat = '' if str(pat) == 'All' else pat
+
     for i in df['parentTitle'].unique():
         if pat.lower() in i.lower():
             new_df = df.query('parentTitle==@i')
-
-            # Get date
-            date = new_df['date'].mean()
-
-            if type(date) != type(pd.NaT):
-                exp = st.expander(f'🗂️ {i} - **{date:%d %B, %Y}**')
-            else:
-                exp = st.expander(f'🗂️ {i}')
+            exp = st.expander(f'🗂️ {i}')
 
             for c in new_df['childTitle'].values:
                 exp.write(f'  - {c}')
 
 
-match radio:
-    case 'Main':
-        st.title(pc.title)
-        f'###### :red[Language :] :green[{pc.courseMetas[0].overview.language.capitalize()}]'
-        f'###### :red[Duration :] :green[{pc.courseMetas[0].duration}]'
+pc = get_preview_course_object(cid)
 
-        # Price of the Course
-        course_price = round(
-            pc.pricing.IN - (pc.pricing.IN * pc.pricing.discount/100))
-        st.write(f'###### :red[Price of Course:] :green[₹{course_price} /-]')
 
-        # Instructors Name
-        inst_names = [i.name for i in pc.instructorsDetails]
-        st.write(
-            f"###### :red[Name of instructors:] :green[{', '.join(inst_names)}]")
+if radio == 'Main':
+    st.title(f'Details of :orange[{pc.title}]')
 
-        # Course Certificate Benchmark
-        cert_bench = pc.courseMetas[0].certificateBenchmark
-        st.write(f'###### :red[Certificate Benchmark:] :green[{cert_bench}%]')
+    course_price = round(
+        pc.pricing.IN - (pc.pricing.IN * pc.pricing.discount/100))
+    inst_names = ', '.join([i.name for i in pc.instructorsDetails])
+    cert_bench = pc.courseMetas[0].certificateBenchmark
+    lang = pc.courseMetas[0].overview.language.title()
+    duration = pc.courseMetas[0].duration
 
-        # Language of the Course
-        lang = pc.courseMetas[0].overview.language
-        st.write(
-            f'###### :red[Language of Course:] :green[{lang.capitalize()}]')
+    st.write(f'###### :red[Price of Course:] :green[₹{course_price} /-]')
+    st.write(f'###### :red[Name of instructors:] :green[{inst_names}]')
+    st.write(f'###### :red[Certificate Benchmark:] :green[{cert_bench}%]')
+    st.write(f'###### :red[Language of Course:] :green[{lang}]')
+    st.write(f'###### :red[Course duration:] :green[{duration}]')
 
-        # Course duration
-        duration = pc.courseMetas[0].duration
-        st.write(f'###### :red[Course duration:] :green[{duration}]')
+    with st.expander('**🔖 &nbsp; &nbsp; What you Learn from this course?**'):
+        for i, j in enumerate(pc.courseMetas[0].overview.learn, 1):
+            st.write(f'{i}. {j}')
 
-        with st.expander('**🔖 &nbsp; &nbsp; What you Learn from this course?**'):
-            for i, j in enumerate(pc.courseMetas[0].overview.learn, 1):
-                f'{i}. {j}'
+    with st.expander('**🎁 &nbsp; &nbsp; Features of the Course.**'):
+        for i, j in enumerate(pc.courseMetas[0].overview.features, 1):
+            st.write(f'{i}. {j}')
 
-        with st.expander('**🎁 &nbsp; &nbsp; Features of the Course.**'):
-            for i, j in enumerate(pc.courseMetas[0].overview.features, 1):
-                f'{i}. {j}'
+    with st.expander('**👨 &nbsp; &nbsp; Instructors Details**'):
+        for inst in pc.instructorsDetails:
+            st.write(f'### 👨‍🏫 &nbsp; {inst.name}')
+            st.write(f'{inst.description}')
 
-        with st.expander('**👨 &nbsp; &nbsp; Instructors Details**'):
-            for ins in pc.instructorsDetails:
-                f'### 👨‍🏫 &nbsp; {ins.name}'
-                f'{ins.description}'
+            for name, url in inst.social.model_dump().items():
+                if url:
+                    st.write(f'###### 🔗 {name.capitalize()}: {url}')
 
-                for name, url in ins.social.dict().items():
-                    if url:
-                        f'###### 🔗 {name.capitalize()}: {url}'
-                '---'
+            if not inst == pc.instructorsDetails[-1]:
+                st.write('---')
 
-    case 'Curriculum':
-        df = pc.curriculum_df()
+elif radio == 'Curriculum':
+    df = pc.curriculum_df()
 
-        st.title(f'Curriculum of :red[{pc.title}]')
-        l, r = st.columns([0.2, 0.8])
-        l.write(f':red[No. of Sections:] :green[{df.parentTitle.nunique()}]')
-        r.write(f':red[No. of Lessons:] :green[{df.childTitle.nunique()}]')
-        st.write('---')
+    st.title(f'Curriculum of :orange[{pc.title}]')
+    l, r = st.columns([0.2, 0.8])
+    l.write(
+        f'#### :red[No. of Sections:] :green[{df["parentTitle"].nunique()}]')
+    r.write(f'#### :red[No. of Lessons:] :green[{df["childTitle"].nunique()}]')
+    st.write('---')
 
-        # --- --- Form --- --- #
-        form = st.form('curriculum_choice')
-        choice = form.text_input('Enter Section Name')
-        if form.form_submit_button():
-            display_curr_details(df, choice)
-        else:
-            display_curr_details(df, '')
+    choice = st.text_input('Enter Section Name', 'All')
+    display_curr_details(df, choice)
 
-    case 'Projects':
-        st.title(pc.title)
-        try:
-            df = pc.projects_df()
-        except ValueError as e:
-            st.error(e, icon='🚨')
-        else:
-            # Expander 1
-            exp1 = st.expander(f"📌&nbsp; This course has **{df['parentId'].nunique()}** \
-                different **types of (parent) topics** for project which are:")
-
+elif radio == 'Projects':
+    st.title(f'Projects of :orange[{pc.title}]')
+    try:
+        df = pc.projects_df()
+    except ValueError as e:
+        st.error(e, icon='🚨')
+        st.stop()
+    else:
+        with st.expander(
+            f"📌&nbsp; This course has **{df['parentId'].nunique()}** "
+            "different **types of (parent) topics** for project which are:"
+        ):
             for i in df['parentTitle'].unique():
-                exp1.write(f'  - {i}')
+                st.write(f'  - {i}')
 
-            # Expander 2
-            exp2 = st.expander(f"📍 There are **{df['childId'].nunique()}+** \
-                    different **(child) topics** for project which are:")
-
+        with st.expander(
+            f"📍 There are **{df['childId'].nunique()}+** different "
+            "**(child) topics** for project which are:"
+        ):
             for i in df['parentTitle'].unique():
-                exp2.write(f'  + {i}')
+                st.write(f'  + {i}')
                 for _, ii, j in df[['parentTitle', 'childTitle']].itertuples():
                     if ii == i:
-                        exp2.write(f"    - {j}")
+                        st.write(f"    - {j}")
 
-            st.write('---')
+        st.write('---')
 
-            # --- --- Form --- --- #
-            form = st.form('project_choice')
-            choice = form.text_input('Enter Parent Project Name')
-            if form.form_submit_button():
-                display_curr_details(df, choice)
-            else:
-                display_curr_details(df, '')
-
-    case _:
-        st.error('Nothing Selected!!')
+        choice = st.text_input('Enter Parent Project Name', 'All')
+        display_curr_details(df, choice)
