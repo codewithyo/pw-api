@@ -848,5 +848,135 @@
     },
     "solution": null,
     "createdAt": "2023-05-07T14:45:48.355Z"
+  },
+  {
+    "_id": "6461d50d6977cc2800dde8bb",
+    "title": "29th April Assignment",
+    "data": {
+      "maxPoints": 55,
+      "url": "https://drive.google.com/file/d/1pF5btoZP2VwZetaUAf8EDxj0ItxkrPyR/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-05-15T06:45:33.145Z"
+  },
+  {
+    "_id": "646e44986977cc94eadebadc",
+    "title": "Neural Network Assignment",
+    "data": {
+      "maxPoints": 60,
+      "url": "https://drive.google.com/file/d/1JjkkM6x_DjdLRxEDqjfdsxizx3qnoptJ/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-05-24T17:08:40.131Z"
+  },
+  {
+    "_id": "6486fffb6977ccf4afdff175",
+    "title": "Activation Function",
+    "data": {
+      "maxPoints": 45,
+      "url": "https://drive.google.com/file/d/1O7cKi_0JIlGBohIwaMASi2UEUYMwz1Rg/view"
+    },
+    "solution": null,
+    "createdAt": "2023-06-12T11:22:35.536Z"
+  },
+  {
+    "_id": "648700226977cc82c8dff17e",
+    "title": "Batch Normalization",
+    "data": {
+      "maxPoints": 55,
+      "url": "https://drive.google.com/file/d/1atg3g1iohZsbeGvKXUo2gWoRcZhZIqs8/view"
+    },
+    "solution": null,
+    "createdAt": "2023-06-12T11:23:14.023Z"
+  },
+  {
+    "_id": "648700476977cc791ddff18e",
+    "title": "Callback Functions",
+    "data": {
+      "maxPoints": 95,
+      "url": "https://drive.google.com/file/d/1fgQY392ajFITlGngbu-j-HgUD0MStZZC/view"
+    },
+    "solution": null,
+    "createdAt": "2023-06-12T11:23:51.993Z"
+  },
+  {
+    "_id": "648700db6977cc4e59dff1bb",
+    "title": "Forward & Backward  Propagation",
+    "data": {
+      "maxPoints": 45,
+      "url": "https://drive.google.com/file/d/10vW1fkt9HbnfPsPxzUB3Vu0jRQz8YYd9/view"
+    },
+    "solution": null,
+    "createdAt": "2023-06-12T11:26:19.282Z"
+  },
+  {
+    "_id": "648701396977cce010dff1d2",
+    "title": "Implementation of  ANN in Keras",
+    "data": {
+      "maxPoints": 85,
+      "url": "https://drive.google.com/file/d/1ngbN6ZA9HTr01nqreUl6pLAapj-LGiV3/view"
+    },
+    "solution": null,
+    "createdAt": "2023-06-12T11:27:53.649Z"
+  },
+  {
+    "_id": "6487015d6977cc7feadff1db",
+    "title": "Optimizers",
+    "data": {
+      "maxPoints": 45,
+      "url": "https://drive.google.com/file/d/1-2pYvDc0uu5L9edjAeIG_oWeDjVNP0zP/view"
+    },
+    "solution": null,
+    "createdAt": "2023-06-12T11:28:29.094Z"
+  },
+  {
+    "_id": "648701796977cc2fb1dff1e6",
+    "title": "Regularization",
+    "data": {
+      "maxPoints": 45,
+      "url": "https://drive.google.com/file/d/1mTqM9ybu1zKiz8YEtgKhb14F5MohIPIh/view"
+    },
+    "solution": null,
+    "createdAt": "2023-06-12T11:28:57.938Z"
+  },
+  {
+    "_id": "648701ed6977ccf12bdff203",
+    "title": "TensorFlow Fundamentals",
+    "data": {
+      "maxPoints": 50,
+      "url": "https://drive.google.com/file/d/1MxOogm4SKAZ_iQJCImEFHWjEr2KWaRfh/view"
+    },
+    "solution": null,
+    "createdAt": "2023-06-12T11:30:53.270Z"
+  },
+  {
+    "_id": "648702086977cc1306dff214",
+    "title": "Weight Initialization",
+    "data": {
+      "maxPoints": 45,
+      "url": "https://drive.google.com/file/d/1Xrh7-pLxyNiBl7rgwoD5_AoWthyfx2am/view"
+    },
+    "solution": null,
+    "createdAt": "2023-06-12T11:31:20.143Z"
+  },
+  {
+    "_id": "64ae57e36977cc0923e3f818",
+    "title": "Assignment  - CNN Architecture",
+    "data": {
+      "maxPoints": 60,
+      "url": "https://drive.google.com/file/d/1F89A39IPaSc7Xdegy6igvE6SKLol4T6L/view?usp=drive_link"
+    },
+    "solution": null,
+    "createdAt": "2023-07-12T07:36:03.965Z"
+  },
+  {
+    "_id": "64ae581d6977cc4b6ae3f820",
+    "title": "Assignment - Fundamentals Of CNN",
+    "data": {
+      "maxPoints": 40,
+      "url": "https://drive.google.com/file/d/1QEMS0eT-t_5A5RfW51vLBqUeQANZMcjm/view?usp=sharing"
+    },
+    "solution": null,
+    "createdAt": "2023-07-12T07:37:01.870Z"
   }
 ]

@@ -1,6 +1,7 @@
 """ README page for the PW Skills Live Course analysis. """
 
 import streamlit as st
+
 from src.pw.utils import get_all_courses_dict
 
 # Page config

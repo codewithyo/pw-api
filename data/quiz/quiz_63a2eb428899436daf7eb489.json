@@ -11847,5 +11847,1890 @@
       }
     ],
     "createdAt": "2023-05-06T19:25:36.053Z"
+  },
+  {
+    "_id": "6461dd8c6977cc4317ddea8d",
+    "title": "29th April quiz",
+    "quizQuestions": [
+      {
+        "_id": "6461dd8c6977cc3cfeddea8e",
+        "title": "<p>&nbsp;Which of the following statements is true about DBSCAN?</p>",
+        "options": [
+          {
+            "name": "<p>It requires the number of clusters as an input parameter.</p>"
+          },
+          {
+            "name": "<p>&nbsp;It is a hierarchical clustering algorithm.</p>"
+          },
+          {
+            "name": "<p>&nbsp;It can handle non-linearly separable clusters.</p>"
+          },
+          {
+            "name": "<p>&nbsp;It assumes that clusters have a Gaussian distribution.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "6461dd8c6977ccda66ddea8f",
+        "title": "<p>Which of the following input parameters of DBSCAN determines the minimum number of points that must be within a given radius to form a dense region?</p>",
+        "options": [
+          {
+            "name": "<p>epsilon</p>"
+          },
+          {
+            "name": "<p>min_samples</p>"
+          },
+          {
+            "name": "<p>max_samples</p>"
+          },
+          {
+            "name": "<p>min_distance</p>"
+          }
+        ]
+      },
+      {
+        "_id": "6461dd8c6977ccac73ddea90",
+        "title": "<p>Which of the following distance metrics can be used with DBSCAN?</p>",
+        "options": [
+          {
+            "name": "<p>Euclidean distance</p>"
+          },
+          {
+            "name": "<p>&nbsp;Manhattan distance</p>"
+          },
+          {
+            "name": "<p>&nbsp;Cosine similarity</p>"
+          },
+          {
+            "name": "<p>All of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "6461dd8c6977cc7dbfddea91",
+        "title": "<p>In DBSCAN, what is the meaning of the parameter epsilon?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;The maximum number of points in a cluster.</p>"
+          },
+          {
+            "name": "<p>&nbsp;The minimum number of points in a cluster.</p>"
+          },
+          {
+            "name": "<p>The maximum distance between two points in a cluster.</p>"
+          },
+          {
+            "name": "<p>The minimum distance between two points in a cluster.</p><p>&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "6461dd8c6977cc705addea92",
+        "title": "<p>Which of the following is an advantage of DBSCAN over k-means?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;DBSCAN can handle non-linearly separable clusters.</p>"
+          },
+          {
+            "name": "<p>&nbsp;DBSCAN is faster than k-means.</p>"
+          },
+          {
+            "name": "<p>&nbsp;DBSCAN does not require any input parameters.</p>"
+          },
+          {
+            "name": "<p>DBSCAN can handle high-dimensional data.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "6461dd8c6977cc62c5ddea93",
+        "title": "<p>In DBSCAN, what is the meaning of the parameter min_samples?</p><p>&nbsp;</p>",
+        "options": [
+          {
+            "name": "<p>The minimum distance between two points in a cluster.</p>"
+          },
+          {
+            "name": "<p>&nbsp;The maximum distance between two points in a cluster.</p>"
+          },
+          {
+            "name": "<p>&nbsp;The minimum number of points in a cluster.</p>"
+          },
+          {
+            "name": "<p>The maximum number of points in a cluster.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "6461dd8c6977cc7383ddea94",
+        "title": "<p>Which of the following statements is true about DBSCAN?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;It can only handle datasets with a low dimensionality.</p>"
+          },
+          {
+            "name": "<p>It is sensitive to the choice of initial cluster centers.</p>"
+          },
+          {
+            "name": "<p>&nbsp;It can be used to detect outliers as well as clusters.</p>"
+          },
+          {
+            "name": "<p>&nbsp;It requires the input dataset to be preprocessed to remove noise.</p><p>&nbsp;</p>"
+          }
+        ]
+      },
+      {
+        "_id": "6461dd8c6977cc9a72ddea95",
+        "title": "<p>Which of the following is a limitation of DBSCAN?</p>",
+        "options": [
+          {
+            "name": "<p>It requires the number of clusters as an input parameter.</p>"
+          },
+          {
+            "name": "<p>&nbsp;It is sensitive to the choice of distance metric.</p>"
+          },
+          {
+            "name": "<p>It assumes that clusters are spherical.</p>"
+          },
+          {
+            "name": "<p>&nbsp;It can only handle datasets with a small number of features.</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-05-15T07:21:48.787Z"
+  },
+  {
+    "_id": "64883e176977cc3b07e015ac",
+    "title": "Activation Functions Quiz",
+    "quizQuestions": [
+      {
+        "_id": "64883e176977cc6158e015ad",
+        "title": "<p>Which activation function is commonly used for binary classification tasks?</p>",
+        "options": [
+          {
+            "name": "<p>Sigmoid</p>"
+          },
+          {
+            "name": "<p>ReLU</p>"
+          },
+          {
+            "name": "<p>Tanh</p>"
+          },
+          {
+            "name": "<p>Softmax</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64883e176977ccab24e015ae",
+        "title": "<p>Which activation function is suitable for handling the vanishing gradient problem in deep neural networks?</p>",
+        "options": [
+          {
+            "name": "<p>Sigmoid</p>"
+          },
+          {
+            "name": "<p>ReLU</p>"
+          },
+          {
+            "name": "<p>Tanh</p>"
+          },
+          {
+            "name": "<p>Leaky ReLU</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64883e176977cc86f5e015af",
+        "title": "<p>Which activation function is commonly used for multi-class classification tasks?</p>",
+        "options": [
+          {
+            "name": "<p>Sigmoid</p>"
+          },
+          {
+            "name": "<p>ReLU</p>"
+          },
+          {
+            "name": "<p>Tanh</p>"
+          },
+          {
+            "name": "<p>Softmax</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64883e176977cc7c34e015b0",
+        "title": "<p>Which activation function is preferred for most hidden layers in a deep neural network?</p>",
+        "options": [
+          {
+            "name": "<p>Sigmoid</p>"
+          },
+          {
+            "name": "<p>ReLU</p>"
+          },
+          {
+            "name": "<p>Tanh</p>"
+          },
+          {
+            "name": "<p>Softmax</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64883e176977ccc10be015b1",
+        "title": "<p>Which activation function can produce negative values and is centered around zero?</p>",
+        "options": [
+          {
+            "name": "<p>Sigmoid</p>"
+          },
+          {
+            "name": "<p>ReLU</p>"
+          },
+          {
+            "name": "<p>Tanh</p>"
+          },
+          {
+            "name": "<p>Softmax</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64883e176977cc1349e015b2",
+        "title": "<p>Which activation function is a variant of ReLU that allows a small gradient for negative values?</p>",
+        "options": [
+          {
+            "name": "<p>Sigmoid</p>"
+          },
+          {
+            "name": "<p>ReLU</p>"
+          },
+          {
+            "name": "<p>Tanh</p>"
+          },
+          {
+            "name": "<p>Leaky ReLU</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64883e176977cc2dc0e015b3",
+        "title": "<p>Which activation function can map any real-valued number to a value between 0 and 1?</p>",
+        "options": [
+          {
+            "name": "<p>Sigmoid</p>"
+          },
+          {
+            "name": "<p>ReLU</p>"
+          },
+          {
+            "name": "<p>Tanh</p>"
+          },
+          {
+            "name": "<p>Softmax</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64883e176977cc24b1e015b4",
+        "title": "<p>Which activation function does not introduce non-linearity to the model?</p>",
+        "options": [
+          {
+            "name": "<p>Sigmoid</p>"
+          },
+          {
+            "name": "<p>ReLU</p>"
+          },
+          {
+            "name": "<p>Tanh</p>"
+          },
+          {
+            "name": "<p>Linear</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64883e176977cc0e5ce015b5",
+        "title": "<p>Which activation function is used for binary classification tasks where the output ranges from -1 to 1?</p>",
+        "options": [
+          {
+            "name": "<p>Sigmoid</p>"
+          },
+          {
+            "name": "<p>ReLU</p>"
+          },
+          {
+            "name": "<p>Tanh</p>"
+          },
+          {
+            "name": "<p>Softmax</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64883e176977cc82a1e015b6",
+        "title": "<p>Which activation function is less prone to the \"vanishing gradient\" problem compared to the sigmoid function?</p>",
+        "options": [
+          {
+            "name": "<p>Sigmoid</p>"
+          },
+          {
+            "name": "<p>ReLU</p>"
+          },
+          {
+            "name": "<p>Tanh</p>"
+          },
+          {
+            "name": "<p>&nbsp;Softmax</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-06-13T09:59:51.531Z"
+  },
+  {
+    "_id": "6488443d6977cc7e05e0176d",
+    "title": "Forward & Backward Propagation Quiz",
+    "quizQuestions": [
+      {
+        "_id": "6488443d6977cc3855e0176e",
+        "title": "<p>What is the purpose of forward propagation in an ANN?</p>",
+        "options": [
+          {
+            "name": "<p>To compute the predicted output based on the input data</p>"
+          },
+          {
+            "name": "<p>To update the weights and biases of the network</p>"
+          },
+          {
+            "name": "<p>To compute the loss function</p>"
+          },
+          {
+            "name": "<p>To adjust the learning rate</p>"
+          }
+        ]
+      },
+      {
+        "_id": "6488443d6977cc2672e0176f",
+        "title": "<p>During forward propagation, what is the purpose of applying an activation function to the weighted sum of inputs?</p>",
+        "options": [
+          {
+            "name": "<p>To introduce non-linearity in the network</p>"
+          },
+          {
+            "name": "<p>To compute the gradient for backpropagation</p>"
+          },
+          {
+            "name": "<p>To normalize the input data</p>"
+          },
+          {
+            "name": "<p>To adjust the learning rate</p>"
+          }
+        ]
+      },
+      {
+        "_id": "6488443d6977cc2c2ae01770",
+        "title": "<p>Which step in neural network involves computing the gradients of the weights and biases with respect to the loss function?</p>",
+        "options": [
+          {
+            "name": "<p>Gradient descent</p>"
+          },
+          {
+            "name": "<p>Forward propagation</p>"
+          },
+          {
+            "name": "<p>Activation function</p>"
+          },
+          {
+            "name": "<p>Backward propagation</p>"
+          }
+        ]
+      },
+      {
+        "_id": "6488443d6977ccddd5e01771",
+        "title": "<p>What is the primary goal of backward propagation in an ANN?</p>",
+        "options": [
+          {
+            "name": "<p>To update the weights and biases of the network</p>"
+          },
+          {
+            "name": "<p>To compute the loss function</p>"
+          },
+          {
+            "name": "<p>To adjust the learning rate</p>"
+          },
+          {
+            "name": "<p>To initialize the weights and biases</p>"
+          }
+        ]
+      },
+      {
+        "_id": "6488443d6977cc02bde01772",
+        "title": "<p>Which mathematical operation is performed during forward propagation to compute the weighted sum of inputs in a neuron?</p>",
+        "options": [
+          {
+            "name": "<p>Addition</p>"
+          },
+          {
+            "name": "<p>Subtraction</p>"
+          },
+          {
+            "name": "<p>Multiplication</p>"
+          },
+          {
+            "name": "<p>Division</p>"
+          }
+        ]
+      },
+      {
+        "_id": "6488443d6977ccc45ce01773",
+        "title": "<p>Which step follows backward propagation in the training process of an ANN?</p>",
+        "options": [
+          {
+            "name": "<p>Weight initialization</p>"
+          },
+          {
+            "name": "<p>Gradient descent</p>"
+          },
+          {
+            "name": "<p>Activation function</p>"
+          },
+          {
+            "name": "<p>Forward propagation</p>"
+          }
+        ]
+      },
+      {
+        "_id": "6488443d6977ccb329e01774",
+        "title": "<p>During forward propagation, what is the purpose of bias in a neuron?</p>",
+        "options": [
+          {
+            "name": "<p>To provide a threshold for activation</p>"
+          },
+          {
+            "name": "<p>To introduce non-linearity in the network</p>"
+          },
+          {
+            "name": "<p>To adjust the learning rate</p>"
+          },
+          {
+            "name": "<p>To compute the gradients for backpropagation</p>"
+          }
+        ]
+      },
+      {
+        "_id": "6488443d6977cc45f9e01775",
+        "title": "<p>What is the purpose of the chain rule during backward propagation?</p>",
+        "options": [
+          {
+            "name": "<p>To compute the loss function</p>"
+          },
+          {
+            "name": "<p>To update the weights and biases</p>"
+          },
+          {
+            "name": "<p>To adjust the learning rate</p>"
+          },
+          {
+            "name": "<p>To propagate the gradients through the layers</p>"
+          }
+        ]
+      },
+      {
+        "_id": "6488443d6977cc3761e01776",
+        "title": "<p>Which step in backward propagation involves updating the weights and biases of the network?</p>",
+        "options": [
+          {
+            "name": "<p>Gradient descent</p>"
+          },
+          {
+            "name": "<p>Forward propagation</p>"
+          },
+          {
+            "name": "<p>Activation function</p>"
+          },
+          {
+            "name": "<p>Backward propagation</p>"
+          }
+        ]
+      },
+      {
+        "_id": "6488443d6977cc6803e01777",
+        "title": "<p>What is the role of the learning rate in the training process of an ANN?</p>",
+        "options": [
+          {
+            "name": "<p>To adjust the weights and biases during forward propagation</p>"
+          },
+          {
+            "name": "<p>To control the speed of convergence during gradient descent</p>"
+          },
+          {
+            "name": "<p>To compute the loss function</p>"
+          },
+          {
+            "name": "<p>To introduce non-linearity in the network</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-06-13T10:26:05.423Z"
+  },
+  {
+    "_id": "64884b466977cccba3e019c2",
+    "title": "Callback Functions Quiz",
+    "quizQuestions": [
+      {
+        "_id": "64884b466977cc8577e019c3",
+        "title": "<p>&nbsp;What is a callback function in the context of ANN training?</p>",
+        "options": [
+          {
+            "name": "<p>A function that is executed before training starts</p>"
+          },
+          {
+            "name": "<p>A function that is executed after each epoch of training</p>"
+          },
+          {
+            "name": "<p>&nbsp;A function that is executed during forward propagation</p>"
+          },
+          {
+            "name": "<p>A function that is executed during backward propagation</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64884b466977cc3fb9e019c4",
+        "title": "<p>What is the purpose of using callback functions in ANN training?</p>",
+        "options": [
+          {
+            "name": "<p>To stop training early if a certain condition is me</p>"
+          },
+          {
+            "name": "<p>To save the best model during training</p>"
+          },
+          {
+            "name": "<p>To adjust the learning rate dynamically</p>"
+          },
+          {
+            "name": "<p>All of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64884b466977ccb648e019c5",
+        "title": "<p>What is the purpose of the EarlyStopping callback function in ANN training?</p>",
+        "options": [
+          {
+            "name": "<p>To save the best model during training</p>"
+          },
+          {
+            "name": "<p>To adjust the learning rate dynamically</p>"
+          },
+          {
+            "name": "<p>To stop training early if a certain condition is met</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64884b466977cc87aee019c6",
+        "title": "<p>Which callback function can be used to visualize the training progress using TensorBoard?</p>",
+        "options": [
+          {
+            "name": "<p>EarlyStopping</p>"
+          },
+          {
+            "name": "<p>ModelCheckpoint</p>"
+          },
+          {
+            "name": "<p>ReduceLROnPlateau</p>"
+          },
+          {
+            "name": "<p>TensorBoard</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64884b466977ccc61ce019c7",
+        "title": "<p>&nbsp;Which callback function can be used to stop training if the validation loss does not improve for a specified number of epochs?</p>",
+        "options": [
+          {
+            "name": "<p>EarlyStopping</p>"
+          },
+          {
+            "name": "<p>ModelCheckpoint</p>"
+          },
+          {
+            "name": "<p>ReduceLROnPlateau</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64884b466977ccf678e019c8",
+        "title": "<p>How can you add multiple callback functions to an ANN training process?</p>",
+        "options": [
+          {
+            "name": "<p>By passing a list of callbacks when fitting the model</p>"
+          },
+          {
+            "name": "<p>By creating a custom callback that combines the desired behaviors</p>"
+          },
+          {
+            "name": "<p>By using only one callback function at a time</p>"
+          },
+          {
+            "name": "<p>Multiple callback functions cannot be used together</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64884b466977cc5a8ee019c9",
+        "title": "<p>Which callback function can be used to stop training if the learning rate becomes too small?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;EarlyStopping</p>"
+          },
+          {
+            "name": "<p>ModelCheckpoint</p>"
+          },
+          {
+            "name": "<p>ReduceLROnPlateau</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64884b466977ccb9b6e019ca",
+        "title": "<p>What is the purpose of the TensorBoard callback function in ANN training?</p>",
+        "options": [
+          {
+            "name": "<p>To adjust the learning rate dynamically</p>"
+          },
+          {
+            "name": "<p>To save the best model during training</p>"
+          },
+          {
+            "name": "<p>To visualize the training progress and metrics using TensorBoard</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64884b466977cc0953e019cb",
+        "title": "<p>How can you enable the usage of callback functions during ANN training in Keras?</p>",
+        "options": [
+          {
+            "name": "<p>By passing the callbacks parameter when fitting the model</p>"
+          },
+          {
+            "name": "<p>By setting the use_callbacks=True flag in the model configuration</p>"
+          },
+          {
+            "name": "<p>By defining the callbacks inside the model architecture</p>"
+          },
+          {
+            "name": "<p>Callback functions are automatically enabled in Keras</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-06-13T10:56:06.664Z"
+  },
+  {
+    "_id": "648855d96977ccce76e01d83",
+    "title": "Loss Functions in ANN (Beginner Level) Quiz",
+    "quizQuestions": [
+      {
+        "_id": "648855d96977cc1bafe01d84",
+        "title": "<p>What is the purpose of a loss function in an Artificial Neural Network?</p>",
+        "options": [
+          {
+            "name": "<p>To minimise the computational cost</p>"
+          },
+          {
+            "name": "<p>To maximise the accuracy of predictions</p>"
+          },
+          {
+            "name": "<p>To measure the discrepancy between predicted and actual values</p>"
+          },
+          {
+            "name": "<p>To determine the learning rate</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648855d96977cc3103e01d85",
+        "title": "<p>Which loss function is commonly used for regression tasks with normally distributed targets?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;Mean Absolute Error (MAE)</p>"
+          },
+          {
+            "name": "<p>Mean Squared Error (MSE)</p>"
+          },
+          {
+            "name": "<p>Binary Cross-Entropy Loss</p>"
+          },
+          {
+            "name": "<p>Categorical Cross-Entropy Loss</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648855d96977cc119de01d86",
+        "title": "<p>What is the difference between Mean Absolute Error (MAE) and Mean Squared Error (MSE) loss functions in regression tasks?</p>",
+        "options": [
+          {
+            "name": "<p>MAE measures the absolute difference, while MSE measures the squared difference</p>"
+          },
+          {
+            "name": "<p>MAE gives more weight to larger errors, while MSE is less sensitive to outliers</p>"
+          },
+          {
+            "name": "<p>MAE measures the squared difference, while MSE measures the absolute difference</p>"
+          },
+          {
+            "name": "<p>MAE and MSE are the same loss function</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648855d96977cc98cce01d87",
+        "title": "<p>When would you choose Mean Absolute Error (MAE) over Mean Squared Error (MSE) for a regression task?</p>",
+        "options": [
+          {
+            "name": "<p>When outliers have a significant impact on the model's performance</p>"
+          },
+          {
+            "name": "<p>When the target variable follows a normal distribution</p>"
+          },
+          {
+            "name": "<p>When the feature importance needs to be determined</p>"
+          },
+          {
+            "name": "<p>When the model is overfitting</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648855d96977ccb1ebe01d88",
+        "title": "<p>Which loss function is commonly used for binary classification tasks in ANN?</p>",
+        "options": [
+          {
+            "name": "<p>Mean Squared Error (MSE)</p>"
+          },
+          {
+            "name": "<p>Mean Absolute Error (MAE)</p>"
+          },
+          {
+            "name": "<p>Cross-Entropy Loss</p>"
+          },
+          {
+            "name": "<p>Huber Loss</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648855d96977cc8d9ae01d89",
+        "title": "<p>Which loss function is suitable for regression problems with outliers?</p>",
+        "options": [
+          {
+            "name": "<p>Mean Squared Error (MSE)</p>"
+          },
+          {
+            "name": "<p>Mean Absolute Error (MAE)</p>"
+          },
+          {
+            "name": "<p>Huber Loss</p>"
+          },
+          {
+            "name": "<p>Binary Cross-Entropy Loss</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648855d96977cc5df9e01d8a",
+        "title": "<p>&nbsp;When would you choose Categorical Cross-Entropy Loss over Mean Squared Error (MSE) for a classification task?</p>",
+        "options": [
+          {
+            "name": "<p>When the target classes are mutually exclusive and discrete</p>"
+          },
+          {
+            "name": "<p><i>When the model is underfitting</i></p>"
+          },
+          {
+            "name": "<p>When outliers have a significant impact on the model's performance</p>"
+          },
+          {
+            "name": "<p>When the target variable follows a normal distribution</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648855d96977cc8cade01d8b",
+        "title": "<p>Which loss function is commonly used for binary classification tasks?</p>",
+        "options": [
+          {
+            "name": "<p>Mean Squared Error (MSE)</p>"
+          },
+          {
+            "name": "<p>Mean Absolute Error (MAE)</p>"
+          },
+          {
+            "name": "<p>Binary Cross-Entropy Loss</p>"
+          },
+          {
+            "name": "<p>Categorical Cross-Entropy Loss</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648855d96977cc63f5e01d8c",
+        "title": "<p>Which loss function is used for multi-class classification problems in ANN?</p>",
+        "options": [
+          {
+            "name": "<p>Mean Squared Error (MSE)</p>"
+          },
+          {
+            "name": "<p>Mean Absolute Error (MAE)</p>"
+          },
+          {
+            "name": "<p>Binary Cross-Entropy Loss</p>"
+          },
+          {
+            "name": "<p>Categorical Cross-Entropy Loss</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648855d96977cc428be01d8d",
+        "title": "<p>Which loss function penalises larger errors more than smaller errors in regression tasks?</p>",
+        "options": [
+          {
+            "name": "<p>Mean Squared Error (MSE)</p>"
+          },
+          {
+            "name": "<p>Mean Absolute Error (MAE)</p>"
+          },
+          {
+            "name": "<p>Huber Loss</p>"
+          },
+          {
+            "name": "<p>Binary Cross-Entropy Loss</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-06-13T11:41:13.242Z"
+  },
+  {
+    "_id": "64886b046977cc9adbe02239",
+    "title": "Regularization Quiz",
+    "quizQuestions": [
+      {
+        "_id": "64886b046977cc5d49e0223a",
+        "title": "<p>What is the purpose of regularization in ANN?</p>",
+        "options": [
+          {
+            "name": "<p>To prevent overfitting</p>"
+          },
+          {
+            "name": "<p>To speed up the training process</p>"
+          },
+          {
+            "name": "<p>To increase the model's complexity</p>"
+          },
+          {
+            "name": "<p>To reduce the computational cost</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64886b046977cc373ee0223b",
+        "title": "<p>Which of the following is a common regularization technique in ANN?</p>",
+        "options": [
+          {
+            "name": "<p>L1 regularization</p>"
+          },
+          {
+            "name": "<p>Dropout</p>"
+          },
+          {
+            "name": "<p>Early stopping</p>"
+          },
+          {
+            "name": "<p>All of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64886b046977cc574fe0223c",
+        "title": "<p>What is the purpose of L2 regularization in ANN?</p>",
+        "options": [
+          {
+            "name": "<p>It adds a penalty term based on the sum of absolute values of weights</p>"
+          },
+          {
+            "name": "<p>It adds a penalty term based on the sum of squared values of weights</p>"
+          },
+          {
+            "name": "<p>It randomly drops out a fraction of neuron activations during training</p>"
+          },
+          {
+            "name": "<p>It stops the training process early based on a predefined condition</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64886b046977cc84bae0223d",
+        "title": "<p>Which regularization technique randomly drops out a fraction of neuron activations during training?</p>",
+        "options": [
+          {
+            "name": "<p>L1 regularization</p>"
+          },
+          {
+            "name": "<p>L2 regularization</p>"
+          },
+          {
+            "name": "<p>Dropout</p>"
+          },
+          {
+            "name": "<p>Early stopping</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64886b046977cc19dee0223e",
+        "title": "<p>What is the purpose of dropout regularization in ANN?</p>",
+        "options": [
+          {
+            "name": "<p>It encourages the weights to be sparse</p>"
+          },
+          {
+            "name": "<p>It prevents overfitting by reducing co-adaptation of neurons</p>"
+          },
+          {
+            "name": "<p>It stops the training process early based on a predefined condition</p>"
+          },
+          {
+            "name": "<p>It adds a penalty term based on the sum of absolute values of weights</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64886b046977cc21cae0223f",
+        "title": "<p>What is the effect of dropout regularization on the training process in ANN?</p>",
+        "options": [
+          {
+            "name": "<p>It increases the training time</p>"
+          },
+          {
+            "name": "<p>It reduces the training time</p>"
+          },
+          {
+            "name": "<p>&nbsp;It has no effect on the training time</p>"
+          },
+          {
+            "name": "<p>It stops the training process early</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64886b046977cc0b70e02240",
+        "title": "<p>Which regularization technique stops the training process early based on a predefined condition?</p>",
+        "options": [
+          {
+            "name": "<p>L1 regularization</p>"
+          },
+          {
+            "name": "<p>L2 regularization</p>"
+          },
+          {
+            "name": "<p>Dropout</p>"
+          },
+          {
+            "name": "<p>Early stopping</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64886b046977cc20dbe02241",
+        "title": "<p>How does early stopping regularization prevent overfitting in ANN?</p>",
+        "options": [
+          {
+            "name": "<p>It adds a penalty term based on the sum of absolute values of weights</p>"
+          },
+          {
+            "name": "<p>It encourages the weights to be sparse</p>"
+          },
+          {
+            "name": "<p>&nbsp;It stops the training process before overfitting occurs</p>"
+          },
+          {
+            "name": "<p>&nbsp;It randomly drops out a fraction of neuron activations during training</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64886c786977cc2e09e022b8",
+        "title": "<p>Which regularization technique is commonly used to reduce both bias</p><p>&nbsp;and variance in ANN?</p>",
+        "options": [
+          {
+            "name": "<p>L1 regularization</p>"
+          },
+          {
+            "name": "<p>L2 regularization</p>"
+          },
+          {
+            "name": "<p>Dropout</p>"
+          },
+          {
+            "name": "<p>Early stopping</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64886c786977cc5a64e022b9",
+        "title": "<p>What is the main drawback of regularization techniques in ANN?</p>",
+        "options": [
+          {
+            "name": "<p>They can increase the risk of underfitting</p>"
+          },
+          {
+            "name": "<p>They always increase the computational cost</p>"
+          },
+          {
+            "name": "<p>They only work well with large datasets</p>"
+          },
+          {
+            "name": "<p>They require a higher learning rate for convergence</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64886c786977cc41dfe022ba",
+        "title": "<p>Which regularization technique is most suitable for handling collinearity in input features?</p>",
+        "options": [
+          {
+            "name": "<p>L1 regularization</p>"
+          },
+          {
+            "name": "<p>&nbsp;L2 regularization</p>"
+          },
+          {
+            "name": "<p>Dropout</p>"
+          },
+          {
+            "name": "<p>Early stopping</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-06-13T13:11:32.347Z"
+  },
+  {
+    "_id": "64888dcb6977cc6f11e023e2",
+    "title": "Batch Normalization ",
+    "quizQuestions": [
+      {
+        "_id": "64888dcb6977cc7b6ae023e3",
+        "title": "<p>What is Batch Normalization?</p>",
+        "options": [
+          {
+            "name": "<p>A technique for normalizing input data in the preprocessing stage</p>"
+          },
+          {
+            "name": "<p>A method for normalizing the output of activation functions in an ANN</p>"
+          },
+          {
+            "name": "<p>A regularization technique used to prevent overfitting in ANN training</p>"
+          },
+          {
+            "name": "<p>A technique for normalizing the activations of intermediate layers during training</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64888dcb6977cc3681e023e4",
+        "title": "<p>What is the main benefit of Batch Normalization?</p>",
+        "options": [
+          {
+            "name": "<p>Speeding up the training process</p>"
+          },
+          {
+            "name": "<p>Improving the generalization capability of the model</p>"
+          },
+          {
+            "name": "<p>Preventing vanishing or exploding gradients</p>"
+          },
+          {
+            "name": "<p>&nbsp;All of the above</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64888dcb6977cc47ade023e5",
+        "title": "<p>How does Batch Normalization work?</p>",
+        "options": [
+          {
+            "name": "<p>By subtracting the mean and dividing by the standard deviation of each batch</p>"
+          },
+          {
+            "name": "<p>By normalizing the activation values using a learnable scale and shift</p>"
+          },
+          {
+            "name": "<p>By rescaling the gradient during backpropagation to prevent vanishing or exploding gradients</p>"
+          },
+          {
+            "name": "<p>All of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64888dcb6977cc2c9ae023e6",
+        "title": "<p>During inference (testing or prediction), how are the activation values normalized in Batch Normalization?</p>",
+        "options": [
+          {
+            "name": "<p>Using the batch mean and variance computed during training</p>"
+          },
+          {
+            "name": "<p>Using the population mean and variance computed during training</p>"
+          },
+          {
+            "name": "<p>&nbsp;By applying the same normalization parameters learned during training</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648891fb6977cc622ae02423",
+        "title": "<p>What is the effect of Batch Normalization on the activation distribution?</p>",
+        "options": [
+          {
+            "name": "<p>It makes the distribution more Gaussian-like</p>"
+          },
+          {
+            "name": "<p>It makes the distribution more uniform</p>"
+          },
+          {
+            "name": "<p>&nbsp;&nbsp;It has no effect on the distribution</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648891fb6977cc28cfe02424",
+        "title": "<p>What problem does Batch Normalization help alleviate during the training of deep neural networks?</p>",
+        "options": [
+          {
+            "name": "<p>Vanishing gradients</p>"
+          },
+          {
+            "name": "<p>Exploding gradients</p>"
+          },
+          {
+            "name": "<p>Covariate shift</p>"
+          },
+          {
+            "name": "<p>All of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648891fb6977cc1b76e02425",
+        "title": "<p>How does Batch Normalization contribute to regularization in ANN training?</p>",
+        "options": [
+          {
+            "name": "<p>By introducing noise to the activation values</p>"
+          },
+          {
+            "name": "<p>&nbsp;&nbsp;&nbsp;By reducing the internal covariate shift</p>"
+          },
+          {
+            "name": "<p>&nbsp;&nbsp;&nbsp;By applying dropout to the normalized activations</p>"
+          },
+          {
+            "name": "<p>None of the</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648891fb6977cc57dce02426",
+        "title": "<p>What is the recommended position of Batch Normalization in a neural network architecture?</p>",
+        "options": [
+          {
+            "name": "<p>Before each activation function</p>"
+          },
+          {
+            "name": "<p>After each activation function</p>"
+          },
+          {
+            "name": "<p>After the pooling layers</p>"
+          },
+          {
+            "name": "<p>Anywhere in the network</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648891fb6977ccd9dfe02427",
+        "title": "<p>Can Batch Normalization be applied to small or shallow neural networks?</p>",
+        "options": [
+          {
+            "name": "<p>Yes, it can be beneficial regardless of network size</p>"
+          },
+          {
+            "name": "<p>No, it is only effective for large and deep networks</p>"
+          },
+          {
+            "name": "<p>It depends on the specific characteristics of the network</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648891fb6977cc8628e02428",
+        "title": "<p>What is the main disadvantage of Batch Normalization?</p>",
+        "options": [
+          {
+            "name": "<p>It can increase the computational complexity of training</p>"
+          },
+          {
+            "name": "<p>It may introduce additional hyperparameters to tune</p>"
+          },
+          {
+            "name": "<p>It can reduce the model's ability to generalize to new data</p>"
+          },
+          {
+            "name": "<p>None of the above</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-06-13T15:39:55.302Z"
+  },
+  {
+    "_id": "64894abf6977cc483ce026c4",
+    "title": "Optimizers in ANN Quiz",
+    "quizQuestions": [
+      {
+        "_id": "64894abf6977ccfe9ae026c5",
+        "title": "<p>What is the role of an optimizer in training a neural network?</p>",
+        "options": [
+          {
+            "name": "<p>Regularize the model</p>"
+          },
+          {
+            "name": "<p>Initialize the weights</p>"
+          },
+          {
+            "name": "<p>Optimize the learning rate</p>"
+          },
+          {
+            "name": "<p>Minimize the loss function</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64894abf6977cc4976e026c6",
+        "title": "<p>Which optimizer updates the model's weights by taking the average of the gradients across a mini-batch of training examples?</p>",
+        "options": [
+          {
+            "name": "<p>Stochastic Gradient Descent (SGD)</p>"
+          },
+          {
+            "name": "<p>Momentum</p>"
+          },
+          {
+            "name": "<p>AdaGrad</p>"
+          },
+          {
+            "name": "<p>RMSprop</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64894abf6977cc2e10e026c7",
+        "title": "<p>Which optimizer adapts the learning rate for each parameter based on the historical gradients?</p>",
+        "options": [
+          {
+            "name": "<p>Stochastic Gradient Descent (SGD)</p>"
+          },
+          {
+            "name": "<p>Momentum</p>"
+          },
+          {
+            "name": "<p>AdaGrad</p>"
+          },
+          {
+            "name": "<p>RMSprop</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64894abf6977cc6523e026c8",
+        "title": "<p>Which optimizer is an extension of RMSprop that also includes a moving average of the squared gradients?</p>",
+        "options": [
+          {
+            "name": "<p>Adam</p>"
+          },
+          {
+            "name": "<p>&nbsp;Adadelta</p>"
+          },
+          {
+            "name": "<p>Nadam</p>"
+          },
+          {
+            "name": "<p>Adamax</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64894e0d6977cc9609e02825",
+        "title": "<p>Which optimizer is known for its simplicity and ease of implementation?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;SGD</p>"
+          },
+          {
+            "name": "<p>Adam</p>"
+          },
+          {
+            "name": "<p>Adadelta</p>"
+          },
+          {
+            "name": "<p>Adamax</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64894e0d6977cc2aafe02826",
+        "title": "<p>Which optimizer is recommended for training deep neural networks with many layers?</p>",
+        "options": [
+          {
+            "name": "<p>SGD</p>"
+          },
+          {
+            "name": "<p>RMSprop</p>"
+          },
+          {
+            "name": "<p>Adam</p>"
+          },
+          {
+            "name": "<p>Adagrad</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64894e0d6977cc0fc8e02827",
+        "title": "<p>&nbsp;Momentum helps accelerate convergence and escape local optima in optimization.</p>",
+        "options": [
+          {
+            "name": "<p>TRUE</p>"
+          },
+          {
+            "name": "<p>FALSE</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64894e0d6977cc39a1e02828",
+        "title": "<p>AdaGrad adapts the learning rate for each parameter based on the gradient magnitudes accumulated over time.</p>",
+        "options": [
+          {
+            "name": "<p>TRUE</p>"
+          },
+          {
+            "name": "<p>FALSE</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64894e0d6977ccacc6e02829",
+        "title": "<p>Optimizers are only used during the training phase of a neural network.</p>",
+        "options": [
+          {
+            "name": "<p>TRUE</p>"
+          },
+          {
+            "name": "<p>FALSE</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64894e0d6977cc6a84e0282a",
+        "title": "<p>Optimizers help in finding the global minimum of the loss function in neural network training.</p>",
+        "options": [
+          {
+            "name": "<p>TRUE</p>"
+          },
+          {
+            "name": "<p>FALSE</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64894e0d6977cc2e9fe0282b",
+        "title": "<p>Optimizers play a crucial role in gradient descent-based optimization algorithms.</p>",
+        "options": [
+          {
+            "name": "<p>TRUE</p>"
+          },
+          {
+            "name": "<p>FALSE</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64894e0d6977cc4e2ce0282c",
+        "title": "<p>The choice of optimizer can have a significant impact on the convergence and performance of a neural network.</p>",
+        "options": [
+          {
+            "name": "<p>TRUE</p>"
+          },
+          {
+            "name": "<p>FALSE</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-06-14T05:06:07.380Z"
+  },
+  {
+    "_id": "648958666977ccab4fe02c54",
+    "title": "Weight Initialization Techniques in ANN Quiz",
+    "quizQuestions": [
+      {
+        "_id": "648958666977cc2d69e02c55",
+        "title": "<p>Which weight initialization technique sets all the weights to zero?</p>",
+        "options": [
+          {
+            "name": "<p>Zero initialization</p>"
+          },
+          {
+            "name": "<p>Random initialization</p>"
+          },
+          {
+            "name": "<p>Xavier initialization</p>"
+          },
+          {
+            "name": "<p>He initialization</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648958666977ccdca4e02c56",
+        "title": "<p>Which weight initialization technique is commonly used for sigmoid activation functions?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;Zero initialization</p>"
+          },
+          {
+            "name": "<p>Random initialization</p>"
+          },
+          {
+            "name": "<p>Xavier initialization</p>"
+          },
+          {
+            "name": "<p>He initialization</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648958666977cc127be02c57",
+        "title": "<p>Which weight initialization technique is commonly used for ReLU activation functions?</p>",
+        "options": [
+          {
+            "name": "<p>&nbsp;Zero initialization</p>"
+          },
+          {
+            "name": "<p>Random initialization</p>"
+          },
+          {
+            "name": "<p>Xavier initialization</p>"
+          },
+          {
+            "name": "<p>He initialization</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648958666977cc7a97e02c58",
+        "title": "<p>Why is zero initialization not recommended for weight initialization in deep neural networks?</p>",
+        "options": [
+          {
+            "name": "<p>It leads to slow convergence</p>"
+          },
+          {
+            "name": "<p>&nbsp;It causes the gradients to vanish</p>"
+          },
+          {
+            "name": "<p>It results in biased predictions</p>"
+          },
+          {
+            "name": "<p>It leads to overfitting</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64895cba6977cc479ae02df7",
+        "title": "<p>What problem can occur when using random initialization without proper scaling in deep neural networks?</p>",
+        "options": [
+          {
+            "name": "<p>Exploding gradients</p>"
+          },
+          {
+            "name": "<p>Vanishing gradients</p>"
+          },
+          {
+            "name": "<p>Overfitting</p>"
+          },
+          {
+            "name": "<p>Underfitting</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64895cba6977cce42ee02df8",
+        "title": "<p>Which weight initialization technique aims to prevent the vanishing gradient problem in deep neural networks?</p>",
+        "options": [
+          {
+            "name": "<p>Zero initialization</p>"
+          },
+          {
+            "name": "<p>&nbsp;Random initialization</p>"
+          },
+          {
+            "name": "<p>Xavier initialization</p>"
+          },
+          {
+            "name": "<p>He initialization</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64895cba6977cc08b6e02df9",
+        "title": "<p>Which weight initialization technique can help in reducing the likelihood of the \"dead ReLU\" problem?</p>",
+        "options": [
+          {
+            "name": "<p>Zero initialization</p>"
+          },
+          {
+            "name": "<p>&nbsp;Random initialization</p>"
+          },
+          {
+            "name": "<p>Xavier initialization</p>"
+          },
+          {
+            "name": "<p>He initialization</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64895cba6977cc76a9e02dfa",
+        "title": "<p>Which weight initialization technique is suitable for neural networks with tanh activation functions?</p>",
+        "options": [
+          {
+            "name": "<p>Zero initialization</p>"
+          },
+          {
+            "name": "<p>&nbsp;Random initialization</p>"
+          },
+          {
+            "name": "<p>Xavier initialization</p>"
+          },
+          {
+            "name": "<p>He initialization</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64895cba6977cc494de02dfb",
+        "title": "<p>Zero initialization assigns the same initial weight to all connections in the neural network.</p>",
+        "options": [
+          {
+            "name": "<p>TRUE</p>"
+          },
+          {
+            "name": "<p>FALSE</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64895cba6977cc2dbee02dfc",
+        "title": "<p>&nbsp;Xavier initialization is particularly effective for shallow neural networks with a single hidden layer.</p>",
+        "options": [
+          {
+            "name": "<p>TRUE</p>"
+          },
+          {
+            "name": "<p>FALSE</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64895cba6977cc4fd2e02dfd",
+        "title": "<p>Random initialization assigns random weights drawn from a uniform distribution to the neural network connections.</p>",
+        "options": [
+          {
+            "name": "<p>TRUE</p>"
+          },
+          {
+            "name": "<p>FALSE</p>"
+          }
+        ]
+      },
+      {
+        "_id": "64895cba6977cc8c09e02dfe",
+        "title": "<p>Zero initialization can lead to dead neurons in the neural network.</p>",
+        "options": [
+          {
+            "name": "<p>TRUE</p>"
+          },
+          {
+            "name": "<p>FALSE</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-06-14T06:04:22.617Z"
+  },
+  {
+    "_id": "648966616977ccce78e03194",
+    "title": "TensorFlow Fundamentals Quiz",
+    "quizQuestions": [
+      {
+        "_id": "648966616977cc122de03195",
+        "title": "<p>How do you create a matrix in TensorFlow?</p>",
+        "options": [
+          {
+            "name": "<p>`tf.create_matrix()`</p>"
+          },
+          {
+            "name": "<p>`tf.make_matrix()`</p>"
+          },
+          {
+            "name": "<p>`tf.constant()`</p>"
+          },
+          {
+            "name": "<p>`tf.tensor()`</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648966616977cc729ae03196",
+        "title": "<p>Which TensorFlow function is used to perform element-wise addition of two matrices?</p>",
+        "options": [
+          {
+            "name": "<p>`tf.add()`</p>"
+          },
+          {
+            "name": "<p>`tf.multiply()`</p>"
+          },
+          {
+            "name": "<p>`tf.subtract()`</p>"
+          },
+          {
+            "name": "<p>`tf.divide()`</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648966616977cc684ee03197",
+        "title": "<p>How do you perform matrix multiplication in TensorFlow?</p>",
+        "options": [
+          {
+            "name": "<p>`tf.mul()`</p>"
+          },
+          {
+            "name": "<p>`tf.dot()`</p>"
+          },
+          {
+            "name": "<p>`tf.multiply()`</p>"
+          },
+          {
+            "name": "<p>`tf.matmul()`</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648966616977cc7b5ae03198",
+        "title": "<p>What is the difference between TensorFlow constants and variables?</p>",
+        "options": [
+          {
+            "name": "<p>Constants are mutable, while variables are immutable.</p>"
+          },
+          {
+            "name": "<p>Constants can be updated during runtime, while variables hold fixed values.</p>"
+          },
+          {
+            "name": "<p>Constants are initialized with random values, while variables are initialized with specified values</p>"
+          },
+          {
+            "name": "<p>Constants hold fixed values that cannot be changed, while variables are mutable and can be updated.</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648966616977cc1b90e03199",
+        "title": "<p>How do you initialize a TensorFlow variable with random values?</p>",
+        "options": [
+          {
+            "name": "<p>`tf.init_random()`</p>"
+          },
+          {
+            "name": "<p>`tf.random()`</p>"
+          },
+          {
+            "name": "<p>`tf.random_init()`</p>"
+          },
+          {
+            "name": "<p>`tf.random_uniform()`</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648966616977cce12fe0319a",
+        "title": "<p>How can you access the shape of a TensorFlow matrix?</p>",
+        "options": [
+          {
+            "name": "<p>`tf.matrix_shape()`</p>"
+          },
+          {
+            "name": "<p>`tf.shape()`</p>"
+          },
+          {
+            "name": "<p>`tf.get_shape()`</p>"
+          },
+          {
+            "name": "<p>`tf.get_matrix_shape()`</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648966616977ccaa49e0319b",
+        "title": "<p>How do you perform element-wise multiplication of two matrices in TensorFlow?</p>",
+        "options": [
+          {
+            "name": "<p>`tf.multiply()`</p>"
+          },
+          {
+            "name": "<p>`tf.divide()`</p>"
+          },
+          {
+            "name": "<p>`tf.add()`</p>"
+          },
+          {
+            "name": "<p>`tf.subtract()`</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648966616977cc7d8ee0319c",
+        "title": "<p>How do you reassign elements in a TensorFlow matrix?</p>",
+        "options": [
+          {
+            "name": "<p>By using the `tf.reassign()` function</p>"
+          },
+          {
+            "name": "<p>By using the `tf.assign()` function</p>"
+          },
+          {
+            "name": "<p>By using the `tf.update()` function</p>"
+          },
+          {
+            "name": "<p>Reassignment of elements is not allowed in TensorFlow</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648966616977ccfc73e0319d",
+        "title": "<p>Which TensorFlow function is used to calculate the mean of a matrix along a specified axis?</p>",
+        "options": [
+          {
+            "name": "<p>`tf.sum()`</p>"
+          },
+          {
+            "name": "<p>`tf.average()`</p>"
+          },
+          {
+            "name": "<p>`tf.reduce_mean()`</p>"
+          },
+          {
+            "name": "<p>`tf.mean()`</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648966616977cc926ce0319e",
+        "title": "<p>How can you convert a TensorFlow tensor to a NumPy array?</p>",
+        "options": [
+          {
+            "name": "<p>`tensor.to_numpy()`</p>"
+          },
+          {
+            "name": "<p>`tf.to_numpy()`</p>"
+          },
+          {
+            "name": "<p>`tensor.numpy()`</p>"
+          },
+          {
+            "name": "<p>`tf.numpy()`</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648966616977cc68a5e0319f",
+        "title": "<p>How do you create a zero-filled matrix of specific shape in TensorFlow?</p>",
+        "options": [
+          {
+            "name": "<p>`tf.ones()`</p>"
+          },
+          {
+            "name": "<p>`tf.fill()`</p>"
+          },
+          {
+            "name": "<p>`tf.zeros()`</p>"
+          },
+          {
+            "name": "<p>`tf.eye()`</p>"
+          }
+        ]
+      },
+      {
+        "_id": "648966616977ccaf67e031a0",
+        "title": "<p>Which TensorFlow function is used to calculate the element-wise square root of a matrix?</p>",
+        "options": [
+          {
+            "name": "<p>`tf.sqrt()`</p>"
+          },
+          {
+            "name": "<p>`tf.square()`</p>"
+          },
+          {
+            "name": "<p>`tf.exp()`</p>"
+          },
+          {
+            "name": "<p>`tf.log()`</p>"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-06-14T07:04:01.768Z"
   }
 ]
