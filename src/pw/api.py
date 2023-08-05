@@ -1,4 +1,5 @@
-""" Use for fetching/downloading the data using PW APIs.
+"""
+Use for fetching/downloading the data using PW APIs.
 
 Also store the files in respective paths in JSON format.
 """
@@ -12,9 +13,10 @@ from bs4 import BeautifulSoup
 from requests import get
 
 from src import LiveCourse
-from src.core.logger import logging
+from src.core.logger import get_logger
 
 UrlType: TypeAlias = Literal['quiz', 'assignment']
+logger = get_logger(__name__)
 
 
 class PWApi:
@@ -61,7 +63,7 @@ class PWApi:
         stored_ids = self.load_downloaded_ids(fp) if fp.exists() else []
         res: list = load(open(fp)) if fp.exists() else []
 
-        logging.info(f'No. of {type!r} left to fetch: %s',
+        logger.info(f'No. of {type!r} left to fetch: %s',
                      (len(url_list) - len(stored_ids)))
         try:
             count = 0
@@ -70,18 +72,18 @@ class PWApi:
                 if self._id_from_url(url) not in stored_ids:
                     if type == 'quiz':
                         sleep(wait)
-                        logging.info(
+                        logger.info(
                             f'{type.title()}[{count}/{len(url_list)}]: {url}'
                         )
                         res.append(self.get_quiz_data(url))
                     else:
                         sleep(wait)
-                        logging.info(
+                        logger.info(
                             f'{type.title()}[{count}/{len(url_list)}]: {url}'
                         )
                         res.append(self.get_assignment_data(url))
         except Exception as e:
-            logging.error(e)
+            logger.error(e)
             raise
         finally:
             res = sorted(res, key=lambda x: x['createdAt'])
@@ -90,7 +92,7 @@ class PWApi:
     def __get_live_course_dict(self, cname: str):
         url = f"https://learn.pwskills.com/course/{cname.replace(' ', '-')}/{self.cid}"
         r = get(url)
-        logging.info('GET[%s]: %s', r.status_code, r.url)
+        logger.info('GET[%s]: %s', r.status_code, r.url)
 
         soup = BeautifulSoup(r.text, 'html.parser')
         script = soup.find('script', {'id': '__NEXT_DATA__'})

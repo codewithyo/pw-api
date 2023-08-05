@@ -1,4 +1,3 @@
-import logging
 from json import loads
 
 import streamlit as st
@@ -7,10 +6,11 @@ from matplotlib import pyplot as plt
 from requests import get
 
 from src import LiveCourse, courses_dict
-from src.core.logger import LoggingMessage
+from src.core.logger import LoggingMessage, get_logger
 
 plt.style.use('ggplot')
 
+logger = get_logger(__name__)
 
 # Set page config
 st.set_page_config('Preview Courses', '🗂️', 'wide')
@@ -37,8 +37,8 @@ def get_live_course_dict(course_name: str, course_id: str):
     url = ('https://learn.pwskills.com/course/{}/{}'
            .format(course_name.replace(' ', '-'), course_id))
     r = get(url)
-    logging.info(LoggingMessage.get_request_log.format(url))
-    logging.info(LoggingMessage.status_code_log.format(r.status_code))
+    logger.info(LoggingMessage.get_request_log.format(url))
+    logger.info(LoggingMessage.status_code_log.format(r.status_code))
 
     soup = BeautifulSoup(r.text, 'html.parser')
     script = soup.find('script', {'id': '__NEXT_DATA__'})

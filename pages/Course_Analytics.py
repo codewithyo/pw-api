@@ -7,8 +7,10 @@ from requests import HTTPError, get
 
 from src import (AnalyticsSubmissions, AnalyticsUsers, courses_dict,
                  get_live_course_df)
-from src.core.logger import LoggingMessage, logging
+from src.core.logger import LoggingMessage, get_logger
 from src.models.analytics import QuizAnalytics
+
+logger = get_logger(__name__)
 
 # Page config
 st.set_page_config('Course Analytics', '🎁', 'wide')
@@ -21,11 +23,11 @@ def get_analytics_data(
 ) -> tuple[AnalyticsSubmissions, AnalyticsUsers, QuizAnalytics, pd.DataFrame]:
     url = f'https://learn.pwskills.com/course-analytics/{course_name}/{cid}'
     r = get(url)
-    logging.info(LoggingMessage.get_request_log.format(url))
-    logging.info(LoggingMessage.status_code_log.format(r.status_code))
+    logger.info(LoggingMessage.get_request_log.format(url))
+    logger.info(LoggingMessage.status_code_log.format(r.status_code))
 
     if r.status_code != 200:
-        logging.error('URL response is not 200.')
+        logger.error('URL response is not 200.')
         raise HTTPError(f'{r.status_code} response: {url}')
 
     # Parse html with BeautifulSoup
