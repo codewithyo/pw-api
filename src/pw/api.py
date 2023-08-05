@@ -11,8 +11,8 @@ from typing import Literal, TypeAlias
 from bs4 import BeautifulSoup
 from requests import get
 
-from utils import LiveCourse
-from utils.logger import logging
+from src import LiveCourse
+from src.core.logger import logging
 
 UrlType: TypeAlias = Literal['quiz', 'assignment']
 

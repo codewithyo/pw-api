@@ -2,11 +2,11 @@
 
 from json import dumps, load
 
-import streamlit as st
 from requests import ReadTimeout
 
-from utils import courses_dict
-from utils.pw import Credentials, LoggedUser, PWApi
+import streamlit as st
+from src import courses_dict
+from src.pw import Credentials, LoggedUser, PWApi
 
 st.set_page_config('PW API Login', 'random', 'wide', 'expanded')
 st_msg = st.empty()

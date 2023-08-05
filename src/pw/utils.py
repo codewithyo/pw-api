@@ -2,7 +2,7 @@ from json import dump
 
 from requests import get
 
-from utils import courses_dict_fp
+from src import courses_dict_fp
 
 
 def get_all_courses_dict():

@@ -4,7 +4,7 @@ from json import load
 from pathlib import Path
 from typing import Self, TypeAlias
 
-from utils.pw.api import UrlType
+from src.pw.api import UrlType
 
 from .api import UrlType
 

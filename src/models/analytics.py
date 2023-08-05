@@ -5,7 +5,7 @@ from typing import List, Optional
 import pandas as pd
 from pydantic import BaseModel
 
-from utils.streamlit.live_course import LiveCourse
+from src.models.live_course import LiveCourse
 
 
 class Img(BaseModel):

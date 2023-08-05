@@ -2,7 +2,7 @@
 
 from json import load
 
-from utils.pw.credentials import Credentials
+from src.pw.credentials import Credentials
 
 
 class LoggedUser:

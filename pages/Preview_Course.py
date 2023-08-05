@@ -4,10 +4,10 @@ import pandas as pd
 import streamlit as st
 from requests import get
 
-import utils.logger
-from utils import courses_dict
-from utils.logger import LoggingMessage
-from utils.streamlit.preview_course import PreviewCourse
+import src.core.logger
+from src import courses_dict
+from src.core.logger import LoggingMessage
+from src.models.preview_course import PreviewCourse
 
 # Set page config
 st.set_page_config('Preview Courses', '🗂️', 'wide')

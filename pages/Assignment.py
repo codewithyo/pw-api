@@ -1,7 +1,6 @@
 import streamlit as st
-
-from utils import courses_dict
-from utils.pw import Assignment
+from src import courses_dict
+from src.pw import Assignment
 
 st_msg = st.empty()
 with st.sidebar:

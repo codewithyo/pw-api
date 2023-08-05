@@ -1,10 +1,9 @@
 import re
 
 import streamlit as st
-
-from utils import courses_dict
-from utils.pw import Quiz
-from utils.pw.parser import QuizQuestions
+from src import courses_dict
+from src.pw import Quiz
+from src.pw.parser import QuizQuestions
 
 st_msg = st.empty()
 

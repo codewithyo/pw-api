@@ -7,8 +7,8 @@ from bs4 import BeautifulSoup
 from matplotlib import pyplot as plt
 from requests import get
 
-from utils import LiveCourse, courses_dict
-from utils.logger import LoggingMessage
+from src import LiveCourse, courses_dict
+from src.core.logger import LoggingMessage
 
 plt.style.use('ggplot')
 

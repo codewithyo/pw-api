@@ -6,10 +6,10 @@ import streamlit as st
 from bs4 import BeautifulSoup
 from requests import HTTPError, get
 
-from utils import (AnalyticsSubmissions, AnalyticsUsers, courses_dict,
-                   get_live_course_df)
-from utils.logger import LoggingMessage, logging
-from utils.streamlit.analytics import QuizAnalytics
+from src import (AnalyticsSubmissions, AnalyticsUsers, courses_dict,
+                 get_live_course_df)
+from src.core.logger import LoggingMessage, logging
+from src.models.analytics import QuizAnalytics
 
 # Page config
 st.set_page_config('Course Analytics', '🎁', 'wide')
