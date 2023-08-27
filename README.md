@@ -5,15 +5,15 @@
 
 ## Analysis in Jupyter Notebook
 
-1. [Courses Analysis Notebook](./analysis/_course_analysis.ipynb)
-2. [Live Courses Analysis Notebook](./analysis/live_course_analysis.ipynb)
-3. [Analysis README.md](./analysis)
-4. [Analysis README.json](./analysis/README.json)
-5. [HAR Analysis](./analysis/website_har_analysis/)
+1. [Courses Analysis Notebook](https://github.com/arv-anshul/pw-api/tree/main/analysis/_course_analysis.ipynb)
+2. [Live Courses Analysis Notebook](https://github.com/arv-anshul/pw-api/tree/main/analysis/live_course_analysis.ipynb)
+3. [Analysis README.md](https://github.com/arv-anshul/pw-api/tree/main/analysis)
+4. [Analysis README.json](https://github.com/arv-anshul/pw-api/tree/main/analysis/README.json)
+5. [HAR Analysis](https://github.com/arv-anshul/pw-api/tree/main/analysis/website_har_analysis/)
 
 ## Acknowledgment
 
-This project analyzes the courses available on [PW Skills](https://learn.pwskills.com/) website.  
+This project analyzes the courses available on [PW Skills](https://www.pwskills.com/) website.  
 I bought `Impact Batch 1.0`. That's why I am able to use `Authorization Bearer Token` to get the Quiz and Assignment data using GET method.
 
 ### Created by [arv-anshul](https://github.com/arv-anshul)
