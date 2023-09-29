@@ -44,11 +44,11 @@ class CourseMeta(BaseModel):
     overview: Overview
     curriculum: list[dict]
     projects: list[dict]
-    duration: str = 'N/A'
+    duration: str = "N/A"
 
 
 class PreviewCourse(BaseModel):
-    courseId: str = Field(..., alias='_id')
+    courseId: str = Field(..., alias="_id")
     title: str
     pricing: Pricing
     img: str
@@ -59,19 +59,21 @@ class PreviewCourse(BaseModel):
         data = self.courseMetas[0].curriculum
         df = pd.DataFrame(data)
 
-        df = df.merge(df[['parent', 'title']],
-                      how='inner',
-                      left_on='_id',
-                      right_on='parent',
-                      suffixes=('_parent', '_child'))
-
-        df.drop(columns=['_id', 'preview', 'parent_parent', 'parent_child'],
-                inplace=True)
-
-        df.rename(columns={
-            'title_parent': 'parentTitle',
-            'title_child': 'childTitle'
-        }, inplace=True)
+        df = df.merge(
+            df[["parent", "title"]],
+            how="inner",
+            left_on="_id",
+            right_on="parent",
+            suffixes=("_parent", "_child"),
+        )
+        df.drop(
+            columns=["_id", "preview", "parent_parent", "parent_child"],
+            inplace=True,
+        )
+        df.rename(
+            columns={"title_parent": "parentTitle", "title_child": "childTitle"},
+            inplace=True,
+        )
 
         return df
 
@@ -79,17 +81,14 @@ class PreviewCourse(BaseModel):
         projects = self.courseMetas[0].projects
 
         if not projects:
-            raise ValueError('No project in this course.')
+            raise ValueError("No project in this course.")
 
-        paren_proj = (pd.DataFrame([i for i in projects if len(i) == 2])
-                      .rename(columns={'_id': 'parentId',
-                                       'title': 'parentTitle'}))
+        paren_proj = pd.DataFrame([i for i in projects if len(i) == 2]).rename(
+            columns={"_id": "parentId", "title": "parentTitle"}
+        )
+        child_proj = pd.DataFrame([i for i in projects if len(i) != 2]).rename(
+            columns={"_id": "childId", "parent": "parentId", "title": "childTitle"}
+        )
 
-        child_proj = (pd.DataFrame([i for i in projects if len(i) != 2])
-                      .rename(columns={'_id': 'childId',
-                                       'parent': 'parentId',
-                                       'title': 'childTitle'}))
-
-        project_df = paren_proj.merge(child_proj, 'inner', 'parentId')
-
+        project_df = paren_proj.merge(child_proj, "inner", "parentId")
         return project_df

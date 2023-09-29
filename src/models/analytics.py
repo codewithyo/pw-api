@@ -21,14 +21,16 @@ class User(BaseModel):
         rv = """<img alt="student-pic" src="{}" height=50 width=50 style="border-radius:10px;">"""
 
         if self.img is None or self.img.link is None:
-            src = 'https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f5889d90b2b9e65c8a73.jpeg&w=96&q=75'
+            src = "https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f5889d90b2b9e65c8a73.jpeg&w=96&q=75"
             return rv.format(src)
 
-        if '.jpeg' in self.img.link:
-            src = f'https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F{self.img.link}&w=96&q=75'
+        if ".jpeg" in self.img.link:
+            src = f"https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F{self.img.link}&w=96&q=75"
             return rv.format(src)
         else:
-            src = f'https://learn.pwskills.com/_next/image?url={self.img.link}&w=96&q=75'
+            src = (
+                f"https://learn.pwskills.com/_next/image?url={self.img.link}&w=96&q=75"
+            )
             return rv.format(src)
 
 
@@ -48,7 +50,7 @@ class AnalyticsUsers(BaseModel):
     users: list[User]
 
     def get_df(self):
-        df = pd.DataFrame(self.model_dump()['users'])
+        df = pd.DataFrame(self.model_dump()["users"])
         return df
 
 
@@ -56,7 +58,7 @@ class AnalyticsSubmissions(BaseModel):
     submissions: list[Submission]
 
     def get_df(self):
-        df = pd.DataFrame(self.model_dump()['submissions'])
+        df = pd.DataFrame(self.model_dump()["submissions"])
         return df
 
 
@@ -64,15 +66,11 @@ class QuizAnalytics(BaseModel):
     quizAnalytics: list[QuizAnalytic]
 
     def get_df(self):
-        df = pd.DataFrame(self.model_dump()['quizAnalytics'])
+        df = pd.DataFrame(self.model_dump()["quizAnalytics"])
         return df
 
 
-def get_live_course_df(
-    data: dict,
-    course_name: str,
-    course_id: str,
-) -> pd.DataFrame:
+def get_live_course_df(data: dict, course_name: str, course_id: str) -> pd.DataFrame:
     live_course = {
         "courseName": course_name,
         "sections": data,
