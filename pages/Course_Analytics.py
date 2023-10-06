@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from requests import HTTPError, get
 
 from src import AnalyticsSubmissions, AnalyticsUsers, courses_dict, get_live_course_df
-from src.core.logger import LoggingMessage, get_logger
+from src.core.logger import get_logger
 from src.models.analytics import QuizAnalytics
 
 logger = get_logger(__name__)
@@ -22,8 +22,7 @@ def get_analytics_data(
 ) -> tuple[AnalyticsSubmissions, AnalyticsUsers, QuizAnalytics, pd.DataFrame]:
     url = f"https://learn.pwskills.com/course-analytics/{course_name}/{cid}"
     r = get(url)
-    logger.info(LoggingMessage.get_request_log.format(url))
-    logger.info(LoggingMessage.status_code_log.format(r.status_code))
+    logger.info(f"[{r.status_code}]:{r.url}")
 
     if r.status_code != 200:
         logger.error("URL response is not 200.")

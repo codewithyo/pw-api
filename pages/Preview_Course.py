@@ -3,7 +3,7 @@ import streamlit as st
 from requests import get
 
 from src import courses_dict
-from src.core.logger import LoggingMessage, get_logger
+from src.core.logger import get_logger
 from src.models.preview_course import PreviewCourse
 
 logger = get_logger(__name__)
@@ -28,8 +28,7 @@ def get_preview_course_object(id: str) -> PreviewCourse:
     url = f"https://api.pwskills.com/v1/course/{id}?withAllCourseMetas=true&ignoreInActive=true"
     r = get(url)
     pc_dict = r.json()["data"]
-    logger.info(LoggingMessage.get_request_log.format(url))
-    logger.info(LoggingMessage.status_code_log.format(r.status_code))
+    logger.info(f"[{r.status_code}]:{r.url}")
 
     pc = PreviewCourse(**pc_dict)
     return pc

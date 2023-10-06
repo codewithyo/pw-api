@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 from requests import get
 
 from src import LiveCourse, courses_dict
-from src.core.logger import LoggingMessage, get_logger
+from src.core.logger import get_logger
 
 plt.style.use("ggplot")
 
@@ -40,8 +40,7 @@ def get_live_course_dict(course_name: str, course_id: str):
         course_name.replace(" ", "-"), course_id
     )
     r = get(url)
-    logger.info(LoggingMessage.get_request_log.format(url))
-    logger.info(LoggingMessage.status_code_log.format(r.status_code))
+    logger.info(f"[{r.status_code}]:{r.url}")
 
     soup = BeautifulSoup(r.text, "html.parser")
     script = soup.find("script", {"id": "__NEXT_DATA__"})
