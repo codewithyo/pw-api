@@ -1,11 +1,12 @@
 """ Login to get access to amazing features. """
 
-from json import dumps, load
+import json
 
 import streamlit as st
 from requests import ReadTimeout
 
 from src import courses_dict
+from src.core import io
 from src.pw import Credentials, LoggedUser, PWApi
 
 st.set_page_config("PW API Login", "random", "wide", "expanded")
@@ -134,7 +135,9 @@ with save_quiz_assignment_json:
     l, r = st.columns(2)
     l.download_button(
         label="Save Quiz Data",
-        data=(dumps(load(open(quiz_fp)), indent=2) if quiz_fp.exists() else "[]"),
+        data=(
+            json.dumps(io.load_json(quiz_fp), indent=2) if quiz_fp.exists() else "[]"
+        ),
         file_name=quiz_fp.name,
         mime="json",
         use_container_width=True,
@@ -142,7 +145,7 @@ with save_quiz_assignment_json:
     r.download_button(
         label="Save Assignment Data",
         data=(
-            dumps(load(open(assignment_fp)), indent=2)
+            json.dumps(io.load_json(assignment_fp), indent=2)
             if assignment_fp.exists()
             else "[]"
         ),

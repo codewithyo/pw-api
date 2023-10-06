@@ -1,7 +1,6 @@
 """ Fetches logged in users details. """
 
-from json import load
-
+from src.core import io
 from src.pw.credentials import Credentials
 
 
@@ -21,5 +20,5 @@ class LoggedUser:
     def __load_cookie_data(self) -> dict[str, dict]:
         res = {}
         for file in [i for i in self.cookie_dir.glob("*.json")]:
-            res[file.stem] = load(open(file))
+            res[file.stem] = io.load_json(file)
         return res

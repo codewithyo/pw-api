@@ -2,10 +2,11 @@
 
 from datetime import datetime as dt
 from datetime import timedelta
-from json import dump
 from pathlib import Path
 from shutil import rmtree
 from time import sleep
+
+from src.core import io
 
 from .api import PWApi
 
@@ -64,8 +65,7 @@ class Credentials:
         for fname, url in links.items():
             sleep(1)
             res = self.api.get(url)
-            with open(self.cookie_dir / (fname + ".json"), "w") as f:
-                dump(res, f, indent=2)
+            io.dump_json(res, self.cookie_dir / (fname + ".json"))
 
     @classmethod
     def delete(cls):

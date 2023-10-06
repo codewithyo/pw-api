@@ -1,4 +1,4 @@
-from json import loads
+import json
 
 import streamlit as st
 from bs4 import BeautifulSoup
@@ -50,7 +50,7 @@ def get_live_course_dict(course_name: str, course_id: str):
     else:
         raise TypeError("Required script tag is not available.")
 
-    return loads(data)["props"]["pageProps"]
+    return json.loads(data)["props"]["pageProps"]
 
 
 lc_dict = get_live_course_dict(course_name, cid)

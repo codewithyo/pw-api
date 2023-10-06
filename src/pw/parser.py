@@ -1,8 +1,9 @@
 from datetime import date
 from datetime import datetime as dt
-from json import load
 from pathlib import Path
 from typing import Self
+
+from src.core import io
 
 from .api import UrlType
 
@@ -31,7 +32,7 @@ class _GeneralParser:
 
     @staticmethod
     def get_all_title_with_id(fp: Path) -> dict[str, str]:
-        data: list[dict] = load(open(fp))
+        data: list[dict] = io.load_json(fp)
         return {d["_id"]: d["title"] for d in data}
 
     @staticmethod
@@ -40,7 +41,7 @@ class _GeneralParser:
 
     @classmethod
     def from_id(cls, fp: Path, id_: str, type: UrlType) -> Self:
-        data: list[dict] = load(open(fp))
+        data: list[dict] = io.load_json(fp)
         d = [i for i in data if i["_id"] == id_][0]
         return cls(d, type)
 

@@ -1,7 +1,7 @@
-from json import load
 from pathlib import Path
 from typing import TypeAlias
 
+from src.core import io
 from src.models.analytics import (
     AnalyticsSubmissions,
     AnalyticsUsers,
@@ -15,4 +15,4 @@ CourseName: TypeAlias = str
 CourseId: TypeAlias = str
 
 courses_dict_fp = Path("data/all_courses_dict.json")
-courses_dict: dict[CourseId, CourseName] = load(open(courses_dict_fp))
+courses_dict: dict[CourseId, CourseName] = io.load_json(courses_dict_fp)

@@ -1,4 +1,4 @@
-from json import loads
+import json
 
 import pandas as pd
 import streamlit as st
@@ -31,7 +31,7 @@ def get_analytics_data(
     # Parse html with BeautifulSoup
     soup = BeautifulSoup(r.text, "html.parser")
     script = soup.find("script", {"id": "__NEXT_DATA__"})
-    data = loads(script.text)  # type: ignore
+    data = json.loads(script.text)  # type: ignore
 
     # Get submission, user and quizAnalytics data
     submissions = data["props"]["pageProps"]["analytics"]["submissions"]

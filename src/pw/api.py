@@ -4,7 +4,7 @@ Use for fetching/downloading the data using PW APIs.
 Also store the files in respective paths in JSON format.
 """
 
-from json import dump, load, loads
+import json
 from pathlib import Path
 from time import sleep
 from typing import Any, Literal, TypeAlias
@@ -13,6 +13,7 @@ from bs4 import BeautifulSoup
 from requests import get
 
 from src import LiveCourse
+from src.core import io
 from src.core.logger import get_logger
 
 UrlType: TypeAlias = Literal["quiz", "assignment"]
@@ -64,7 +65,7 @@ class PWApi:
         url_list: list[str] = self.__get_ids_to_download(cname, type_)
         fp = self.generate_fp(type_)
         stored_ids = self.load_downloaded_ids(fp) if fp.exists() else []
-        res: list = load(open(fp)) if fp.exists() else []
+        res: list = io.load_json(fp) if fp.exists() else []
 
         logger.info(
             f"No. of {type_!r} left to fetch: %s", (len(url_list) - len(stored_ids))
@@ -90,10 +91,10 @@ class PWApi:
                 if dump_counter > 20:
                     logger.info('Dumping at "%s"', fp)
                     res = sorted(res, key=lambda x: x["createdAt"])
-                    dump(res, open(fp, "w"), indent=2)
+                    io.dump_json(res, fp)
 
                     logger.info('Loading from "%s"', fp)
-                    res: list = load(open(fp)) if fp.exists() else []
+                    res: list = io.load_json(fp) if fp.exists() else []
 
                 count += 1
                 dump_counter += 1
@@ -105,7 +106,7 @@ class PWApi:
         finally:
             logger.info('Dumping at "%s"', fp)
             res = sorted(res, key=lambda x: x["createdAt"])
-            dump(res, open(fp, "w"), indent=2)
+            io.dump_json(res, fp)
 
     def __get_live_course_dict(self, cname: str):
         url = f"https://learn.pwskills.com/course/{cname.replace(' ', '-')}/{self.cid}"
@@ -121,7 +122,7 @@ class PWApi:
             raise TypeError(
                 "Required script tag is not available for the available course url."
             )
-        return loads(data)["props"]["pageProps"]
+        return json.loads(data)["props"]["pageProps"]
 
     def __get_ids_to_download(self, cname: str, type_: UrlType) -> list[str]:
         cdata = self.__get_live_course_dict(cname)
@@ -132,7 +133,7 @@ class PWApi:
     def load_downloaded_ids(self, fp: Path) -> list[str]:
         """Returns ID of all downloaded Quizzes and Assignments."""
         ids = []
-        data = load(open(fp))
+        data = io.load_json(fp)
         for d in data:
             ids.append(d["_id"])
         return ids
@@ -169,7 +170,7 @@ class PWApi:
         fp = self.generate_fp("assignment")
 
         logger.info('Load data from "%s"', fp)
-        data: list[dict] = load(open(fp))
+        data: list[dict] = io.load_json(fp)
 
         try:
             count = 0
@@ -192,11 +193,11 @@ class PWApi:
 
                 if count > 20:
                     logger.info('Dump data at "%s"', fp)
-                    dump(data, open(fp, "w"), indent=2)
+                    io.dump_json(data, fp)
 
                     logger.info('Load data from "%s"', fp)
-                    data: list[dict] = load(open(fp))
+                    data: list[dict] = io.load_json(fp)
                     count = 0
         finally:
             logger.info('Dump data at "%s"', fp)
-            dump(data, open(fp, "w"), indent=2)
+            io.dump_json(data, fp)
