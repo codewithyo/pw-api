@@ -14,5 +14,5 @@ from src.models.preview_course import PreviewCourse
 CourseName: TypeAlias = str
 CourseId: TypeAlias = str
 
-courses_dict_fp = Path("data/all_courses_dict.json")
-courses_dict: dict[CourseId, CourseName] = io.load_json(courses_dict_fp)
+COURSES_MAPPING_PATH = Path("data/all_courses_dict.json")
+courses_dict: dict[CourseId, CourseName] = io.load_json(COURSES_MAPPING_PATH)
